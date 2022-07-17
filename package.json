@@ -1,12 +1,9 @@
 {
   "name": "mobile-spectrum-data",
-  "version": "0.1.0-beta.2",
+  "version": "0.1.0-beta.4",
   "description": "Data related to mobile networking spectrum around the world, including ARFCNs, descriptions, and more.",
-  "main": "dist/index.js",
-  "exports": {
-    "./*": "./dist/*"
-  },
-  "types": "types/index.d.ts",
+  "main": "lib",
+  "types": "lib",
   "repository": "https://github.com/davwheat/mobile-spectrum-data",
   "author": "David Wheatley <david@davwheat.dev>",
   "license": "LGPL-3.0-or-later",
@@ -14,8 +11,14 @@
   "dependencies": {
     "prettier": "^2.7.1"
   },
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "format": "prettier --write .",
     "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^4.7.4"
   }
 }
