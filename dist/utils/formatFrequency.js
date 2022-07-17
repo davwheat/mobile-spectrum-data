@@ -11,3 +11,4 @@ function formatFrequency(freqMhz) {
     return `${freqMhz} MHz`;
 }
 exports.formatFrequency = formatFrequency;
+//# sourceMappingURL=formatFrequency.js.map

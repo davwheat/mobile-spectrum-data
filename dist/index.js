@@ -24,3 +24,4 @@ exports.DE = __importStar(require("./DE"));
 exports.DK = __importStar(require("./DK"));
 exports.GB = __importStar(require("./GB"));
 exports.utils = __importStar(require("./utils"));
+//# sourceMappingURL=index.js.map

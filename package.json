@@ -1,11 +1,12 @@
 {
   "name": "mobile-spectrum-data",
-  "version": "0.1.0-beta.1",
+  "version": "0.1.0-beta.2",
   "description": "Data related to mobile networking spectrum around the world, including ARFCNs, descriptions, and more.",
+  "main": "dist/index.js",
   "exports": {
     "./*": "./dist/*"
   },
-  "types": "./dist/index.d.ts",
+  "types": "types/index.d.ts",
   "repository": "https://github.com/davwheat/mobile-spectrum-data",
   "author": "David Wheatley <david@davwheat.dev>",
   "license": "LGPL-3.0-or-later",

@@ -23,3 +23,4 @@ function bandNumberToHumanName(band, rat) {
     return `${bandData.name} (${freqs.map(formatFrequency_1.formatFrequency).join("/")})`;
 }
 exports.bandNumberToHumanName = bandNumberToHumanName;
+//# sourceMappingURL=bandNumberToHumanName.js.map

@@ -25,3 +25,4 @@ function bandNumberToFrequency(band, rat) {
     return freq;
 }
 exports.bandNumberToFrequency = bandNumberToFrequency;
+//# sourceMappingURL=bandNumberToFrequency.js.map

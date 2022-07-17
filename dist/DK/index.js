@@ -71,3 +71,4 @@ const data = [
     },
 ];
 exports.default = data;
+//# sourceMappingURL=index.js.map
