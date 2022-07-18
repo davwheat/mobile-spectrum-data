@@ -1,25 +1,11 @@
-import { earfcnCalcData } from "./arfcnToFreq";
+import { arfcnToBandInfo } from ".";
 
-export function arfcnToBand(
-  rat: "lte" | "nr" | "umts" | "gsm",
-  arfcn: number,
-  type: "dl" | "ul"
-): number | null {
+export function arfcnToBandNumber(rat: "lte", arfcn: number): string | null {
   if (rat === "lte") {
-    const [band] =
-      Object.entries(earfcnCalcData).find(([_, v]) => {
-        if (!(`${type}FreqLow` in v)) return false;
+    const data = arfcnToBandInfo("lte", arfcn);
 
-        const bw = v[`${type}FreqHigh`] - v[`${type}FreqLow`];
-
-        return (
-          arfcn >= v[`${type}ArfcnOffset`] &&
-          arfcn < v[`${type}ArfcnOffset`] + 10 * bw
-        );
-      }) ?? [];
-
-    if (!band) return null;
-
-    return parseInt(band);
+    return data?.band ?? null;
+  } else {
+    throw new Error("`arfcnToBandNumber` only supports LTE currently");
   }
 }

@@ -435,7 +435,7 @@ const LTEBandData: Record<string, IBandInfo> = {
   },
   B67: {
     band: "B67",
-    name: "700 MHz EU SDL",
+    name: "EU SDL",
     frequency: 700,
     duplexMode: "SDL",
     startFrequency: 738,

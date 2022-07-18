@@ -8,7 +8,7 @@ import { formatFrequency } from "./formatFrequency";
  * This will include the predominant frequency (e.g., 2100 MHz for B1/n1), along
  * with the name for that area of spectrum (e.g., "IMT" for B1/n1).
  *
- * @example `bandNumberToHumanName(1, 'lte')` returns "2100 MHz IMT".
+ * @example `bandNumberToHumanName(1, 'lte')` returns "IMT (2100 MHz)".
  */
 export function bandNumberToHumanName(band: number, rat: "lte" | "nr"): string {
   const data = rat === "lte" ? LTEBandData : NRBandData;

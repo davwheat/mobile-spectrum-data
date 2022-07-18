@@ -3,7 +3,7 @@ import { isUplinkArfcn } from "./isUplinkArfcn";
 
 export function arfcnToFreq(rat: "lte", arfcn: number): number | null {
   if (rat === "lte") {
-    const data = arfcnToBandInfo(arfcn, "lte");
+    const data = arfcnToBandInfo("lte", arfcn);
 
     if (!data) return null;
 

@@ -1,7 +1,7 @@
 import { IBandInfo } from "../BandInfo";
 import { LTEBandData } from "../BandInfo/LTEBandData";
 
-export function arfcnToBandInfo(arfcn: number, rat: "lte"): IBandInfo | null {
+export function arfcnToBandInfo(rat: "lte", arfcn: number): IBandInfo | null {
   if (rat === "lte") {
     let loFreq: number = -1;
     let hiFreq: number = -1;

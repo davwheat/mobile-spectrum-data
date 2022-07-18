@@ -55,7 +55,11 @@ export interface ISULBandInfo extends ICommonBandInfo {
   arfcnOffset?: number;
 }
 
-export type IBandInfo = IFDDBandInfo | ITDDBandInfo | ISDLBandInfo;
+export type IBandInfo =
+  | IFDDBandInfo
+  | ITDDBandInfo
+  | ISDLBandInfo
+  | ISULBandInfo;
 
 const AllBandData = { ...LTEBandData, ...NRBandData };
 
