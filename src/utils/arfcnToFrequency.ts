@@ -1,7 +1,7 @@
 import { arfcnToBandInfo } from "./arfcnToBandInfo";
 import { isUplinkArfcn } from "./isUplinkArfcn";
 
-export function arfcnToFreq(rat: "lte", arfcn: number): number | null {
+export function arfcnToFrequency(rat: "lte", arfcn: number): number | null {
   if (rat === "lte") {
     const data = arfcnToBandInfo("lte", arfcn);
 
@@ -11,7 +11,7 @@ export function arfcnToFreq(rat: "lte", arfcn: number): number | null {
     let arfcnOffset = -1;
 
     if (data.duplexMode === "FDD") {
-      if (isUplinkArfcn(arfcn, rat)) {
+      if (isUplinkArfcn(rat, arfcn)) {
         loFreq = data.uplinkStartFrequency;
         arfcnOffset = data.uplinkArfcnOffset!;
       } else {
