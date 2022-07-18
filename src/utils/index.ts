@@ -1,1 +1,1 @@
-export * from "./bandNumberToHumanName"
+export * from "./bandNumberToHumanName";

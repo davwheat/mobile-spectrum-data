@@ -9,9 +9,9 @@
       "startFreq": 1920,
       "endFreq": 1930
     },
-    "earfcns": [50],
-    "nrarfcns": [423411],
-    "details": ["LTE B1/NR n1 DSS 10 MHz deployment"]
+    "earfcns": [75],
+    "nrarfcns": ["423411 (old 10 MHz)"],
+    "details": ["LTE B1/NR n1 DSS 15 MHz deployment"]
   },
   {
     "owner": "3 DK",
