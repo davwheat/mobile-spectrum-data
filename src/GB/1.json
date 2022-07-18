@@ -60,7 +60,7 @@
     "nrarfcns": [427470, 428190],
     "details": [
       "5G NR operating as DSS n1.",
-      "For 3G: -687 means max 10 MHz B1 LTE; -712 means max 5 MHz; -736 means no LTE B1."
+      "For 3G: -687 means max 10 MHz B1 LTE; -712 means max 5 MHz; -736 means no LTE B1.",
       "15 MHz LTE B1 is in use due to LTE's 0.5 MHz guard on either side of the carrier, meaning that there is only 0.3 MHz of guard spectrum between Vodafone and EE's spectrum."
     ]
   },
