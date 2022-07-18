@@ -10,6 +10,8 @@ const LTEBandData: Record<string, IBandInfo> = {
     downlinkEndFrequency: 1980,
     uplinkStartFrequency: 2110,
     uplinkEndFrequency: 2170,
+    downlinkArfcnOffset: 0,
+    uplinkArfcnOffset: 18000,
   },
   B2: {
     band: "B2",
@@ -20,6 +22,8 @@ const LTEBandData: Record<string, IBandInfo> = {
     downlinkEndFrequency: 1910,
     uplinkStartFrequency: 1930,
     uplinkEndFrequency: 1990,
+    downlinkArfcnOffset: 600,
+    uplinkArfcnOffset: 18600,
   },
   B3: {
     band: "B3",
@@ -30,6 +34,8 @@ const LTEBandData: Record<string, IBandInfo> = {
     downlinkEndFrequency: 1785,
     uplinkStartFrequency: 1805,
     uplinkEndFrequency: 1880,
+    downlinkArfcnOffset: 1200,
+    uplinkArfcnOffset: 19200,
   },
   B4: {
     band: "B4",
@@ -40,6 +46,8 @@ const LTEBandData: Record<string, IBandInfo> = {
     downlinkEndFrequency: 1755,
     uplinkStartFrequency: 2110,
     uplinkEndFrequency: 2155,
+    downlinkArfcnOffset: 1950,
+    uplinkArfcnOffset: 19950,
   },
   B5: {
     band: "B5",
@@ -50,6 +58,8 @@ const LTEBandData: Record<string, IBandInfo> = {
     downlinkEndFrequency: 849,
     uplinkStartFrequency: 869,
     uplinkEndFrequency: 894,
+    downlinkArfcnOffset: 2400,
+    uplinkArfcnOffset: 20400,
   },
   B7: {
     band: "B7",
@@ -60,6 +70,8 @@ const LTEBandData: Record<string, IBandInfo> = {
     downlinkEndFrequency: 2570,
     uplinkStartFrequency: 2620,
     uplinkEndFrequency: 2690,
+    downlinkArfcnOffset: 2750,
+    uplinkArfcnOffset: 20750,
   },
   B8: {
     band: "B8",
@@ -70,6 +82,8 @@ const LTEBandData: Record<string, IBandInfo> = {
     downlinkEndFrequency: 915,
     uplinkStartFrequency: 925,
     uplinkEndFrequency: 960,
+    downlinkArfcnOffset: 3450,
+    uplinkArfcnOffset: 21450,
   },
   B11: {
     band: "B11",
@@ -80,6 +94,8 @@ const LTEBandData: Record<string, IBandInfo> = {
     downlinkEndFrequency: 1447.9,
     uplinkStartFrequency: 1475.9,
     uplinkEndFrequency: 1495.9,
+    downlinkArfcnOffset: 4750,
+    uplinkArfcnOffset: 22750,
   },
   B12: {
     band: "B12",
@@ -90,6 +106,8 @@ const LTEBandData: Record<string, IBandInfo> = {
     downlinkEndFrequency: 716,
     uplinkStartFrequency: 729,
     uplinkEndFrequency: 746,
+    downlinkArfcnOffset: 5000,
+    uplinkArfcnOffset: 23000,
   },
   B13: {
     band: "B13",
@@ -100,6 +118,8 @@ const LTEBandData: Record<string, IBandInfo> = {
     downlinkEndFrequency: 787,
     uplinkStartFrequency: 746,
     uplinkEndFrequency: 756,
+    downlinkArfcnOffset: 5180,
+    uplinkArfcnOffset: 23180,
   },
   B14: {
     band: "B14",
@@ -110,6 +130,8 @@ const LTEBandData: Record<string, IBandInfo> = {
     downlinkEndFrequency: 798,
     uplinkStartFrequency: 758,
     uplinkEndFrequency: 768,
+    downlinkArfcnOffset: 5280,
+    uplinkArfcnOffset: 23280,
   },
   B17: {
     band: "B17",
@@ -120,6 +142,8 @@ const LTEBandData: Record<string, IBandInfo> = {
     downlinkEndFrequency: 716,
     uplinkStartFrequency: 734,
     uplinkEndFrequency: 746,
+    downlinkArfcnOffset: 5730,
+    uplinkArfcnOffset: 23730,
   },
   B18: {
     band: "B18",
@@ -130,6 +154,8 @@ const LTEBandData: Record<string, IBandInfo> = {
     downlinkEndFrequency: 830,
     uplinkStartFrequency: 860,
     uplinkEndFrequency: 875,
+    downlinkArfcnOffset: 5850,
+    uplinkArfcnOffset: 23850,
   },
   B19: {
     band: "B19",
@@ -140,6 +166,8 @@ const LTEBandData: Record<string, IBandInfo> = {
     downlinkEndFrequency: 845,
     uplinkStartFrequency: 875,
     uplinkEndFrequency: 890,
+    downlinkArfcnOffset: 6000,
+    uplinkArfcnOffset: 24000,
   },
   B20: {
     band: "B20",
@@ -150,6 +178,8 @@ const LTEBandData: Record<string, IBandInfo> = {
     downlinkEndFrequency: 862,
     uplinkStartFrequency: 791,
     uplinkEndFrequency: 821,
+    downlinkArfcnOffset: 6150,
+    uplinkArfcnOffset: 24150,
   },
   B21: {
     band: "B21",
@@ -160,6 +190,8 @@ const LTEBandData: Record<string, IBandInfo> = {
     downlinkEndFrequency: 1462.9,
     uplinkStartFrequency: 1495.9,
     uplinkEndFrequency: 1510.9,
+    downlinkArfcnOffset: 6450,
+    uplinkArfcnOffset: 24450,
   },
   B24: {
     band: "B24",
@@ -170,6 +202,8 @@ const LTEBandData: Record<string, IBandInfo> = {
     downlinkEndFrequency: 1660.5,
     uplinkStartFrequency: 1525,
     uplinkEndFrequency: 1559,
+    downlinkArfcnOffset: 7700,
+    uplinkArfcnOffset: 25700,
   },
   B25: {
     band: "B25",
@@ -180,6 +214,8 @@ const LTEBandData: Record<string, IBandInfo> = {
     downlinkEndFrequency: 1915,
     uplinkStartFrequency: 1930,
     uplinkEndFrequency: 1995,
+    downlinkArfcnOffset: 8040,
+    uplinkArfcnOffset: 26040,
   },
   B26: {
     band: "B26",
@@ -190,6 +226,8 @@ const LTEBandData: Record<string, IBandInfo> = {
     downlinkEndFrequency: 849,
     uplinkStartFrequency: 859,
     uplinkEndFrequency: 894,
+    downlinkArfcnOffset: 8690,
+    uplinkArfcnOffset: 26690,
   },
   B28: {
     band: "B28",
@@ -200,6 +238,8 @@ const LTEBandData: Record<string, IBandInfo> = {
     downlinkEndFrequency: 748,
     uplinkStartFrequency: 758,
     uplinkEndFrequency: 803,
+    downlinkArfcnOffset: 9210,
+    uplinkArfcnOffset: 27210,
   },
   B29: {
     band: "B29",
@@ -208,6 +248,7 @@ const LTEBandData: Record<string, IBandInfo> = {
     duplexMode: "SDL",
     startFrequency: 717,
     endFrequency: 728,
+    arfcnOffset: 9210,
   },
   B30: {
     band: "B30",
@@ -218,6 +259,8 @@ const LTEBandData: Record<string, IBandInfo> = {
     downlinkEndFrequency: 2315,
     uplinkStartFrequency: 2350,
     uplinkEndFrequency: 2360,
+    downlinkArfcnOffset: 9770,
+    uplinkArfcnOffset: 27660,
   },
   B31: {
     band: "B31",
@@ -228,6 +271,8 @@ const LTEBandData: Record<string, IBandInfo> = {
     downlinkEndFrequency: 457.5,
     uplinkStartFrequency: 462.5,
     uplinkEndFrequency: 467.5,
+    downlinkArfcnOffset: 9870,
+    uplinkArfcnOffset: 27760,
   },
   B32: {
     band: "B32",
@@ -236,6 +281,7 @@ const LTEBandData: Record<string, IBandInfo> = {
     duplexMode: "SDL",
     startFrequency: 1452,
     endFrequency: 1496,
+    arfcnOffset: 9870,
   },
   B34: {
     band: "B34",
@@ -244,6 +290,7 @@ const LTEBandData: Record<string, IBandInfo> = {
     duplexMode: "TDD",
     startFrequency: 2010,
     endFrequency: 2025,
+    arfcnOffset: 36000,
   },
   B37: {
     band: "B37",
@@ -252,6 +299,7 @@ const LTEBandData: Record<string, IBandInfo> = {
     duplexMode: "TDD",
     startFrequency: 1910,
     endFrequency: 1930,
+    arfcnOffset: 37550,
   },
   B38: {
     band: "B38",
@@ -260,6 +308,7 @@ const LTEBandData: Record<string, IBandInfo> = {
     duplexMode: "TDD",
     startFrequency: 2570,
     endFrequency: 2620,
+    arfcnOffset: 37750,
   },
   B39: {
     band: "B39",
@@ -268,6 +317,7 @@ const LTEBandData: Record<string, IBandInfo> = {
     duplexMode: "TDD",
     startFrequency: 1880,
     endFrequency: 1920,
+    arfcnOffset: 38250,
   },
   B40: {
     band: "B40",
@@ -276,6 +326,7 @@ const LTEBandData: Record<string, IBandInfo> = {
     duplexMode: "TDD",
     startFrequency: 2300,
     endFrequency: 2400,
+    arfcnOffset: 38650,
   },
   B41: {
     band: "B41",
@@ -284,6 +335,7 @@ const LTEBandData: Record<string, IBandInfo> = {
     duplexMode: "TDD",
     startFrequency: 2496,
     endFrequency: 2690,
+    arfcnOffset: 39650,
   },
   B42: {
     band: "B42",
@@ -292,6 +344,7 @@ const LTEBandData: Record<string, IBandInfo> = {
     duplexMode: "TDD",
     startFrequency: 3400,
     endFrequency: 3600,
+    arfcnOffset: 41590,
   },
   B43: {
     band: "B43",
@@ -300,6 +353,7 @@ const LTEBandData: Record<string, IBandInfo> = {
     duplexMode: "TDD",
     startFrequency: 3600,
     endFrequency: 3800,
+    arfcnOffset: 43590,
   },
   B46: {
     band: "B46",
@@ -308,6 +362,7 @@ const LTEBandData: Record<string, IBandInfo> = {
     duplexMode: "TDD",
     startFrequency: 5150,
     endFrequency: 5925,
+    arfcnOffset: 46790,
   },
   B47: {
     band: "B47",
@@ -316,6 +371,7 @@ const LTEBandData: Record<string, IBandInfo> = {
     duplexMode: "TDD",
     startFrequency: 5855,
     endFrequency: 5925,
+    arfcnOffset: 54540,
   },
   B48: {
     band: "B48",
@@ -324,6 +380,7 @@ const LTEBandData: Record<string, IBandInfo> = {
     duplexMode: "TDD",
     startFrequency: 3550,
     endFrequency: 3700,
+    arfcnOffset: 55240,
   },
   B50: {
     band: "B50",
@@ -332,6 +389,7 @@ const LTEBandData: Record<string, IBandInfo> = {
     duplexMode: "TDD",
     startFrequency: 1432,
     endFrequency: 1517,
+    arfcnOffset: 58240,
   },
   B51: {
     band: "B51",
@@ -340,6 +398,7 @@ const LTEBandData: Record<string, IBandInfo> = {
     duplexMode: "TDD",
     startFrequency: 1427,
     endFrequency: 1432,
+    arfcnOffset: 59090,
   },
   B53: {
     band: "B53",
@@ -348,6 +407,7 @@ const LTEBandData: Record<string, IBandInfo> = {
     duplexMode: "TDD",
     startFrequency: 2483.5,
     endFrequency: 2495,
+    arfcnOffset: 60140,
   },
   B65: {
     band: "B65",
@@ -358,6 +418,8 @@ const LTEBandData: Record<string, IBandInfo> = {
     downlinkEndFrequency: 2010,
     uplinkStartFrequency: 2110,
     uplinkEndFrequency: 2200,
+    downlinkArfcnOffset: 65536,
+    uplinkArfcnOffset: 131972,
   },
   B66: {
     band: "B66",
@@ -368,6 +430,8 @@ const LTEBandData: Record<string, IBandInfo> = {
     downlinkEndFrequency: 1780,
     uplinkStartFrequency: 2110,
     uplinkEndFrequency: 2200,
+    downlinkArfcnOffset: 66436,
+    uplinkArfcnOffset: 131972,
   },
   B67: {
     band: "B67",
@@ -376,6 +440,7 @@ const LTEBandData: Record<string, IBandInfo> = {
     duplexMode: "SDL",
     startFrequency: 738,
     endFrequency: 758,
+    arfcnOffset: 67336,
   },
   B69: {
     band: "B69",
@@ -384,6 +449,7 @@ const LTEBandData: Record<string, IBandInfo> = {
     duplexMode: "SDL",
     startFrequency: 2570,
     endFrequency: 2620,
+    arfcnOffset: 67836,
   },
   B70: {
     band: "B70",
@@ -394,6 +460,8 @@ const LTEBandData: Record<string, IBandInfo> = {
     downlinkEndFrequency: 1710,
     uplinkStartFrequency: 1995,
     uplinkEndFrequency: 2020,
+    downlinkArfcnOffset: 68336,
+    uplinkArfcnOffset: 132972,
   },
   B71: {
     band: "B71",
@@ -404,6 +472,8 @@ const LTEBandData: Record<string, IBandInfo> = {
     downlinkEndFrequency: 698,
     uplinkStartFrequency: 617,
     uplinkEndFrequency: 652,
+    downlinkArfcnOffset: 68586,
+    uplinkArfcnOffset: 133122,
   },
   B72: {
     band: "B72",
@@ -414,6 +484,8 @@ const LTEBandData: Record<string, IBandInfo> = {
     downlinkEndFrequency: 456,
     uplinkStartFrequency: 461,
     uplinkEndFrequency: 466,
+    downlinkArfcnOffset: 68936,
+    uplinkArfcnOffset: 133472,
   },
   B73: {
     band: "B73",
@@ -424,6 +496,8 @@ const LTEBandData: Record<string, IBandInfo> = {
     downlinkEndFrequency: 455,
     uplinkStartFrequency: 460,
     uplinkEndFrequency: 465,
+    downlinkArfcnOffset: 68986,
+    uplinkArfcnOffset: 133522,
   },
   B74: {
     band: "B74",
@@ -434,6 +508,8 @@ const LTEBandData: Record<string, IBandInfo> = {
     downlinkEndFrequency: 1470,
     uplinkStartFrequency: 1475,
     uplinkEndFrequency: 1518,
+    downlinkArfcnOffset: 69036,
+    uplinkArfcnOffset: 133572,
   },
   B75: {
     band: "B75",
@@ -442,6 +518,7 @@ const LTEBandData: Record<string, IBandInfo> = {
     duplexMode: "SDL",
     startFrequency: 1432,
     endFrequency: 1517,
+    arfcnOffset: 69466,
   },
   B76: {
     band: "B76",
@@ -450,6 +527,7 @@ const LTEBandData: Record<string, IBandInfo> = {
     duplexMode: "SDL",
     startFrequency: 1427,
     endFrequency: 1432,
+    arfcnOffset: 70316,
   },
   B85: {
     band: "B85",
@@ -460,6 +538,8 @@ const LTEBandData: Record<string, IBandInfo> = {
     downlinkEndFrequency: 716,
     uplinkStartFrequency: 728,
     uplinkEndFrequency: 746,
+    downlinkArfcnOffset: 70366,
+    uplinkArfcnOffset: 134002,
   },
   B87: {
     band: "B87",
@@ -470,6 +550,8 @@ const LTEBandData: Record<string, IBandInfo> = {
     downlinkEndFrequency: 415,
     uplinkStartFrequency: 420,
     uplinkEndFrequency: 425,
+    downlinkArfcnOffset: 70546,
+    uplinkArfcnOffset: 134182,
   },
   B88: {
     band: "B88",
@@ -480,6 +562,8 @@ const LTEBandData: Record<string, IBandInfo> = {
     downlinkEndFrequency: 417,
     uplinkStartFrequency: 422,
     uplinkEndFrequency: 427,
+    downlinkArfcnOffset: 70596,
+    uplinkArfcnOffset: 134232,
   },
   B103: {
     band: "B103",
@@ -490,6 +574,8 @@ const LTEBandData: Record<string, IBandInfo> = {
     downlinkEndFrequency: 788,
     uplinkStartFrequency: 757,
     uplinkEndFrequency: 758,
+    downlinkArfcnOffset: 70646,
+    uplinkArfcnOffset: 134282,
   },
 };
 

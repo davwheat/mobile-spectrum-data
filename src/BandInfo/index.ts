@@ -30,18 +30,29 @@ export interface IFDDBandInfo extends ICommonBandInfo {
   uplinkStartFrequency: number;
   uplinkEndFrequency: number;
   duplexMode: "FDD";
+  downlinkArfcnOffset?: number;
+  uplinkArfcnOffset?: number;
 }
 
 export interface ITDDBandInfo extends ICommonBandInfo {
   startFrequency: number;
   endFrequency: number;
   duplexMode: "TDD";
+  arfcnOffset?: number;
 }
 
 export interface ISDLBandInfo extends ICommonBandInfo {
   startFrequency: number;
   endFrequency: number;
-  duplexMode: "SDL" | "SUL";
+  duplexMode: "SDL";
+  arfcnOffset?: number;
+}
+
+export interface ISULBandInfo extends ICommonBandInfo {
+  startFrequency: number;
+  endFrequency: number;
+  duplexMode: "SUL";
+  arfcnOffset?: number;
 }
 
 export type IBandInfo = IFDDBandInfo | ITDDBandInfo | ISDLBandInfo;
