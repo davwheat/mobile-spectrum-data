@@ -2,6 +2,8 @@
 
 This repository contains data related to mobile networking spectrum around the world, including ARFCNs, descriptions, and more.
 
+I use this data for my own mobile networking website: https://mastdatabase.co.uk
+
 This dataset is [licensed under the GNU LGPLv3 license](./LICENSE). In a nutshell...
 
 - you may use this data commercially
