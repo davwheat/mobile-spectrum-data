@@ -94,6 +94,17 @@ async function main() {
   ora(copyAll, "Copying README, LICENSE and package.json");
   await copyAll;
 
+  const copyTypesDir = fs.copy(
+    getLocalPath("src/@types"),
+    path.join(tempFolder, "@types"),
+    {
+      recursive: true,
+      overwrite: true,
+    }
+  );
+  ora(copyTypesDir, "Copying @types folder");
+  await copyTypesDir;
+
   let newVer = null;
 
   async function modPackageJson() {
