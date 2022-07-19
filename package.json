@@ -7,6 +7,7 @@
   "repository": "https://github.com/davwheat/mobile-spectrum-data",
   "author": "David Wheatley <david@davwheat.dev>",
   "license": "LGPL-3.0-or-later",
+  "private": true,
   "scripts": {
     "format": "prettier --write .",
     "format-check": "prettier --check .",
@@ -16,6 +17,7 @@
   },
   "devDependencies": {
     "@expo/spawn-async": "^1.6.0",
+    "@jsdevtools/npm-publish": "^1.4.3",
     "chalk": "^5.0.1",
     "cross-env": "^7.0.3",
     "fs-extra": "^10.1.0",

@@ -112,20 +112,22 @@ async function main() {
       path.join(tempFolder, "package.json")
     );
 
-    const currentVer = packageJson.version;
-    console.log(`\nCurrent version: ${currentVer}`);
-    newVer = prompt(`New version: `, currentVer);
+    if (!process.env.NPM_TOKEN) {
+      const currentVer = packageJson.version;
+      console.log(`\nCurrent version: ${currentVer}`);
+      newVer = prompt(`New version: `, currentVer);
 
-    if (newVer === null) {
-      throw "Invalid version";
+      if (newVer === null) {
+        throw "Invalid version";
+      }
+
+      packageJson.version = newVer;
+
+      // Write back new version name
+      await fs.writeJSON(getLocalPath("package.json"), packageJson, {
+        spaces: 2,
+      });
     }
-
-    packageJson.version = newVer;
-
-    // Write back new version name
-    await fs.writeJSON(getLocalPath("package.json"), packageJson, {
-      spaces: 2,
-    });
 
     // Remove unneeded sections
     delete packageJson.private;
@@ -151,17 +153,26 @@ async function main() {
 
   await divider("Publish package");
 
-  const OTP = prompt("Enter OTP (leave blank if none): ");
-
   process.chdir(tempFolder);
 
-  const publish = spawnAsync(IS_WINDOWS ? "npm.cmd" : "npm", [
-    "publish",
-    OTP ? `--otp` : "",
-    OTP ? OTP : "",
-  ]);
-  ora(publish, "Publishing package");
-  await publish;
+  if (!process.env.NPM_TOKEN) {
+    const OTP = prompt("Enter OTP (leave blank if none): ");
+
+    const publish = spawnAsync(IS_WINDOWS ? "npm.cmd" : "npm", [
+      "publish",
+      OTP ? `--otp` : "",
+      OTP ? OTP : "",
+    ]);
+    ora(publish, "Publishing package");
+    await publish;
+  } else {
+    const npmPublish = require("@jsdevtools/npm-publish");
+
+    // Run npm-publish with all defaults
+    await npmPublish({
+      token: process.env.NPM_TOKEN,
+    });
+  }
 
   await divider("Clean up");
   await cleanUp();
