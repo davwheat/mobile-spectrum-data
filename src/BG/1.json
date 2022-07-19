@@ -2,7 +2,7 @@
   {
     "owner": "Yettel BG",
     "startFreq": 2110,
-    "endFreq": 2130,
+    "endFreq": 2125,
     "type": "fddDown",
     "pairedWith": {
       "type": "fddUp",
