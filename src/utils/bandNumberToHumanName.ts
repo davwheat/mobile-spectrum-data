@@ -10,14 +10,17 @@ import { formatFrequency } from "./formatFrequency";
  *
  * @example `bandNumberToHumanName(1, 'lte')` returns "IMT (2100 MHz)".
  */
-export function bandNumberToHumanName(band: number, rat: "lte" | "nr"): string {
+export function bandNumberToHumanName(
+  band: number,
+  rat: "lte" | "nr"
+): string | null {
   const data = rat === "lte" ? LTEBandData : NRBandData;
   const bandName = rat === "lte" ? `B${band}` : `n${band}`;
 
   const bandData = data[bandName];
 
   if (!bandData) {
-    throw new Error(`Unknown band number: ${band} (${rat})`);
+    return null;
   }
 
   const freqs = bandNumberToFrequency(band, rat);
