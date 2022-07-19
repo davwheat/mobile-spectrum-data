@@ -30,10 +30,31 @@ export interface SDLSpectrumBlock extends BaseSpectrumBlock {
   type: "sdl";
 }
 
+export interface GenericSpectrumBlock extends BaseSpectrumBlock {
+  /**
+   * Used for spectrum allocated for purposes other than mobile networking.
+   */
+  type: "generic";
+}
+
+export interface GenericPairedSpectrumBlock extends BaseSpectrumBlock {
+  /**
+   * Used for spectrum allocated for purposes other than mobile networking.
+   */
+  type: "genericPaired";
+  pairedWith: {
+    type: "genericPaired";
+    startFreq: number;
+    endFreq: number;
+  };
+}
+
 export type SpectrumBlock =
   | FDDSpectrumBlock
   | TDDSpectrumBlock
-  | SDLSpectrumBlock;
+  | SDLSpectrumBlock
+  | GenericSpectrumBlock
+  | GenericPairedSpectrumBlock;
 
 export interface SpectrumData {
   names: string[];
