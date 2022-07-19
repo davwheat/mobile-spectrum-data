@@ -8,7 +8,7 @@ const operators: IOperatorInfo[] = [
   },
   {
     name: "Vodafone UK",
-    aliases: ["VF", "VF UK"],
+    aliases: ["Vodafone", "VF", "VF UK"],
     color: "#e60000",
   },
   {

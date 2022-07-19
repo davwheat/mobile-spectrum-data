@@ -5,11 +5,13 @@ export interface IOperatorInfo {
 }
 
 import { default as OperatorsBG } from "./BG";
+import { default as OperatorsDE } from "./DE";
 import { default as OperatorsDK } from "./DK";
 import { default as OperatorsGB } from "./GB";
 
 const allCountries: Record<string, IOperatorInfo[]> = {
   BG: OperatorsBG,
+  DE: OperatorsDE,
   DK: OperatorsDK,
   GB: OperatorsGB,
 };
@@ -23,8 +25,8 @@ const allCountries: Record<string, IOperatorInfo[]> = {
  * @param operator Operator name or alias
  * @returns Main colour for the operator
  */
-export function getOperatorColour(country: string, operator: string): string {
-  const data = allCountries[country];
+export function getOperatorColor(country: string, operator: string): string {
+  const data = allCountries[country.toUpperCase()];
 
   const backupColour = "#dddddd";
 
@@ -42,4 +44,4 @@ export function getOperatorColour(country: string, operator: string): string {
   return operatorInfo.color;
 }
 
-export { OperatorsBG, OperatorsDK, OperatorsGB };
+export { OperatorsBG, OperatorsDE, OperatorsDK, OperatorsGB };
