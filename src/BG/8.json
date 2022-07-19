@@ -1,6 +1,6 @@
 [
   {
-    "owner": "A1 BG",
+    "owner": "A1",
     "startFreq": 925.1,
     "endFreq": 926.9,
     "type": "fddDown",
@@ -24,7 +24,7 @@
     }
   },
   {
-    "owner": "Yettel BG",
+    "owner": "Yettel",
     "startFreq": 927.1,
     "endFreq": 928.9,
     "type": "fddDown",
