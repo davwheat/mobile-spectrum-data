@@ -12,6 +12,18 @@
     "arfcns": "ARFCNs 975-983"
   },
   {
+    "owner": "?",
+    "ownerLongName": "Unallocated",
+    "startFreq": 926.9,
+    "endFreq": 927.1,
+    "type": "genericPaired",
+    "pairedWith": {
+      "type": "genericPaired",
+      "startFreq": 881.9,
+      "endFreq": 882.1
+    }
+  },
+  {
     "owner": "Yettel BG",
     "startFreq": 927.1,
     "endFreq": 928.9,
@@ -22,6 +34,18 @@
       "endFreq": 883.9
     },
     "arfcns": "ARFCNs 985-993"
+  },
+  {
+    "owner": "?",
+    "ownerLongName": "Unallocated",
+    "startFreq": 928.9,
+    "endFreq": 929.1,
+    "type": "genericPaired",
+    "pairedWith": {
+      "type": "genericPaired",
+      "startFreq": 883.9,
+      "endFreq": 884.1
+    }
   },
   {
     "owner": "Vivacom",
@@ -60,6 +84,18 @@
     "arfcns": "ARFCNs 19-26"
   },
   {
+    "owner": "?",
+    "ownerLongName": "Unallocated",
+    "startFreq": 940.3,
+    "endFreq": 940.7,
+    "type": "genericPaired",
+    "pairedWith": {
+      "type": "genericPaired",
+      "startFreq": 895.3,
+      "endFreq": 895.7
+    }
+  },
+  {
     "owner": "A1 BG",
     "startFreq": 940.7,
     "endFreq": 945.5,
@@ -82,6 +118,18 @@
       "endFreq": 905.1
     },
     "earfcns": [3678]
+  },
+  {
+    "owner": "?",
+    "ownerLongName": "Unallocated",
+    "startFreq": 950.1,
+    "endFreq": 950.5,
+    "type": "genericPaired",
+    "pairedWith": {
+      "type": "genericPaired",
+      "startFreq": 905.1,
+      "endFreq": 905.5
+    }
   },
   {
     "owner": "Yettel BG",
