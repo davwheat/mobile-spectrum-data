@@ -1,4 +1,4 @@
-name: Smoketest
+name: Smoketest and publish
 on:
   push:
     tags:
@@ -52,6 +52,7 @@ jobs:
   publish:
     runs-on: ubuntu-latest
     name: Publish
+    needs: ["format_check", "build_test"]
 
     steps:
       - name: Checkout repository
