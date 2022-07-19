@@ -37,7 +37,9 @@
     },
     "uarfcns": [10737],
     "earfcns": [275, 300],
-    "details": ["LTE B1 20 MHz nationwide deployment, some areas have UMTS B1 5 MHz with LTE B1 15 MHz"]
+    "details": [
+      "LTE B1 20 MHz nationwide deployment, some areas have UMTS B1 5 MHz with LTE B1 15 MHz"
+    ]
   },
   {
     "owner": "Vivacom",
@@ -49,7 +51,7 @@
       "startFreq": 1960,
       "endFreq": 1965
     },
-    "uarfcns": [10762], 
+    "uarfcns": [10762],
     "details": ["UMTS B1 5 MHz nationwide deployment"]
   },
   {
@@ -62,7 +64,7 @@
       "startFreq": 1965,
       "endFreq": 1980
     },
-    "earfcns": [525], 
+    "earfcns": [525],
     "details": ["LTE B1 15 MHz nationwide deployment"]
   }
 ]
