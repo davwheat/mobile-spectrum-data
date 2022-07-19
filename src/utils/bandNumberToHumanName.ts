@@ -22,5 +22,5 @@ export function bandNumberToHumanName(band: number, rat: "lte" | "nr"): string {
 
   const freqs = bandNumberToFrequency(band, rat);
 
-  return `${bandData.name} (${freqs.map(formatFrequency).join("/")})`;
+  return `${bandData.name} (${freqs.map((v) => formatFrequency(v)).join("/")})`;
 }
