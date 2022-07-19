@@ -4,7 +4,7 @@
     "ownerLongName": "Ministry of Defence",
     "startFreq": 2300,
     "endFreq": 2350,
-    "type": "unknown"
+    "type": "generic"
   },
   {
     "owner": "O2",
@@ -19,6 +19,6 @@
     "ownerLongName": "Ministry of Defence",
     "startFreq": 2390,
     "endFreq": 2400,
-    "type": "unknown"
+    "type": "generic"
   }
 ]
