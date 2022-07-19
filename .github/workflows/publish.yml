@@ -2,7 +2,7 @@ name: Smoketest
 on:
   push:
     tags:
-      - '*'
+      - "*"
 
 jobs:
   format_check:
@@ -17,7 +17,7 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 16
-          cache: 'yarn'
+          cache: "yarn"
 
       - name: Install dependencies
         run: |
@@ -39,7 +39,7 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 16
-          cache: 'yarn'
+          cache: "yarn"
 
       - name: Install dependencies
         run: |
@@ -61,7 +61,7 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 16
-          cache: 'yarn'
+          cache: "yarn"
 
       - name: Install dependencies
         run: |
