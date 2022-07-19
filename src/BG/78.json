@@ -3,15 +3,13 @@
     "owner": "Unavailable",
     "startFreq": 3400,
     "endFreq": 3430,
-    "type": "tdd",
-    "nrarfcns": "Unavailable"
+    "type": "generic"
   },
   {
     "owner": "Unallocated",
     "startFreq": 3430,
     "endFreq": 3500,
-    "type": "tdd",
-    "nrarfcns": "Unallocated"
+    "type": "generic"
   },
   {
     "owner": "Yettel BG",
