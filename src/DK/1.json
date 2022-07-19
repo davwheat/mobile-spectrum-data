@@ -11,7 +11,7 @@
     },
     "uarfcns": [10562, 10587, 10612],
     "earfcns": [75],
-    "nrarfcns": ["423411 (old 10 MHz)"],
+    "nrarfcns": [423170],
     "details": ["LTE B1/NR n1 DSS 15 MHz deployment"]
   },
   {
