@@ -6,9 +6,21 @@ I use this data for my own open-source mobile networking website: https://mastda
 
 This dataset is [licensed under the GNU LGPLv3 license](./LICENSE).
 
+- [Supported countries](#supported-countries)
 - [Package structure](#package-structure)
   - [Spectrum allocation and usage](#spectrum-allocation-and-usage)
 - [LTE and NR band data](#lte-and-nr-band-data)
+
+## Supported countries
+
+Countries with data in this package are included below. If yours is misisng, why not contribute?
+
+| Country           |
+| ----------------- |
+| 🇬🇧 United Kingdom |
+| 🇩🇰 Denmark        |
+| 🇩🇪 Germany        |
+| 🇧🇬 Bulgaria       |
 
 ## Package structure
 
