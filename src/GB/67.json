@@ -1,9 +1,0 @@
-[
-  {
-    "owner": "EE",
-    "startFreq": 738,
-    "endFreq": 758,
-    "type": "unused",
-    "details": ["Unused supplemental downlink spectrum"]
-  }
-]
