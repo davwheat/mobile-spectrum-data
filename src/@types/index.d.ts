@@ -10,7 +10,7 @@ export interface BaseSpectrumBlock {
   uarfcns?: (number | string)[] | string;
   arfcns?: (number | string)[] | string;
 
-  details: string | string[];
+  details?: string | string[];
 }
 
 export interface FDDSpectrumBlock extends BaseSpectrumBlock {
