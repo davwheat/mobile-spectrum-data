@@ -1,4 +1,4 @@
-import { SpectrumBlock } from "../@types";
+import type { SpectrumBlock } from "../@types";
 
 const data: SpectrumBlock[] = [
   {
@@ -88,7 +88,7 @@ const data: SpectrumBlock[] = [
       startFreq: 1964.7,
       endFreq: 1979.7,
     },
-    earfcns: [599],
+    earfcns: [522],
     nrarfcns: [431810, 433250, 432530],
     details: [
       "5G NR operating primarily as DSS n1, with some deployments as pure NR.",

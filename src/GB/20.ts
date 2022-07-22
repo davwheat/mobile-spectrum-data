@@ -1,4 +1,4 @@
-import { SpectrumBlock } from "../@types";
+import type { SpectrumBlock } from "../@types";
 
 const data: SpectrumBlock[] = [
   {
