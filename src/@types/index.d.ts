@@ -61,3 +61,16 @@ export interface SpectrumData {
 
   spectrumData: SpectrumBlock[];
 }
+
+export interface ArfcnDataItem {
+  band: number;
+  arfcn: number;
+  operator: string;
+  description: string;
+  /**
+   * Bandwidth in MHz
+   */
+  bandwidth?: number | number[];
+}
+
+export interface SimpleArfcnDataItem extends Omit<ArfcnDataItem, "band"> {}
