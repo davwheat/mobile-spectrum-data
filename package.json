@@ -13,11 +13,13 @@
     "format-check": "prettier --check .",
     "build": "tsc",
     "clean": "cross-env rimraf lib publish-tmp",
-    "pub": "yarn format-check && node ./publish.js"
+    "pub": "yarn format-check && node ./publish.js",
+    "test": "yarn ts-node --project ts-node.tsconfig.json validateArfcnLists.ts"
   },
   "devDependencies": {
     "@expo/spawn-async": "^1.6.0",
     "@jsdevtools/npm-publish": "^1.4.3",
+    "@types/node": "^18.0.6",
     "chalk": "^5.0.1",
     "cross-env": "^7.0.3",
     "fs-extra": "^10.1.0",
@@ -25,6 +27,7 @@
     "prettier": "^2.7.1",
     "prompt-sync": "^4.2.0",
     "rimraf": "^3.0.2",
+    "ts-node": "^10.9.1",
     "typescript": "^4.7.4"
   },
   "packageManager": "yarn@3.2.1"
