@@ -11,7 +11,6 @@ const data: SpectrumBlock[] = [
       startFreq: 2500,
       endFreq: 2510,
     },
-    earfcns: "Unavailable",
   },
   {
     owner: "A1 BG",
