@@ -15,7 +15,7 @@ const data: SpectrumBlock[] = [
     details: ["LTE B1 15 MHz nationwide deployment"],
   },
   {
-    owner: "A1 BG",
+    owner: "Yettel BG",
     startFreq: 2125,
     endFreq: 2130,
     type: "fddDown",
