@@ -1,16 +1,5 @@
 import type { ArfcnDataItem, SimpleArfcnDataItem } from "../@types";
-
-function mapListToBand(
-  band: number,
-  list: SimpleArfcnDataItem[]
-): ArfcnDataItem[] {
-  const newList = list as ArfcnDataItem[];
-
-  return newList.map((x) => {
-    x.band = band;
-    return x;
-  });
-}
+import { mapArfcnListToBand } from "../utils/mapArfcnListToBand";
 
 const B1: SimpleArfcnDataItem[] = [
   {
@@ -111,10 +100,10 @@ const B8: SimpleArfcnDataItem[] = [
 ];
 
 const EARFCNs: ArfcnDataItem[] = [
-  ...mapListToBand(1, B1),
-  ...mapListToBand(3, B3),
-  ...mapListToBand(7, B7),
-  ...mapListToBand(8, B8),
+  ...mapArfcnListToBand(1, B1),
+  ...mapArfcnListToBand(3, B3),
+  ...mapArfcnListToBand(7, B7),
+  ...mapArfcnListToBand(8, B8),
 ];
 
 export default EARFCNs;
