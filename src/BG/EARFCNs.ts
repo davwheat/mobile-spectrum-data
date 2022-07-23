@@ -9,13 +9,13 @@ const B1: SimpleArfcnDataItem[] = [
     description: "Standard B1 deployment",
   },
   {
-    arfcn: 275,
+    arfcn: 300,
     bandwidth: 20,
     operator: "A1 BG",
     description: "Standard L21 (5 MHz U21 refarmed to LTE) deployment",
   },
   {
-    arfcn: 300,
+    arfcn: 275,
     bandwidth: 15,
     operator: "A1 BG",
     description: "Standard U21+L21 deployment",
