@@ -202,6 +202,12 @@ const n78: SimpleArfcnDataItem[] = [
       "Nokia - Standard (rarer) n78 deployment - primary carrier (n78C1)",
   },
   {
+    arfcn: 646272,
+    bandwidth: 40,
+    operator: "EE",
+    description: "Standard n78 deployment - secondary carrier (n78C2)",
+  },
+  {
     arfcn: 646656,
     bandwidth: 40,
     operator: "EE",
