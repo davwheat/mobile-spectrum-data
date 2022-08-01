@@ -104,9 +104,9 @@ const n28: SimpleArfcnDataItem[] = [
 const n78: SimpleArfcnDataItem[] = [
   {
     arfcn: 628032,
-    bandwidth: 20,
+    bandwidth: [20, 40, 50],
     operator: "Vodafone",
-    description: "All vendors - 20 MHz n78 deployment",
+    description: "All vendors - generic n78 deployment",
   },
   {
     arfcn: 629332,
