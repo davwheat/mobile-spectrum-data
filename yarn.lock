@@ -14,12 +14,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@expo/spawn-async@npm:^1.6.0":
-  version: 1.6.0
-  resolution: "@expo/spawn-async@npm:1.6.0"
+"@expo/spawn-async@npm:^1.7.0":
+  version: 1.7.0
+  resolution: "@expo/spawn-async@npm:1.7.0"
   dependencies:
     cross-spawn: ^7.0.3
-  checksum: 784a7871db10baf5896bc633e056419275d304235538f3623cf5abe80dc31f4e086a79d5a57cd415da26c430007b529d82f688137ec0b0568952d55273f70d9e
+  checksum: b4add3c9f12a903d47a201820bead79ace31fdf75d64e07ce6afdcf3a881f9522c354fed18fba7ff3febceedcf45a5f0e5395306e4cbfe46748871638f173034
   languageName: node
   linkType: hard
 
@@ -108,10 +108,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:^18.0.6":
-  version: 18.0.6
-  resolution: "@types/node@npm:18.0.6"
-  checksum: 780f8885a6b6eb12f4c0246617747fdc37a451931b3c01ce8148d356c0903b705dcb16cc6a914de63d48b0dc1b002c7a3dfae681f580e1761aa551d3cd996813
+"@types/node@npm:^18.6.4":
+  version: 18.6.4
+  resolution: "@types/node@npm:18.6.4"
+  checksum: fc453dd2b541f5812ba1a8f957f577727cf2d8aee886f1d5c03eb153b2b3373d2e0953c5bd2b7a5b184073bc317f54ec91f1ec4830a58eda4a833e90654021de
   languageName: node
   linkType: hard
 
@@ -465,9 +465,9 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "mobile-spectrum-data@workspace:."
   dependencies:
-    "@expo/spawn-async": ^1.6.0
+    "@expo/spawn-async": ^1.7.0
     "@jsdevtools/npm-publish": ^1.4.3
-    "@types/node": ^18.0.6
+    "@types/node": ^18.6.4
     chalk: ^5.0.1
     cross-env: ^7.0.3
     fs-extra: ^10.1.0
