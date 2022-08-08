@@ -58,7 +58,10 @@ export type SpectrumBlock =
 
 export interface SpectrumData {
   names: string[];
-  extraInfo?: string;
+  extraInfo?: {
+    shortAddendum?: string;
+    description?: string;
+  };
   spectrumData: SpectrumBlock[];
 }
 

@@ -60,7 +60,11 @@ const data: SpectrumData[] = [
   },
   {
     names: ["n78"],
-    extraInfo: "Vodafone/O2 post spectrum swap",
+    extraInfo: {
+      shortAddendum: "post spectrum swap",
+      description:
+        "Spectrum allocation visualisation for after completion of Vodafone and O2's n78 spectrum swap.",
+    },
     spectrumData: Band78_SpectrumSwap,
   },
 ];

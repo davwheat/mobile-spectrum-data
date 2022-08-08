@@ -6,7 +6,7 @@ const data: SpectrumBlock[] = [
   // Base list from main n78 dataset
   ...n78.filter(({ startFreq }) => {
     // Exclude blocks where swap is occurring
-    return [3500, 3720, 3760].includes(startFreq);
+    return ![3500, 3720, 3760].includes(startFreq);
   }),
   {
     owner: "VF",
