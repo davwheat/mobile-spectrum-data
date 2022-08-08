@@ -239,6 +239,13 @@ const n78: SimpleArfcnDataItem[] = [
     operator: "Three",
     description: "New E/// 100 MHz n78 deployment",
   },
+  {
+    arfcn: 650592,
+    bandwidth: 80,
+    operator: "O2",
+    description:
+      "Nokia 80 MHz n78 deployment - post spectrum swap with Vodafone",
+  },
 ];
 
 const NRARFCNs: ArfcnDataItem[] = [

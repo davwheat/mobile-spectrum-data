@@ -9,6 +9,7 @@ import Band38 from "./38";
 import Band40 from "./40";
 import Band67 from "./67";
 import Band78 from "./78";
+import Band78_SpectrumSwap from "./78_swap";
 
 import type { SpectrumData } from "../@types";
 
@@ -56,6 +57,11 @@ const data: SpectrumData[] = [
   {
     names: ["n78"],
     spectrumData: Band78,
+  },
+  {
+    names: ["n78"],
+    extraInfo: "Vodafone/O2 post spectrum swap",
+    spectrumData: Band78_SpectrumSwap,
   },
 ];
 
