@@ -3,7 +3,7 @@ import { mapArfcnListToBand } from "../utils/mapArfcnListToBand";
 
 const n1: SimpleArfcnDataItem[] = [
   {
-    arfcn: 423411,
+    arfcn: 423170,
     bandwidth: 10,
     operator: "3 DK",
     description: "E/// 10 MHz DSS n1 deployment",
