@@ -4,6 +4,14 @@ const data: SpectrumBlock[] = [
   {
     owner: "TDC",
     startFreq: 3410,
+    endFreq: 3440,
+    type: "tdd",
+    nrarfcns: [628032, 628704],
+    details: ["20/30 MHz NR CA carrier, deployed on top of 100 MHz layer"],
+  },
+  {
+    owner: "TDC",
+    startFreq: 3440,
     endFreq: 3540,
     type: "tdd",
     nrarfcns: [630048],

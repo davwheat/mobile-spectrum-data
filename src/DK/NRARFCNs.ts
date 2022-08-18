@@ -30,6 +30,18 @@ const n28: SimpleArfcnDataItem[] = [
 
 const n78: SimpleArfcnDataItem[] = [
   {
+    arfcn: 628032,
+    bandwidth: 30,
+    operator: "TDC",
+    description: "E/// 30 MHz n78 deployment",
+  },
+  {
+    arfcn: 628704,
+    bandwidth: undefined,
+    operator: "TDC",
+    description: "E/// n78 deployment - bandwidth unknown, but likely 20/30 MHz",
+  },
+  {
     arfcn: 630048,
     bandwidth: 100,
     operator: "TDC",
