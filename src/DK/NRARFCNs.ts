@@ -39,7 +39,8 @@ const n78: SimpleArfcnDataItem[] = [
     arfcn: 628704,
     bandwidth: undefined,
     operator: "TDC",
-    description: "E/// n78 deployment - bandwidth unknown, but likely 20/30 MHz",
+    description:
+      "E/// n78 deployment - bandwidth unknown, but likely 20/30 MHz",
   },
   {
     arfcn: 630048,
