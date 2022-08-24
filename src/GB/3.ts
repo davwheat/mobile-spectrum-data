@@ -72,9 +72,10 @@ const data: SpectrumBlock[] = [
       startFreq: 1755.9,
       endFreq: 1765.9,
     },
-    earfcns: [1761, 1815],
+    earfcns: [1761, 1791, 1815],
     nrarfcns: [],
     details: [
+      "EARFCN 1791 (small cell deployment) and 1788 utilises this block, and half of next block.",
       "EARFCN 1815 split across this and next block.",
       "Used in conjuction with the next spectrum block for rural n3 20 MHz deployment.",
     ],
@@ -89,9 +90,10 @@ const data: SpectrumBlock[] = [
       startFreq: 1765.9,
       endFreq: 1775.9,
     },
-    earfcns: [1815],
+    earfcns: [1788, 1791, 1815],
     nrarfcns: [374190, 374210, 374280],
     details: [
+      "EARFCN 1791 (small cell deployment) and 1788 utilises first half of this block, and all of previous block.",
       "EARFCN 1815 split across this and previous block.",
       "Used on its own for EE's n3 10 MHz deployment, or in conjuction with the previous block for rural n3 20 MHz deployment.",
     ],

@@ -52,11 +52,11 @@ const B3: SimpleArfcnDataItem[] = [
     arfcn: 1815,
     bandwidth: 20,
     operator: "EE",
-    description: "Standard B3 deployment - widened version of EARFCN 1788",
+    description: "Wider B3 deployment (40 MHz total - 1617 + 1815)",
   },
   {
-    arfcn: 1808,
-    bandwidth: 10,
+    arfcn: 1791,
+    bandwidth: 15,
     operator: "EE",
     description: "Small cell standard B3 deployment",
   },
@@ -64,20 +64,21 @@ const B3: SimpleArfcnDataItem[] = [
     arfcn: 1788,
     bandwidth: 15,
     operator: "EE",
-    description: "Standard B3 deployment - widened version of EARFCN 1761",
+    description: "Now rare B3 deployment - widened version of EARFCN 1761",
   },
   {
     arfcn: 1761,
     bandwidth: 10,
     operator: "EE",
-    description: "Standard B3 deployment - replaced EARFCN 1811",
+    description:
+      "Standard B3 deployment - used as part of typical 30 MHz B3 deployment (1617 + 1761)",
   },
   {
     arfcn: 1617,
     bandwidth: 20,
     operator: "EE",
     description:
-      "Standard B3 deployment - used as part of typical 35 MHz B3 deployment",
+      "Standard B3 deployment - used as part of typical 30 MHz B3 deployment (1617 + 1761)",
   },
   {
     arfcn: 1392,
