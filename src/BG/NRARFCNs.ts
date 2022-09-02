@@ -5,7 +5,7 @@ const n3: SimpleArfcnDataItem[] = [
   {
     arfcn: 368410,
     bandwidth: 15,
-    operator: "Vivacom",
+    operator: "Vivacom BG",
     description: "DSS n3 in urban areas and on highways",
   },
 ];
@@ -26,7 +26,7 @@ const n78: SimpleArfcnDataItem[] = [
   {
     arfcn: 628588,
     bandwidth: 100,
-    operator: "Vivacom",
+    operator: "Vivacom BG",
     description: "100 MHz n78 standard deployment",
   },
 ];

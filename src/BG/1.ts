@@ -44,7 +44,7 @@ const data: SpectrumBlock[] = [
     ],
   },
   {
-    owner: "Vivacom",
+    owner: "Vivacom BG",
     startFreq: 2150,
     endFreq: 2155,
     type: "fddDown",
@@ -57,7 +57,7 @@ const data: SpectrumBlock[] = [
     details: ["UMTS B1 5 MHz nationwide deployment"],
   },
   {
-    owner: "Vivacom",
+    owner: "Vivacom BG",
     startFreq: 2155,
     endFreq: 2170,
     type: "fddDown",

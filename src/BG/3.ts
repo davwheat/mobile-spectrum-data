@@ -26,7 +26,7 @@ const data: SpectrumBlock[] = [
     earfcns: [1425],
   },
   {
-    owner: "Vivacom",
+    owner: "Vivacom BG",
     startFreq: 1835,
     endFreq: 1850,
     type: "fddDown",

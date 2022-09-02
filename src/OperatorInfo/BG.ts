@@ -2,18 +2,18 @@ import { IOperatorInfo } from ".";
 
 const operators: IOperatorInfo[] = [
   {
-    name: "A1",
-    aliases: ["A1 BG"],
+    name: "A1 BG",
+    aliases: [],
     color: "#e70022",
   },
   {
-    name: "Yettel",
-    aliases: ["Yettel BG"],
+    name: "Yettel BG",
+    aliases: [],
     color: "#b4ff00",
   },
   {
-    name: "Vivacom",
-    aliases: ["Vivacom BG"],
+    name: "Vivacom BG",
+    aliases: [],
     color: "#141317",
   },
 ];

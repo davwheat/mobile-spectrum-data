@@ -23,7 +23,7 @@ const B1: SimpleArfcnDataItem[] = [
   {
     arfcn: 525,
     bandwidth: 15,
-    operator: "Vivacom",
+    operator: "Vivacom BG",
     description: "Standard B1 deployment",
   },
 ];
@@ -44,7 +44,7 @@ const B3: SimpleArfcnDataItem[] = [
   {
     arfcn: 1575,
     bandwidth: 15,
-    operator: "Vivacom",
+    operator: "Vivacom BG",
     description:
       "Standard B3 deployment, with n3 DSS in urban areas and on highways",
   },
@@ -66,7 +66,7 @@ const B7: SimpleArfcnDataItem[] = [
   {
     arfcn: 3350,
     bandwidth: 20,
-    operator: "Vivacom",
+    operator: "Vivacom BG",
     description: "Standard B7 deployment",
   },
 ];
@@ -75,7 +75,7 @@ const B8: SimpleArfcnDataItem[] = [
   {
     arfcn: 3516,
     bandwidth: 5,
-    operator: "Vivacom",
+    operator: "Vivacom BG",
     description: "Standard 5 MHz B8 deployment",
   },
   {
