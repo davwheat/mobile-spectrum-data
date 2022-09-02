@@ -7,7 +7,7 @@ export function formatFrequency(
   hideUnits: boolean = false
 ): string {
   if (freqMhz > 10_000) {
-    const val = roundToPrecision(freqMhz / 1000, 2);
+    const val = roundToPrecision(freqMhz / 1000, 5);
 
     if (hideUnits) {
       return `${val}`;
@@ -16,7 +16,7 @@ export function formatFrequency(
     return `${val} GHz`;
   }
 
-  const val = roundToPrecision(freqMhz, 2);
+  const val = roundToPrecision(freqMhz, 5);
 
   if (hideUnits) {
     return `${val}`;
