@@ -1,9 +1,3 @@
-export interface IOperatorInfo {
-  name: string;
-  aliases: string[];
-  color: string;
-}
-
 import { default as OperatorsBG } from "./BG";
 import { default as OperatorsDE } from "./DE";
 import { default as OperatorsDK } from "./DK";
@@ -15,6 +9,14 @@ const allCountries: Record<string, IOperatorInfo[]> = {
   DK: OperatorsDK,
   GB: OperatorsGB,
 };
+
+export { OperatorsBG, OperatorsDE, OperatorsDK, OperatorsGB };
+
+export interface IOperatorInfo {
+  name: string;
+  aliases: string[];
+  color: string;
+}
 
 /**
  * Returns the main colour for an operator, to be used for styling.
@@ -43,5 +45,3 @@ export function getOperatorColor(country: string, operator: string): string {
 
   return operatorInfo.color;
 }
-
-export { OperatorsBG, OperatorsDE, OperatorsDK, OperatorsGB };
