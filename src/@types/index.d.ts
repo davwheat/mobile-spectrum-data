@@ -1,3 +1,13 @@
+export type SourceType =
+  | {
+      type: "url";
+      url: string;
+    }
+  | {
+      type: "other";
+      details: string;
+    };
+
 export interface BaseSpectrumBlock {
   owner: string;
   ownerLongName?: string;
@@ -11,6 +21,7 @@ export interface BaseSpectrumBlock {
   arfcns?: (number | string)[] | string;
 
   details?: string | string[];
+  sourceInfo?: SourceType;
 }
 
 export interface FDDSpectrumBlock extends BaseSpectrumBlock {
