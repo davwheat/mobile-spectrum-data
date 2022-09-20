@@ -147,7 +147,7 @@ const n78: SimpleArfcnDataItem[] = [
   },
   {
     arfcn: 632666,
-    bandwidth: 20,
+    bandwidth: [20, 30],
     operator: "Three",
     description: "Huawei NR CA n78 deployment - limited trial areas",
   },
