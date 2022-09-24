@@ -4,7 +4,7 @@ const data: SpectrumBlock[] = (
   [
     {
       owner: "Telia FI",
-      startFreq: 1802.1,
+      startFreq: 1805.1,
       endFreq: 1829.9,
       type: "fddDown",
       pairedWith: {
