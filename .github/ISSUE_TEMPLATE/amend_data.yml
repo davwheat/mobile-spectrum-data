@@ -152,8 +152,6 @@ body:
         - label: NR Band n102
         - label: NR Band n104
         - label: Anything else (explain below)
-    validations:
-      required: true
 
   - type: textarea
     id: comments
