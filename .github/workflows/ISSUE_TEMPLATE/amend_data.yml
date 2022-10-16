@@ -1,0 +1,161 @@
+name: "Editing existing country's spectrum data"
+description: Edit existing spectrum data.
+labels: ["type/edit country"]
+assignees:
+  - davwheat
+title: Editing spectrum data for [...]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### Editing existing spectrum data
+
+        > **If your country is not already present, this is the wrong choice.**
+
+        Please follow the instructions below.
+
+  - type: input
+    id: country_native
+    attributes:
+      label: Country two-letter code
+      description: The country's two-letter country code. See https://www.iban.com/country-codes
+    validations:
+      required: true
+
+  - type: textarea
+    id: json_upload
+    attributes:
+      label: JSON spectrum data file
+      description: Please drag and drop or upload the JSON file produced by https://mastdatabase.co.uk/spectrum-editor
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: changes
+    attributes:
+      label: What has changed?
+      description: Please select the bands whose info has changed, to make it easier to merge. If you miss anything from this list, changes to it may not be included. Not all options will apply to all countries.
+      options:
+        - label: Metadata (country name, extra info, country code, etc)
+        - label: LTE Band 1
+        - label: LTE Band 2
+        - label: LTE Band 3
+        - label: LTE Band 4
+        - label: LTE Band 5
+        - label: LTE Band 7
+        - label: LTE Band 8
+        - label: LTE Band 11
+        - label: LTE Band 12
+        - label: LTE Band 13
+        - label: LTE Band 14
+        - label: LTE Band 17
+        - label: LTE Band 18
+        - label: LTE Band 19
+        - label: LTE Band 20
+        - label: LTE Band 21
+        - label: LTE Band 24
+        - label: LTE Band 25
+        - label: LTE Band 26
+        - label: LTE Band 28
+        - label: LTE Band 29
+        - label: LTE Band 30
+        - label: LTE Band 31
+        - label: LTE Band 32
+        - label: LTE Band 34
+        - label: LTE Band 37
+        - label: LTE Band 38
+        - label: LTE Band 39
+        - label: LTE Band 40
+        - label: LTE Band 41
+        - label: LTE Band 42
+        - label: LTE Band 43
+        - label: LTE Band 46
+        - label: LTE Band 47
+        - label: LTE Band 48
+        - label: LTE Band 50
+        - label: LTE Band 51
+        - label: LTE Band 53
+        - label: LTE Band 65
+        - label: LTE Band 66
+        - label: LTE Band 67
+        - label: LTE Band 69
+        - label: LTE Band 70
+        - label: LTE Band 71
+        - label: LTE Band 72
+        - label: LTE Band 73
+        - label: LTE Band 74
+        - label: LTE Band 75
+        - label: LTE Band 76
+        - label: LTE Band 85
+        - label: LTE Band 87
+        - label: LTE Band 88
+        - label: LTE Band 103
+        - label: NR Band n1
+        - label: NR Band n2
+        - label: NR Band n3
+        - label: NR Band n5
+        - label: NR Band n7
+        - label: NR Band n8
+        - label: NR Band n12
+        - label: NR Band n13
+        - label: NR Band n14
+        - label: NR Band n18
+        - label: NR Band n20
+        - label: NR Band n24
+        - label: NR Band n25
+        - label: NR Band n26
+        - label: NR Band n28
+        - label: NR Band n29
+        - label: NR Band n30
+        - label: NR Band n34
+        - label: NR Band n38
+        - label: NR Band n39
+        - label: NR Band n40
+        - label: NR Band n41
+        - label: NR Band n46
+        - label: NR Band n47
+        - label: NR Band n48
+        - label: NR Band n50
+        - label: NR Band n51
+        - label: NR Band n53
+        - label: NR Band n65
+        - label: NR Band n66
+        - label: NR Band n67
+        - label: NR Band n70
+        - label: NR Band n71
+        - label: NR Band n74
+        - label: NR Band n75
+        - label: NR Band n76
+        - label: NR Band n77
+        - label: NR Band n78
+        - label: NR Band n79
+        - label: NR Band n80
+        - label: NR Band n81
+        - label: NR Band n82
+        - label: NR Band n83
+        - label: NR Band n84
+        - label: NR Band n85
+        - label: NR Band n86
+        - label: NR Band n89
+        - label: NR Band n90
+        - label: NR Band n91
+        - label: NR Band n92
+        - label: NR Band n93
+        - label: NR Band n94
+        - label: NR Band n95
+        - label: NR Band n96
+        - label: NR Band n97
+        - label: NR Band n98
+        - label: NR Band n99
+        - label: NR Band n100
+        - label: NR Band n101
+        - label: NR Band n102
+        - label: NR Band n104
+        - label: Anything else (explain below)
+    validations:
+      required: true
+
+  - type: textarea
+    id: comments
+    attributes:
+      label: Any additional comments?

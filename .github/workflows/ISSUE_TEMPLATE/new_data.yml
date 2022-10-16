@@ -1,0 +1,52 @@
+name: "New country's spectrum data"
+description: Adding a brand new country to the spectrum data package.
+labels: ["type/new country"]
+assignees:
+  - davwheat
+title: Adding new spectrum data for [...]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### Adding a new country to `mobile-spectrum-data`
+
+        > **If your country already has spectrum data, this is the wrong choice.**
+
+        Please follow the instructions below.
+
+  - type: input
+    id: country
+    attributes:
+      label: Country name (English)
+      description: The country's name in English.
+    validations:
+      required: true
+
+  - type: input
+    id: country_native
+    attributes:
+      label: Country name (native language)
+      description: The country's name in its native language.
+    validations:
+      required: true
+
+  - type: input
+    id: country_native
+    attributes:
+      label: Country two-letter code
+      description: The country's two-letter country code. See https://www.iban.com/country-codes
+    validations:
+      required: true
+
+  - type: textarea
+    id: json_upload
+    attributes:
+      label: JSON spectrum data file
+      description: Please drag and drop or upload the JSON file produced by https://mastdatabase.co.uk/spectrum-editor
+    validations:
+      required: true
+
+  - type: textarea
+    id: comments
+    attributes:
+      label: Any additional comments?
