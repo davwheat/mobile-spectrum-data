@@ -42,8 +42,8 @@ const B3: SimpleArfcnDataItem[] = [
     description: "Standard B3 deployment",
   },
   {
-    arfcn: 1575,
-    bandwidth: 15,
+    arfcn: 1800,
+    bandwidth: 20,
     operator: "Vivacom BG",
     description:
       "Standard B3 deployment, with n3 DSS in urban areas and on highways",
