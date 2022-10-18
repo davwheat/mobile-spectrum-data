@@ -3,8 +3,8 @@ import { mapArfcnListToBand } from "../utils/mapArfcnListToBand";
 
 const n3: SimpleArfcnDataItem[] = [
   {
-    arfcn: 368410,
-    bandwidth: 15,
+    arfcn: 372730,
+    bandwidth: 20,
     operator: "Vivacom BG",
     description: "DSS n3 in urban areas and on highways",
   },
