@@ -10,17 +10,20 @@ This dataset is [licensed under the GNU LGPLv3 license](./LICENSE).
 - [Package structure](#package-structure)
   - [Spectrum allocation and usage](#spectrum-allocation-and-usage)
 - [LTE and NR band data](#lte-and-nr-band-data)
+- [Editing spectrum](#editing-spectrum)
 
 ## Supported countries
 
 Countries with data in this package are included below. If yours is misisng, why not contribute?
 
-| Country           |
-| ----------------- |
-| 🇬🇧 United Kingdom |
-| 🇩🇰 Denmark        |
-| 🇩🇪 Germany        |
-| 🇧🇬 Bulgaria       |
+| Country                |
+| ---------------------- |
+| 🇦🇹 Austria             |
+| 🇧🇬 Bulgaria            |
+| 🇩🇪 Germany             |
+| 🇩🇰 Denmark             |
+| 🇫🇮 Finland (and Åland) |
+| 🇬🇧 United Kingdom      |
 
 ## Package structure
 
@@ -41,7 +44,7 @@ This imported data will be an array of Javascript objects with the keys `names` 
 ```ts
 {
   names: ["B8", "n8"],
-  spectrumData: [ ... ]
+  spectrumData: [ /* ... */ ]
 }
 ```
 
@@ -51,7 +54,7 @@ Sometimes multiple bands are contained within one single file. A good example of
 
 ```ts
 import Band8GB from "mobile-spectrum-data/GB/8";
-import Band32_75_76GB from "mobile-spectrum-data/DK/32_75_76";
+import Band32_75_76DK from "mobile-spectrum-data/DK/32_75_76";
 ```
 
 ## LTE and NR band data
@@ -72,3 +75,7 @@ import { LTEBandData, NRBandData } from "mobile-spectrum-data/BandInfo";
 import { LTEBandData } from "mobile-spectrum-data/BandInfo/LTEBandData";
 import { NRBandData } from "mobile-spectrum-data/BandInfo/NRBandData";
 ```
+
+## Editing spectrum
+
+Need help editing spectrum? Try [my GUI spectrum editor](https://mastdatabase.co.uk/spectrum-editor).
