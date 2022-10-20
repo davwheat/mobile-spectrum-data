@@ -35,7 +35,6 @@ const data: SpectrumBlock[] = [
       startFreq: 1740,
       endFreq: 1760,
     },
-    earfcns: "Unallocated",
   },
   {
     owner: "Vivacom BG",
@@ -60,7 +59,6 @@ const data: SpectrumBlock[] = [
       startFreq: 1780,
       endFreq: 1785,
     },
-    earfcns: "Unallocated",
   },
 ];
 

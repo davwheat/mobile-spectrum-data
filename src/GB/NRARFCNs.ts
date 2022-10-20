@@ -199,39 +199,40 @@ const n78: SimpleArfcnDataItem[] = [
     arfcn: 636384,
     bandwidth: 40,
     operator: "EE",
-    description: "E/// - Standard n78 deployment - primary carrier (n78C1)",
+    description: "E/// - Deprecated n78 deployment - primary carrier (n78C1)",
   },
   {
     arfcn: 636960,
     bandwidth: 40,
     operator: "EE",
     description:
-      "Nokia - Standard (rarer) n78 deployment - primary carrier (n78C1)",
+      "Nokia/Huawei - Standard n78 deployment - primary carrier (n78C1)",
   },
   {
     arfcn: 637334,
     bandwidth: 40,
     operator: "EE",
-    description: "Standard n78 deployment - primary carrier (n78C1)",
+    description: "Huawei - Standard n78 deployment - primary carrier (n78C1)",
   },
   {
     arfcn: 637344,
     bandwidth: 40,
     operator: "EE",
     description:
-      "Standard n78 deployment - primary carrier (n78C1) - Nokia (old)",
+      "Nokia (old) - Standard n78 deployment - primary carrier (n78C1)",
   },
   {
     arfcn: 646272,
     bandwidth: 40,
     operator: "EE",
-    description: "Standard n78 deployment - secondary carrier (n78C2)",
+    description:
+      "Nokia/E/// - Standard n78 deployment - secondary carrier (n78C2)",
   },
   {
     arfcn: 646656,
     bandwidth: 40,
     operator: "EE",
-    description: "E/// - Standard n78 deployment - secondary carrier (n78C2)",
+    description: "E/// - Deprecated n78 deployment - secondary carrier (n78C2)",
   },
   {
     arfcn: 640548,
