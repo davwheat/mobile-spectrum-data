@@ -2,7 +2,7 @@ import type { SpectrumBlock } from "../@types";
 
 const data: SpectrumBlock[] = [
   {
-    owner: "Yettel BG",
+    owner: "Yettel",
     startFreq: 2110,
     endFreq: 2125,
     type: "fddDown",
@@ -15,7 +15,7 @@ const data: SpectrumBlock[] = [
     details: ["LTE B1 15 MHz nationwide deployment"],
   },
   {
-    owner: "Yettel BG",
+    owner: "Yettel",
     startFreq: 2125,
     endFreq: 2130,
     type: "fddDown",
@@ -28,7 +28,7 @@ const data: SpectrumBlock[] = [
     details: ["UMTS B1 5 MHz nationwide deployment"],
   },
   {
-    owner: "A1 BG",
+    owner: "A1",
     startFreq: 2130,
     endFreq: 2150,
     type: "fddDown",
@@ -44,7 +44,7 @@ const data: SpectrumBlock[] = [
     ],
   },
   {
-    owner: "Vivacom BG",
+    owner: "Vivacom",
     startFreq: 2150,
     endFreq: 2155,
     type: "fddDown",
@@ -57,7 +57,7 @@ const data: SpectrumBlock[] = [
     details: ["UMTS B1 5 MHz nationwide deployment"],
   },
   {
-    owner: "Vivacom BG",
+    owner: "Vivacom",
     startFreq: 2155,
     endFreq: 2170,
     type: "fddDown",

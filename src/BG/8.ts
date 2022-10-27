@@ -2,7 +2,7 @@ import type { SpectrumBlock } from "../@types";
 
 const data: SpectrumBlock[] = [
   {
-    owner: "A1 BG",
+    owner: "A1",
     startFreq: 925.1,
     endFreq: 926.9,
     type: "fddDown",
@@ -26,7 +26,7 @@ const data: SpectrumBlock[] = [
     },
   },
   {
-    owner: "Yettel BG",
+    owner: "Yettel",
     startFreq: 927.1,
     endFreq: 928.9,
     type: "fddDown",
@@ -50,7 +50,7 @@ const data: SpectrumBlock[] = [
     },
   },
   {
-    owner: "Vivacom BG",
+    owner: "Vivacom",
     startFreq: 929.1,
     endFreq: 934.1,
     type: "fddDown",
@@ -62,7 +62,7 @@ const data: SpectrumBlock[] = [
     earfcns: [3516],
   },
   {
-    owner: "Vivacom BG",
+    owner: "Vivacom",
     startFreq: 934.1,
     endFreq: 938.7,
     type: "fddDown",
@@ -74,7 +74,7 @@ const data: SpectrumBlock[] = [
     uarfcns: [2981],
   },
   {
-    owner: "Vivacom BG",
+    owner: "Vivacom",
     startFreq: 938.7,
     endFreq: 940.3,
     type: "fddDown",
@@ -98,7 +98,7 @@ const data: SpectrumBlock[] = [
     },
   },
   {
-    owner: "A1 BG",
+    owner: "A1",
     startFreq: 940.7,
     endFreq: 945.5,
     type: "fddDown",
@@ -110,7 +110,7 @@ const data: SpectrumBlock[] = [
     uarfcns: [3016],
   },
   {
-    owner: "A1 BG",
+    owner: "A1",
     startFreq: 945.5,
     endFreq: 950.1,
     type: "fddDown",
@@ -134,7 +134,7 @@ const data: SpectrumBlock[] = [
     },
   },
   {
-    owner: "Yettel BG",
+    owner: "Yettel",
     startFreq: 950.5,
     endFreq: 955.5,
     type: "fddDown",
@@ -146,7 +146,7 @@ const data: SpectrumBlock[] = [
     uarfcns: [3065],
   },
   {
-    owner: "Yettel BG",
+    owner: "Yettel",
     startFreq: 955.5,
     endFreq: 959.9,
     type: "fddDown",
