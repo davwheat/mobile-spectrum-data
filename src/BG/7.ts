@@ -40,6 +40,7 @@ const data: SpectrumBlock[] = [
   },
   {
     owner: "Vivacom",
+    ownerLongName: "Vivacom Bulgaria",
     startFreq: 2670,
     endFreq: 2690,
     type: "fddDown",
