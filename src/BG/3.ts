@@ -2,7 +2,8 @@ import type { SpectrumBlock } from "../@types";
 
 const data: SpectrumBlock[] = [
   {
-    owner: "A1 BG",
+    owner: "A1",
+    ownerLongName: "A1 Bulgaria",
     startFreq: 1805,
     endFreq: 1820,
     type: "fddDown",
@@ -14,30 +15,43 @@ const data: SpectrumBlock[] = [
     earfcns: [1275],
   },
   {
-    owner: "Yettel BG",
+    owner: "Unallocated",
     startFreq: 1820,
-    endFreq: 1835,
+    endFreq: 1830,
     type: "fddDown",
     pairedWith: {
       type: "fddUp",
       startFreq: 1725,
-      endFreq: 1740,
+      endFreq: 1735,
     },
-    earfcns: [1425],
+  },
+  {
+    owner: "Yettel",
+    ownerLongName: "Yettel Bulgaria",
+    startFreq: 1830,
+    endFreq: 1850,
+    type: "fddDown",
+    pairedWith: {
+      type: "fddUp",
+      startFreq: 1735,
+      endFreq: 1755,
+    },
+    earfcns: [1550],
   },
   {
     owner: "Unallocated",
-    startFreq: 1835,
+    startFreq: 1850,
     endFreq: 1855,
     type: "fddDown",
     pairedWith: {
       type: "fddUp",
-      startFreq: 1740,
+      startFreq: 1755,
       endFreq: 1760,
     },
   },
   {
-    owner: "Vivacom BG",
+    owner: "Vivacom",
+    ownerLongName: "Vivacom Bulgaria",
     startFreq: 1855,
     endFreq: 1875,
     type: "fddDown",

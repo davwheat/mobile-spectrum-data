@@ -13,7 +13,8 @@ const data: SpectrumBlock[] = [
     },
   },
   {
-    owner: "A1 BG",
+    owner: "A1",
+    ownerLongName: "A1 Bulgaria",
     startFreq: 2630,
     endFreq: 2650,
     type: "fddDown",
@@ -25,7 +26,8 @@ const data: SpectrumBlock[] = [
     earfcns: [2950],
   },
   {
-    owner: "Yettel BG",
+    owner: "Yettel",
+    ownerLongName: "Yettel Bulgaria",
     startFreq: 2650,
     endFreq: 2670,
     type: "fddDown",
@@ -37,7 +39,8 @@ const data: SpectrumBlock[] = [
     earfcns: [3150],
   },
   {
-    owner: "Vivacom BG",
+    owner: "Vivacom",
+    ownerLongName: "Vivacom Bulgaria",
     startFreq: 2670,
     endFreq: 2690,
     type: "fddDown",
