@@ -14,6 +14,7 @@ const data: SpectrumBlock[] = [
   },
   {
     owner: "A1",
+    ownerLongName: "A1 Bulgaria",
     startFreq: 2630,
     endFreq: 2650,
     type: "fddDown",
@@ -26,6 +27,7 @@ const data: SpectrumBlock[] = [
   },
   {
     owner: "Yettel",
+    ownerLongName: "Yettel Bulgaria",
     startFreq: 2650,
     endFreq: 2670,
     type: "fddDown",

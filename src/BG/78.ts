@@ -15,12 +15,14 @@ const data: SpectrumBlock[] = [
   },
   {
     owner: "Yettel",
+    ownerLongName: "Yettel Bulgaria",
     startFreq: 3440,
     endFreq: 3460,
     type: "tdd",
   },
   {
     owner: "A1",
+    ownerLongName: "A1 Bulgaria",
     startFreq: 3460,
     endFreq: 3480,
     type: "tdd",
@@ -33,6 +35,7 @@ const data: SpectrumBlock[] = [
   },
   {
     owner: "Yettel",
+    ownerLongName: "Yettel Bulgaria",
     startFreq: 3500,
     endFreq: 3600,
     type: "tdd",
@@ -40,6 +43,7 @@ const data: SpectrumBlock[] = [
   },
   {
     owner: "A1",
+    ownerLongName: "A1 Bulgaria",
     startFreq: 3600,
     endFreq: 3700,
     type: "tdd",

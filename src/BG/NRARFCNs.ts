@@ -14,13 +14,13 @@ const n78: SimpleArfcnDataItem[] = [
   {
     arfcn: 636576,
     bandwidth: 100,
-    operator: "Yettel",
+    operator: "Yettel BG",
     description: "100 MHz n78 standard deployment",
   },
   {
     arfcn: 643296,
     bandwidth: 100,
-    operator: "A1",
+    operator: "A1 BG",
     description: "100 MHz n78 standard deployment",
   },
   {
