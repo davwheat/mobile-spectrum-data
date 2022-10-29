@@ -61,6 +61,7 @@ const data: SpectrumBlock[] = [
       endFreq: 1780,
     },
     earfcns: [1800],
+    nrarfcns: [372730],
     details: ["LTE B3 20 MHz, n3 DSS in urban areas and on highways"],
   },
   {
