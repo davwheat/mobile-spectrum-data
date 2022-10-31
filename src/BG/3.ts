@@ -5,7 +5,7 @@ const data: SpectrumBlock[] = [
     owner: "A1",
     ownerLongName: "A1 Bulgaria",
     startFreq: 1805,
-    endFreq: 1820,
+    endFreq: 1825,
     type: "fddDown",
     pairedWith: {
       type: "fddUp",
