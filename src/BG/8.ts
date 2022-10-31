@@ -167,7 +167,7 @@ const data: SpectrumBlock[] = [
     earfcns: [3774, 3780],
     arfcns: "ARFCNs 103-124",
     details: [
-      "No B8 LTE in Sofia, most of the country has 3780 3 MHz, Varna has 3774 3 MHz. The rest of the spectrum is used for 2G.",
+      "LTE EARFCN 3780 for most of the country with 3 MHz, Varna has 3774 3 MHz, Sofia has 3774 with 5 MHz. The rest of the spectrum is used for 2G.",
     ],
   },
 ];

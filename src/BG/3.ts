@@ -10,18 +10,18 @@ const data: SpectrumBlock[] = [
     pairedWith: {
       type: "fddUp",
       startFreq: 1710,
-      endFreq: 1725,
+      endFreq: 1730,
     },
-    earfcns: [1275],
+    earfcns: [1300],
   },
   {
     owner: "Unallocated",
-    startFreq: 1820,
+    startFreq: 1825,
     endFreq: 1830,
     type: "fddDown",
     pairedWith: {
       type: "fddUp",
-      startFreq: 1725,
+      startFreq: 1730,
       endFreq: 1735,
     },
   },
