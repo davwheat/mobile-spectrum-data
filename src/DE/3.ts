@@ -28,25 +28,16 @@ const data: SpectrumBlock[] = [
   {
     owner: "Vodafone",
     startFreq: 1855,
-    endFreq: 1875,
-    type: "fddDown",
-    pairedWith: {
-      type: "fddUp",
-      startFreq: 1760,
-      endFreq: 1780,
-    },
-    earfcns: [1801],
-  },
-  {
-    owner: "Vodafone",
-    startFreq: 1875,
     endFreq: 1880,
     type: "fddDown",
     pairedWith: {
       type: "fddUp",
-      startFreq: 1780,
+      startFreq: 1760,
       endFreq: 1785,
     },
+    earfcns: [1801],
+    nrarfcns: [372750, 375390],
+    details: ["LTE/NR DSS, 20 MHz LTE + 20 or 25 MHz NR"],
   },
 ];
 
