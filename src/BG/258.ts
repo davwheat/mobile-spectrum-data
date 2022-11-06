@@ -121,7 +121,9 @@ const data: SpectrumBlock[] = [
     startFreq: 26700,
     endFreq: 26900,
     type: "tdd",
-    details: ["Applications for this spectrum have been submitted by both A1 and Vivacom"],
+    details: [
+      "Applications for this spectrum have been submitted by both A1 and Vivacom",
+    ],
   },
   {
     owner: "Vivacom",
