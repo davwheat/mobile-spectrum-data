@@ -16,6 +16,11 @@ const operators: IOperatorInfo[] = [
     aliases: ["Vivacom"],
     color: "#141317",
   },
+  {
+    name: "Ministry of Defence of Bulgaria",
+    aliases: ["MoD"],
+    color: "#01319d",
+  },
 ];
 
 export default operators;
