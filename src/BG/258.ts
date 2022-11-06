@@ -1,0 +1,143 @@
+import type { SpectrumBlock } from "../@types";
+
+const data: SpectrumBlock[] = [
+  {
+    owner: "Yettel",
+    ownerLongName: "Yettel Bulgaria",
+    startFreq: 24300,
+    endFreq: 24700,
+    type: "tdd",
+  },
+  {
+    owner: "?",
+    startFreq: 24700,
+    endFreq: 24745,
+    type: "tdd",
+  },
+  {
+    owner: "Yettel",
+    ownerLongName: "Yettel Bulgaria",
+    startFreq: 24745,
+    endFreq: 24885,
+    type: "tdd",
+    details: ["In use for microwave backhaul"],
+  },
+  {
+    owner: "?",
+    startFreq: 24885,
+    endFreq: 24900,
+    type: "tdd",
+  },
+  {
+    owner: "Yettel",
+    ownerLongName: "Yettel Bulgaria",
+    startFreq: 24900,
+    endFreq: 25100,
+    type: "tdd",
+  },
+  {
+    owner: "?",
+    startFreq: 25100,
+    endFreq: 25219,
+    type: "tdd",
+  },
+  {
+    owner: "A1",
+    ownerLongName: "A1 Bulgaria",
+    startFreq: 25219,
+    endFreq: 25389,
+    type: "tdd",
+    details: ["In use for microwave backhaul"],
+  },
+  {
+    owner: "MoD",
+    ownerLongName: "Ministry of Defence of Bulgaria",
+    startFreq: 25389,
+    endFreq: 25500,
+    type: "tdd",
+  },
+  {
+    owner: "Unallocated",
+    startFreq: 25500,
+    endFreq: 25700,
+    type: "tdd",
+  },
+  {
+    owner: "?",
+    startFreq: 25700,
+    endFreq: 25753,
+    type: "tdd",
+  },
+  {
+    owner: "Yettel",
+    ownerLongName: "Yettel Bulgaria",
+    startFreq: 25753,
+    endFreq: 25893,
+    type: "tdd",
+  },
+  {
+    owner: "?",
+    startFreq: 25893,
+    endFreq: 25900,
+    type: "tdd",
+  },
+  {
+    owner: "A1",
+    ownerLongName: "A1 Bulgaria",
+    startFreq: 25900,
+    endFreq: 26100,
+    type: "tdd",
+  },
+  {
+    owner: "?",
+    startFreq: 26100,
+    endFreq: 26227,
+    type: "tdd",
+  },
+  {
+    owner: "A1",
+    ownerLongName: "A1 Bulgaria",
+    startFreq: 26227,
+    endFreq: 26397,
+    type: "tdd",
+    details: ["In use for microwave backhaul"],
+  },
+  {
+    owner: "MoD",
+    ownerLongName: "Ministry of Defence of Bulgaria",
+    startFreq: 26397,
+    endFreq: 26500,
+    type: "tdd",
+  },
+  {
+    owner: "A1",
+    ownerLongName: "A1 Bulgaria",
+    startFreq: 26500,
+    endFreq: 26700,
+    type: "tdd",
+  },
+  {
+    owner: "Unallocated",
+    startFreq: 26700,
+    endFreq: 26900,
+    type: "tdd",
+    details: [
+      "Applications for this spectrum have been submitted by both A1 and Vivacom",
+    ],
+  },
+  {
+    owner: "Vivacom",
+    ownerLongName: "Vivacom Bulgaria",
+    startFreq: 26900,
+    endFreq: 27300,
+    type: "tdd",
+  },
+  {
+    owner: "Unallocated",
+    startFreq: 27300,
+    endFreq: 27500,
+    type: "tdd",
+  },
+];
+
+export default data;
