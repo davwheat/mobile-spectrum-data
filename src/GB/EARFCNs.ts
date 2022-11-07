@@ -206,13 +206,13 @@ const B20: SimpleArfcnDataItem[] = [
   {
     arfcn: 6225,
     bandwidth: 5,
-    operator: "Three",
+    operator: "EE",
     description: "Standard B20 deployment",
   },
   {
     arfcn: 6175,
     bandwidth: 5,
-    operator: "EE",
+    operator: "Three",
     description: "Standard B20 deployment",
   },
 ];
