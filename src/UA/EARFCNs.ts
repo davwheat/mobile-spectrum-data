@@ -3,28 +3,34 @@ import { mapArfcnListToBand } from "../utils/mapArfcnListToBand";
 
 const B1: SimpleArfcnDataItem[] = [
   {
-    arfcn: 75,
-    bandwidth: 15,
-    operator: "Yettel Bulgaria",
-    description: "Standard B1 deployment",
+    arfcn: 150,
+    bandwidth: 10,
+    operator: "lifecell",
+    description: "B1 10 MHz (3G 10 MHz)",
   },
   {
-    arfcn: 300,
-    bandwidth: 20,
-    operator: "A1 Bulgaria",
-    description: "Standard L21 (5 MHz U21 refarmed to LTE) deployment",
+    arfcn: 175,
+    bandwidth: 5,
+    operator: "lifecell",
+    description: "B1 5 MHz (3G 15 MHz)",
   },
   {
-    arfcn: 275,
-    bandwidth: 15,
-    operator: "A1 Bulgaria",
-    description: "Standard U21+L21 deployment",
+    arfcn: 374,
+    bandwidth: 5,
+    operator: "Vodafone Ukraine",
+    description: "B1 on a single cell",
   },
   {
-    arfcn: 525,
-    bandwidth: 15,
-    operator: "Vivacom",
-    description: "Standard B1 deployment",
+    arfcn: 399,
+    bandwidth: 5,
+    operator: "Vodafone Ukraine",
+    description: "Standard B1 5 MHz (3G 10 MHz)",
+  },
+  {
+    arfcn: 550,
+    bandwidth: 10,
+    operator: "Kyivstar",
+    description: "B1 10 MHz (3G 5 MHz)",
   },
 ];
 
@@ -32,70 +38,101 @@ const B3: SimpleArfcnDataItem[] = [
   {
     arfcn: 1275,
     bandwidth: 15,
-    operator: "A1 Bulgaria",
-    description: "Standard B3 deployment",
+    operator: "lifecell",
+    description: "B3 15 MHz deployment",
   },
   {
-    arfcn: 1550,
+    arfcn: 1300,
+    bandwidth: 10,
+    operator: "lifecell",
+    description: "B3 10 MHz deployment",
+  },
+  {
+    arfcn: 1500,
     bandwidth: 20,
-    operator: "Yettel Bulgaria",
+    operator: "Kyivstar",
     description: "Standard B3 deployment",
   },
   {
     arfcn: 1800,
     bandwidth: 20,
-    operator: "Vivacom",
-    description:
-      "Standard B3 deployment, with n3 DSS in urban areas and on highways",
+    operator: "Vodafone Urkaine",
+    description: "Standard B3 deployment, 2G/4G DSS",
   },
 ];
 
 const B7: SimpleArfcnDataItem[] = [
   {
-    arfcn: 2950,
-    bandwidth: 20,
-    operator: "A1 Bulgaria",
+    arfcn: 2900,
+    bandwidth: 10,
+    operator: "Vodafone Ukraine",
+    description: "Standard B7 deployment",
+  },
+  {
+    arfcn: 3025,
+    bandwidth: 15,
+    operator: "Kyivstar",
     description: "Standard B7 deployment",
   },
   {
     arfcn: 3150,
-    bandwidth: 20,
-    operator: "Yettel Bulgaria",
-    description: "Standard B7 deployment",
+    bandwidth: 10,
+    operator: "lifecell",
+    description: "Standard B7 deployment - carrier 1",
   },
   {
-    arfcn: 3350,
-    bandwidth: 20,
-    operator: "Vivacom",
-    description: "Standard B7 deployment",
+    arfcn: 3425,
+    bandwidth: 5,
+    operator: "lifecell",
+    description: "Standard B7 deployment - carrier 2",
   },
 ];
 
 const B8: SimpleArfcnDataItem[] = [
   {
-    arfcn: 3516,
+    arfcn: 3575,
     bandwidth: 5,
-    operator: "Vivacom",
+    operator: "Kyivstar",
     description: "Standard 5 MHz B8 deployment",
   },
   {
-    arfcn: 3678,
-    bandwidth: 4.6,
-    operator: "A1 Bulgaria",
-    description:
-      "Standard B8 deployment - signalled as 5 MHz, operating on 4.6 MHz of spectrum due to LTE's 0.5 MHz guard band for 5 MHz bandwidth.",
+    arfcn: 3615,
+    bandwidth: 3,
+    operator: "lifecell",
+    description: "Standard 3 MHz B8 deployment",
   },
   {
-    arfcn: 3774,
-    bandwidth: 3,
-    operator: "Yettel Bulgaria",
-    description: "B8 deployment in Varna",
+    arfcn: 3625,
+    bandwidth: 5,
+    operator: "lifecell",
+    description: "Standard 3 MHz B8 deployment",
   },
   {
-    arfcn: 3780,
+    arfcn: 3676,
     bandwidth: 3,
-    operator: "Yettel Bulgaria",
-    description: "Standard B8 deployment",
+    operator: "Vodafone Ukraine",
+    description: "Standard 3 MHz B8 deployment",
+  },
+  {
+    arfcn: 3676,
+    bandwidth: 5,
+    operator: "Vodafone Ukraine",
+    description: "Standard 5 MHz B8 deployment",
+  },
+];
+
+const B40: SimpleArfcnDataItem[] = [
+  {
+    arfcn: 39300,
+    bandwidth: 20,
+    operator: "Kyivstar",
+    description: "Standard B40 deployment - contiguous carrier 1",
+  },
+  {
+    arfcn: 39498,
+    bandwidth: 20,
+    operator: "Kyivstar",
+    description: "Standard B40 deployment - contiguous carrier 1",
   },
 ];
 
@@ -104,6 +141,7 @@ const EARFCNs: ArfcnDataItem[] = [
   ...mapArfcnListToBand(3, B3),
   ...mapArfcnListToBand(7, B7),
   ...mapArfcnListToBand(8, B8),
+  ...mapArfcnListToBand(40, B40),
 ];
 
 export default EARFCNs;

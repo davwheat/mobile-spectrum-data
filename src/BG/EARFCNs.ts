@@ -30,8 +30,8 @@ const B1: SimpleArfcnDataItem[] = [
 
 const B3: SimpleArfcnDataItem[] = [
   {
-    arfcn: 1275,
-    bandwidth: 15,
+    arfcn: 1300,
+    bandwidth: 20,
     operator: "A1 Bulgaria",
     description: "Standard B3 deployment",
   },
