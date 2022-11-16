@@ -29,6 +29,8 @@ const data: SpectrumBlock[] = [
       endFreq: 723,
     },
     earfcns: [9360],
+    nrarfcns: [154570],
+    details: ["Limited n28 DSS deployment"],
   },
   {
     owner: "EE",

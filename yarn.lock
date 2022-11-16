@@ -108,10 +108,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:^18.11.2":
-  version: 18.11.2
-  resolution: "@types/node@npm:18.11.2"
-  checksum: 0ff5c90fb9ab653e018b858479aea4d2f763b07b31f9502383d408936f525ca37cac82ea27774a0dd0356ff9badba2792a6a3fff94f79fd7c82ee2a892c43ed5
+"@types/node@npm:^18.11.9":
+  version: 18.11.9
+  resolution: "@types/node@npm:18.11.9"
+  checksum: cc0aae109e9b7adefc32eecb838d6fad931663bb06484b5e9cbbbf74865c721b03d16fd8d74ad90e31dbe093d956a7c2c306ba5429ba0c00f3f7505103d7a496
   languageName: node
   linkType: hard
 
@@ -474,7 +474,7 @@ __metadata:
   dependencies:
     "@expo/spawn-async": ^1.7.0
     "@jsdevtools/npm-publish": ^1.4.3
-    "@types/node": ^18.11.2
+    "@types/node": ^18.11.9
     chalk: ^5.1.2
     cross-env: ^7.0.3
     fs-extra: ^10.1.0

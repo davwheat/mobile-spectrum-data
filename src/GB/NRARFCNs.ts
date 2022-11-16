@@ -82,12 +82,6 @@ const n8: SimpleArfcnDataItem[] = [
 
 const n28: SimpleArfcnDataItem[] = [
   {
-    arfcn: 156510,
-    bandwidth: 10,
-    operator: "EE",
-    description: "Standard n28 deployment",
-  },
-  {
     arfcn: 152210,
     bandwidth: 10,
     operator: "O2",
@@ -98,6 +92,18 @@ const n28: SimpleArfcnDataItem[] = [
     bandwidth: 10,
     operator: "O2",
     description: "Nokia - standard n28 deployment",
+  },
+  {
+    arfcn: 156510,
+    bandwidth: 10,
+    operator: "EE",
+    description: "Standard n28 deployment",
+  },
+  {
+    arfcn: 154570,
+    bandwidth: 10,
+    operator: "Three",
+    description: "Standard n28 deployment",
   },
 ];
 
