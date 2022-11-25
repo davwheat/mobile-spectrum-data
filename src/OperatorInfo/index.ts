@@ -5,6 +5,7 @@ import { default as OperatorsDE } from "./DE";
 import { default as OperatorsDK } from "./DK";
 import { default as OperatorsGB } from "./GB";
 import { default as OperatorsFI } from "./FI";
+import { default as OperatorsRO } from "./RO";
 import { default as OperatorsUA } from "./UA";
 
 const allCountries: Record<string, IOperatorInfo[]> = {
@@ -15,6 +16,7 @@ const allCountries: Record<string, IOperatorInfo[]> = {
   DK: OperatorsDK,
   GB: OperatorsGB,
   FI: OperatorsFI,
+  RO: OperatorsRO,
   UA: OperatorsUA,
 };
 
@@ -26,6 +28,7 @@ export {
   OperatorsDK,
   OperatorsGB,
   OperatorsFI,
+  OperatorsRO,
   OperatorsUA,
 };
 
