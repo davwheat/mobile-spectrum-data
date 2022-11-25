@@ -16,6 +16,7 @@ const data: SpectrumBlock[] = [
   },
   {
     owner: "Orange",
+    ownerLongName: "Orange Romania",
     startFreq: 3530,
     endFreq: 3645,
     type: "tdd",
@@ -33,6 +34,7 @@ const data: SpectrumBlock[] = [
   },
   {
     owner: "Digi",
+    ownerLongName: "RCS & RDS",
     startFreq: 3700,
     endFreq: 3750,
     type: "tdd",

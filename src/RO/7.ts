@@ -3,6 +3,7 @@ import type { SpectrumBlock } from "../@types";
 const data: SpectrumBlock[] = [
   {
     owner: "Telekom",
+    ownerLongName: "Telekom Romania",
     startFreq: 2620,
     endFreq: 2630,
     type: "fddDown",
@@ -11,10 +12,11 @@ const data: SpectrumBlock[] = [
       startFreq: 2500,
       endFreq: 2510,
     },
-    details: "Not deployed anywhere.",
+    details: "Not deployed anywhere",
   },
   {
     owner: "Orange",
+    ownerLongName: "Orange Romania",
     startFreq: 2630,
     endFreq: 2650,
     type: "fddDown",
@@ -27,6 +29,7 @@ const data: SpectrumBlock[] = [
   },
   {
     owner: "Digi",
+    ownerLongName: "RCS & RDS",
     startFreq: 2650,
     endFreq: 2670,
     type: "fddDown",
@@ -40,6 +43,7 @@ const data: SpectrumBlock[] = [
   },
   {
     owner: "Digi",
+    ownerLongName: "RCS & RDS",
     startFreq: 2670,
     endFreq: 2690,
     type: "fddDown",
@@ -48,7 +52,7 @@ const data: SpectrumBlock[] = [
       startFreq: 2550,
       endFreq: 2570,
     },
-    details: "Secondary B7 carrier from 2023.",
+    details: "Secondary B7 carrier from 2023",
   },
 ];
 

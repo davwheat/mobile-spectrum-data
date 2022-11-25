@@ -3,6 +3,7 @@ import type { SpectrumBlock } from "../@types";
 const data: SpectrumBlock[] = [
   {
     owner: "Vodafone",
+    ownerLongName: "Vodafone Romania",
     startFreq: 1805,
     endFreq: 1815,
     type: "fddDown",
@@ -14,12 +15,13 @@ const data: SpectrumBlock[] = [
     arfcns: "very uncommon - ARFCNs 512 to 535",
     earfcns: [1256, 1283],
     details: [
-      "Secondary B3 carrier in a contiguous configuration.",
-      "Usually 10 MHz, rarely 5 MHz with 5 MHz 2G."
+      "Secondary B3 carrier in a contiguous configuration",
+      "Usually 10 MHz, rarely 5 MHz with 5 MHz 2G",
     ]
     },
   {
     owner: "Vodafone",
+    ownerLongName: "Vodafone Romania",
     startFreq: 1815,
     endFreq: 1835,
     type: "fddDown",
@@ -29,10 +31,11 @@ const data: SpectrumBlock[] = [
       endFreq: 1740,
     },
     earfcns: [1400],
-    details: "Primary B3 carrier"
+    details: "Primary B3 carrier",
   },
   {
     owner: "Orange",
+    ownerLongName: "Orange Romania",
     startFreq: 1835,
     endFreq: 1855,
     type: "fddDown",
@@ -45,6 +48,7 @@ const data: SpectrumBlock[] = [
   },
   {
     owner: "Telekom",
+    ownerLongName: "Telekom Romania",
     startFreq: 1855,
     endFreq: 1855.6,
     type: "fddDown",
@@ -60,6 +64,7 @@ const data: SpectrumBlock[] = [
   },
   {
     owner: "Telekom",
+    ownerLongName: "Telekom Romania",
     startFreq: 1855.6,
     endFreq: 1874.6,
     type: "fddDown",
@@ -75,6 +80,7 @@ const data: SpectrumBlock[] = [
   },
   {
     owner: "Telekom",
+    ownerLongName: "Telekom Romania",
     startFreq: 1874.6,
     endFreq: 1880,
     type: "fddDown",

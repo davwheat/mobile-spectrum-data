@@ -3,6 +3,7 @@ import type { SpectrumBlock } from "../@types";
 const data: SpectrumBlock[] = [
   {
     owner: "Digi",
+    ownerLongName: "RCS & RDS",
     startFreq: 2110.3,
     endFreq: 2125.3,
     type: "fddDown",
@@ -13,11 +14,12 @@ const data: SpectrumBlock[] = [
     },
     earfcns: [78],
     details: [
-      "B1 3G UMTS was removed in favour of B1 LTE.",
+      "B1 3G UMTS was removed in favour of B1 LTE",
     ],
   },
   {
     owner: "Telekom",
+    ownerLongName: "Telekom Romania",
     startFreq: 2125.3,
     endFreq: 2140.1,
     type: "fddDown",
@@ -29,11 +31,12 @@ const data: SpectrumBlock[] = [
     earfcns: [251],
     uarfcns: [10639, 10664, 10689],
     details: [
-      "LTE B1 is 10 MHz where available.",
+      "LTE B1 is 10 MHz where available",
     ],
   },
   {
     owner: "Orange",
+    ownerLongName: "Orange Romania",
     startFreq: 2140.1,
     endFreq: 2154.9,
     type: "fddDown",
@@ -46,11 +49,12 @@ const data: SpectrumBlock[] = [
     uarfcns: [10713, 10738, 10763],
     nrarfcns: [430000],
     details: [
-      "LTE B1 is 10 MHz where available. 5G NR operating as DSS n1.",
+      "LTE B1 is 10 MHz where available. 5G NR operating as DSS n1",
     ],
   },
   {
     owner: "Vodafone",
+    ownerLongName: "Vodafone Romania",
     startFreq: 2154.9,
     endFreq: 2164.9,
     type: "fddDown",
@@ -62,11 +66,12 @@ const data: SpectrumBlock[] = [
     earfcns: [498],
     nrarfcns: [431960],
     details: [
-      "LTE B1 is always 10 MHz. 5G NR operating as DSS n1.",
+      "LTE B1 is always 10 MHz. 5G NR operating as DSS n1",
     ],
   },
   {
     owner: "Vodafone",
+    ownerLongName: "Vodafone Romania",
     startFreq: 2164.9,
     endFreq: 2169.7,
     type: "fddDown",
