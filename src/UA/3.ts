@@ -22,24 +22,11 @@ const data: SpectrumBlock[] = [
   {
     owner: "Kyivstar",
     startFreq: 1820,
-    endFreq: 1825,
-    type: "fddDown",
-    pairedWith: {
-      type: "fddUp",
-      startFreq: 1725,
-      endFreq: 1730,
-    },
-    earfcns: [],
-    details: [],
-  },
-  {
-    owner: "Kyivstar",
-    startFreq: 1825,
     endFreq: 1845,
     type: "fddDown",
     pairedWith: {
       type: "fddUp",
-      startFreq: 1730,
+      startFreq: 1725,
       endFreq: 1750,
     },
     arfcns: ["ARFCNs 587-610"],
