@@ -161,16 +161,28 @@ const B8: SimpleArfcnDataItem[] = [
 
 const B38: SimpleArfcnDataItem[] = [
   {
+    arfcn: 37902,
+    bandwidth: 20,
+    operator: "Vodafone Ukraine",
+    description: "B38 20 MHz deployment - carrier 1",
+  },
+  {
     arfcn: 37925,
     bandwidth: 15,
     operator: "Vodafone Ukraine",
-    description: "B38 deployment using Vega spectrum - carrier 1",
+    description: "B38 15 MHz deployment - carrier 1",
   },
   {
     arfcn: 38075,
     bandwidth: 15,
     operator: "Vodafone Ukraine",
-    description: "B38 deployment using Vega spectrum - carrier 2",
+    description: "B38 15 MHz deployment - carrier 2",
+  },
+  {
+    arfcn: 38100,
+    bandwidth: 20,
+    operator: "Vodafone Ukraine",
+    description: "B38 20 MHz deployment - carrier 2",
   },
 ];
 
