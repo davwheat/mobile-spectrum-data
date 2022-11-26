@@ -23,7 +23,11 @@ const data: SpectrumBlock[] = [
       startFreq: 2510,
       endFreq: 2520,
     },
-    earfcns: [2900],
+    earfcns: [2900, 2950],
+    details: [
+      "Standard B7 10 MHz deployment on EARFCN 2900",
+      "Some areas have B7 20 MHz on EARFCN 2950",
+    ]
   },
   {
     owner: "Kyivstar",
@@ -35,7 +39,11 @@ const data: SpectrumBlock[] = [
       startFreq: 2520,
       endFreq: 2535,
     },
-    earfcns: [3025],
+    earfcns: [3000, 3025],
+    details: [
+      "Standard B7 15 MHz deployment on EARFCN 3025",
+      "Some areas have B7 20 MHz on EARFCN 3000",
+    ]
   },
   {
     owner: "lifecell",
