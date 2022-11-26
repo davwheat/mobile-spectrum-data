@@ -24,7 +24,7 @@ const data: SpectrumBlock[] = [
     earfcns: [37925, 38075],
     details: [
       "Spectrum owned by Vega Telecommunications Ukraine",
-      "Deployed as a two 15 MHz carriers on Vodafone",
+      "Deployed as two 15 MHz carriers on Vodafone",
     ],
   },
   {

@@ -29,9 +29,8 @@ const data: SpectrumBlock[] = [
       startFreq: 1725,
       endFreq: 1730,
     },
-    arfcns: ["ARFCNs 587-610"],
-    earfcns: [1374],
-    details: ["2G 5 MHz or LTE B3 5 MHz"],
+    earfcns: [],
+    details: [],
   },
   {
     owner: "Kyivstar",
@@ -43,8 +42,9 @@ const data: SpectrumBlock[] = [
       startFreq: 1730,
       endFreq: 1750,
     },
-    earfcns: [1500],
-    details: ["LTE B3 20 MHz"],
+    arfcns: ["ARFCNs 587-610"],
+    earfcns: [1374, 1500],
+    details: ["First 5 MHz as 2G or LTE 5 MHz", "Standard LTE B3 20 MHz"],
   },
   {
     owner: "Vodafone",
