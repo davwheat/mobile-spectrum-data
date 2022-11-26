@@ -13,9 +13,7 @@ const data: SpectrumBlock[] = [
       endFreq: 1935.3,
     },
     earfcns: [78],
-    details: [
-      "B1 3G UMTS was removed in favour of B1 LTE",
-    ],
+    details: ["B1 3G UMTS was removed in favour of B1 LTE"],
   },
   {
     owner: "Telekom",
@@ -30,9 +28,7 @@ const data: SpectrumBlock[] = [
     },
     earfcns: [251],
     uarfcns: [10639, 10664, 10689],
-    details: [
-      "LTE B1 is 10 MHz where available",
-    ],
+    details: ["LTE B1 is 10 MHz where available"],
   },
   {
     owner: "Orange",
@@ -48,9 +44,7 @@ const data: SpectrumBlock[] = [
     earfcns: [400],
     uarfcns: [10713, 10738, 10763],
     nrarfcns: [430000],
-    details: [
-      "LTE B1 is 10 MHz where available. 5G NR operating as DSS n1",
-    ],
+    details: ["LTE B1 is 10 MHz where available. 5G NR operating as DSS n1"],
   },
   {
     owner: "Vodafone",
@@ -65,9 +59,7 @@ const data: SpectrumBlock[] = [
     },
     earfcns: [498],
     nrarfcns: [431960],
-    details: [
-      "LTE B1 is always 10 MHz. 5G NR operating as DSS n1",
-    ],
+    details: ["LTE B1 is always 10 MHz. 5G NR operating as DSS n1"],
   },
   {
     owner: "Vodafone",

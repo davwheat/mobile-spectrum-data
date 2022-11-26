@@ -96,13 +96,15 @@ const B7: SimpleArfcnDataItem[] = [
     arfcn: 2950,
     bandwidth: 20,
     operator: "Vodafone Ukraine",
-    description: "B7 20 MHz deployment in some areas since the beginning of the war",
+    description:
+      "B7 20 MHz deployment in some areas since the beginning of the war",
   },
   {
     arfcn: 3000,
     bandwidth: 20,
     operator: "Kyivstar",
-    description: "B7 20 MHz deployment in some areas since the beginning of the war",
+    description:
+      "B7 20 MHz deployment in some areas since the beginning of the war",
   },
   {
     arfcn: 3025,

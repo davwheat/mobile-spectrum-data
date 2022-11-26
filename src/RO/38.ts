@@ -11,7 +11,7 @@ const data: SpectrumBlock[] = [
     details: [
       "37800 10 MHz and 37950 20 MHz in Huawei areas",
       "37902 20 MHz and 38100 20 MHz in Nokia and Ericsson areas",
-    ]
+    ],
   },
   {
     owner: "Unallocated",

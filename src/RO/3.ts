@@ -17,8 +17,8 @@ const data: SpectrumBlock[] = [
     details: [
       "Secondary B3 carrier in a contiguous configuration",
       "Usually 10 MHz, rarely 5 MHz with 5 MHz 2G",
-    ]
-    },
+    ],
+  },
   {
     owner: "Vodafone",
     ownerLongName: "Vodafone Romania",
@@ -58,9 +58,7 @@ const data: SpectrumBlock[] = [
       endFreq: 1760.6,
     },
     arfcns: [761, 762, 763],
-    details: [
-      "2G with no BCCH except on metro lines and some indoor cells",
-    ]
+    details: ["2G with no BCCH except on metro lines and some indoor cells"],
   },
   {
     owner: "Telekom",
@@ -74,9 +72,7 @@ const data: SpectrumBlock[] = [
       endFreq: 1779.6,
     },
     earfcns: [1798],
-    details: [
-      "LTE presents as 20 MHz but uses less resource blocks",
-    ]
+    details: ["LTE presents as 20 MHz but uses less resource blocks"],
   },
   {
     owner: "Telekom",

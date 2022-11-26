@@ -59,10 +59,7 @@ const data: SpectrumBlock[] = [
     },
     arfcns: ["ARFCNs 712-810"],
     earfcns: [1700],
-    details: [
-      "LTE B3 20 MHz DSS with 2G",
-      "LTE B3 15 MHz in some areas",
-    ],
+    details: ["LTE B3 20 MHz DSS with 2G", "LTE B3 15 MHz in some areas"],
   },
   {
     owner: "Kyivstar",

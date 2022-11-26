@@ -28,7 +28,9 @@ const data: SpectrumBlock[] = [
     },
     arfcns: "ARFCNs 0-24",
     earfcns: [3578],
-    details: ["B8 3 MHz LTE in the process of being decommissioned in favour of B20 LTE and B8 2G"],
+    details: [
+      "B8 3 MHz LTE in the process of being decommissioned in favour of B20 LTE and B8 2G",
+    ],
   },
   {
     owner: "Telekom",
@@ -62,9 +64,7 @@ const data: SpectrumBlock[] = [
     },
     arfcns: "ARFCNs 75-124",
     uarfcns: [3083],
-    details: [
-      "B8 3G not always deployed in urban areas",
-    ],
+    details: ["B8 3G not always deployed in urban areas"],
   },
 ];
 

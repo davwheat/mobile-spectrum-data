@@ -13,9 +13,7 @@ const data: SpectrumBlock[] = [
     startFreq: 2575,
     endFreq: 2580,
     type: "tdd",
-    details: [
-      "Spectrum owned by Vega Telecommunications Ukraine",
-    ]
+    details: ["Spectrum owned by Vega Telecommunications Ukraine"],
   },
   {
     owner: "Vodafone",
@@ -27,7 +25,7 @@ const data: SpectrumBlock[] = [
     details: [
       "Spectrum owned by Vega Telecommunications Ukraine",
       "Deployed as a 15 MHz carrier on Vodafone",
-    ]
+    ],
   },
   {
     owner: "Vodafone",
@@ -39,7 +37,7 @@ const data: SpectrumBlock[] = [
     details: [
       "Spectrum owned by Vega Telecommunications Ukraine",
       "Deployed as a 15 MHz carrier on Vodafone",
-    ]
+    ],
   },
   {
     owner: "Unallocated",

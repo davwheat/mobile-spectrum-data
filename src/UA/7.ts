@@ -27,7 +27,7 @@ const data: SpectrumBlock[] = [
     details: [
       "Standard B7 10 MHz deployment on EARFCN 2900",
       "Some areas have B7 20 MHz on EARFCN 2950",
-    ]
+    ],
   },
   {
     owner: "Kyivstar",
@@ -43,7 +43,7 @@ const data: SpectrumBlock[] = [
     details: [
       "Standard B7 15 MHz deployment on EARFCN 3025",
       "Some areas have B7 20 MHz on EARFCN 3000",
-    ]
+    ],
   },
   {
     owner: "lifecell",

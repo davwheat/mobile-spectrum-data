@@ -57,7 +57,8 @@ const B3: SimpleArfcnDataItem[] = [
     arfcn: 1798,
     bandwidth: 20,
     operator: "Telekom",
-    description: "Standard B3 deployment - less than 100 resource blocks due to 2G",
+    description:
+      "Standard B3 deployment - less than 100 resource blocks due to 2G",
   },
 ];
 
@@ -81,7 +82,8 @@ const B8: SimpleArfcnDataItem[] = [
     arfcn: 3578,
     bandwidth: 3,
     operator: "Digi",
-    description: "Standard B8 deployment - in the process of being refarmed to 2G",
+    description:
+      "Standard B8 deployment - in the process of being refarmed to 2G",
   },
   {
     arfcn: 3650,
@@ -143,7 +145,6 @@ const B38: SimpleArfcnDataItem[] = [
     operator: "Digi",
     description: "Standard B38 deployment - in Nokia and Ericsson areas",
   },
-
 ];
 
 const EARFCNs: ArfcnDataItem[] = [
