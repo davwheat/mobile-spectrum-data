@@ -117,18 +117,9 @@ const data: SpectrumBlock[] = [
     type: "tdd",
   },
   {
-    owner: "Unallocated",
-    startFreq: 26700,
-    endFreq: 26900,
-    type: "tdd",
-    details: [
-      "Applications for this spectrum have been submitted by both A1 and Vivacom",
-    ],
-  },
-  {
     owner: "Vivacom",
     ownerLongName: "Vivacom Bulgaria",
-    startFreq: 26900,
+    startFreq: 26700,
     endFreq: 27300,
     type: "tdd",
   },
