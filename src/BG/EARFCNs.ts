@@ -9,22 +9,42 @@ const B1: SimpleArfcnDataItem[] = [
     description: "Standard B1 deployment",
   },
   {
-    arfcn: 300,
-    bandwidth: 20,
+    arfcn: 250,
+    bandwidth: 10,
     operator: "A1 Bulgaria",
-    description: "Standard L21 (5 MHz U21 refarmed to LTE) deployment",
+    description:
+      "B1 deployment in Sofia metro lines 1, 2 and 4 (with UMTS B1 10 MHz)",
   },
   {
     arfcn: 275,
     bandwidth: 15,
     operator: "A1 Bulgaria",
-    description: "Standard U21+L21 deployment",
+    description: "Indoor deployment (with UMTS B1 5 MHz)",
+  },
+  {
+    arfcn: 300,
+    bandwidth: 20,
+    operator: "A1 Bulgaria",
+    description: "Standard B1 deployment",
+  },
+  {
+    arfcn: 500,
+    bandwidth: 20,
+    operator: "Vivacom",
+    description: "Test B1 20 MHz deployment",
   },
   {
     arfcn: 525,
     bandwidth: 15,
     operator: "Vivacom",
     description: "Standard B1 deployment",
+  },
+  {
+    arfcn: 550,
+    bandwidth: 10,
+    operator: "Vivacom",
+    description:
+      "B1 deployment in Sofia metro lines 1, 2 and 4 (with UMTS B1 10 MHz)",
   },
 ];
 
@@ -87,15 +107,15 @@ const B8: SimpleArfcnDataItem[] = [
   },
   {
     arfcn: 3774,
-    bandwidth: 3,
+    bandwidth: [3, 5],
     operator: "Yettel Bulgaria",
-    description: "B8 deployment in Varna",
+    description: "B8 deployment, usually with 5 MHz bandwidth",
   },
   {
     arfcn: 3780,
     bandwidth: 3,
     operator: "Yettel Bulgaria",
-    description: "Standard B8 deployment",
+    description: "B8 3 MHz deployment",
   },
 ];
 

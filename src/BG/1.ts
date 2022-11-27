@@ -40,10 +40,12 @@ const data: SpectrumBlock[] = [
       startFreq: 1940,
       endFreq: 1960,
     },
-    uarfcns: [10737],
-    earfcns: [275, 300],
+    uarfcns: [10712, 10737],
+    earfcns: [250, 275, 300],
     details: [
-      "LTE B1 20 MHz nationwide deployment, some areas have UMTS B1 5 MHz with LTE B1 15 MHz",
+      "LTE B1 20 MHz nationwide deployment",
+      "Indoor deployments use LTE B1 15 MHz (EARFCN 275) + UMTS B1 5 MHz",
+      "Sofia metro lines 1, 2 and 4 have LTE B1 10 MHz (EARFCN 250) + UMTS B1 10 MHz",
     ],
   },
   {
@@ -71,8 +73,11 @@ const data: SpectrumBlock[] = [
       startFreq: 1965,
       endFreq: 1980,
     },
-    earfcns: [525],
-    details: ["LTE B1 15 MHz nationwide deployment"],
+    earfcns: [525, 550],
+    details: [
+      "LTE B1 15 MHz nationwide deployment",
+      "Sofia metro lines 1, 2 and 4 have LTE B1 10 MHz (EARFCN 550) + UMTS B1 10 MHz",
+    ],
   },
 ];
 
