@@ -23,6 +23,8 @@ Countries with data in this package are included below. If yours is misisng, why
 | 🇩🇪 Germany             |
 | 🇩🇰 Denmark             |
 | 🇫🇮 Finland (and Åland) |
+| 🇷🇴 Romania             |
+| 🇺🇦 Ukraine             |
 | 🇬🇧 United Kingdom      |
 
 ## Package structure
