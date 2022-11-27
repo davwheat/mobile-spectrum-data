@@ -44,7 +44,10 @@ const data: SpectrumBlock[] = [
     earfcns: [400],
     uarfcns: [10713, 10738, 10763],
     nrarfcns: [430000],
-    details: ["LTE B1 is 10 MHz where available. 5G NR operating as DSS n1"],
+    details: [
+      "LTE B1 is 10 MHz where available",
+      "5G NR operating as non-DSS n1",
+    ],
   },
   {
     owner: "Vodafone",

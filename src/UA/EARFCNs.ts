@@ -143,19 +143,13 @@ const B8: SimpleArfcnDataItem[] = [
     arfcn: 3625,
     bandwidth: 5,
     operator: "lifecell",
-    description: "Standard 3 MHz B8 deployment",
-  },
-  {
-    arfcn: 3676,
-    bandwidth: 3,
-    operator: "Vodafone Ukraine",
-    description: "Standard 3 MHz B8 deployment",
-  },
-  {
-    arfcn: 3676,
-    bandwidth: 5,
-    operator: "Vodafone Ukraine",
     description: "Standard 5 MHz B8 deployment",
+  },
+  {
+    arfcn: 3676,
+    bandwidth: [3, 5],
+    operator: "Vodafone Ukraine",
+    description: "Standard B8 deployment",
   },
 ];
 

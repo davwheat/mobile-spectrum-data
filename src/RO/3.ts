@@ -58,7 +58,9 @@ const data: SpectrumBlock[] = [
       endFreq: 1760.6,
     },
     arfcns: [761, 762, 763],
-    details: ["2G with no BCCH except on metro lines and some indoor cells"],
+    details: [
+      "2G with no BCCH except on metro lines and cells with no low-band",
+    ],
   },
   {
     owner: "Telekom",
@@ -86,7 +88,7 @@ const data: SpectrumBlock[] = [
       endFreq: 1785,
     },
     arfcns: "ARFCNs 859 to 885",
-    details: "2G with no BCCH except on metro lines and some indoor cells",
+    details: "2G with no BCCH except on metro lines and cells with no low-band",
   },
 ];
 
