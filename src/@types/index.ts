@@ -68,10 +68,36 @@ export type SpectrumBlock =
   | GenericPairedSpectrumBlock;
 
 export interface SpectrumData {
+  /**
+   * Name of the bands represented in this allocation.
+   *
+   * @example
+   * `["B20"]`
+   *
+   * @example
+   * `["B32", "B75", "B76"]`
+   *
+   * @example
+   * `["B1", "n1"]`
+   */
   names: string[];
   extraInfo?: {
+    /**
+     * Adds extra detail to the allocation.
+     *
+     * Use for regional allocations. For example, `"in Kyiv"` or `"post spectrum swap"`.
+     */
     shortAddendum?: string;
+    /**
+     * A longer description about the purpose for the `shortAddendum`, or other info
+     * about the allocation.
+     */
     description?: string;
+    /**
+     * Use when this dataset is a regional allocation or some other
+     * non-standard allocation.
+     */
+    excludeFromSpectrumTotal?: boolean;
   };
   spectrumData: SpectrumBlock[];
 }
