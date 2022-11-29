@@ -35,7 +35,7 @@ const data: SpectrumBlock[] = [
   },
   {
     owner: "Vodafone",
-    ownerLongName: "Vodafone Urkaine",
+    ownerLongName: "Vodafone Ukraine",
     startFreq: 1845,
     endFreq: 1865,
     type: "fddDown",
