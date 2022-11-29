@@ -3,6 +3,7 @@ import type { SpectrumBlock } from "../@types";
 const data: SpectrumBlock[] = [
   {
     owner: "Vodafone",
+    ownerLongName: "Vodafone UK",
     startFreq: 2620,
     endFreq: 2640,
     type: "fddDown",

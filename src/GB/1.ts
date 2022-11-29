@@ -32,6 +32,7 @@ const data: SpectrumBlock[] = [
   },
   {
     owner: "O2",
+    ownerLongName: "O2 UK",
     startFreq: 2124.9,
     endFreq: 2134.9,
     type: "fddDown",
@@ -49,6 +50,7 @@ const data: SpectrumBlock[] = [
   },
   {
     owner: "Vodafone",
+    ownerLongName: "Vodafone UK",
     startFreq: 2134.9,
     endFreq: 2149.7,
     type: "fddDown",

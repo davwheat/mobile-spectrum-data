@@ -9,6 +9,7 @@ const data: SpectrumBlock[] = [
   },
   {
     owner: "VF",
+    ownerLongName: "Vodafone Romania",
     startFreq: 3490,
     endFreq: 3530,
     type: "tdd",
@@ -41,7 +42,8 @@ const data: SpectrumBlock[] = [
     nrarfcns: [648334],
   },
   {
-    owner: "SNR Radiocom",
+    owner: "SNR",
+    ownerLongName: "SNR Radiocom",
     startFreq: 3750,
     endFreq: 3800,
     type: "generic",

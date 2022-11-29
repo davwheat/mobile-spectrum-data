@@ -10,6 +10,7 @@ const data: SpectrumBlock[] = [
   },
   {
     owner: "O2",
+    ownerLongName: "O2 UK",
     startFreq: 2350,
     endFreq: 2390,
     type: "tdd",

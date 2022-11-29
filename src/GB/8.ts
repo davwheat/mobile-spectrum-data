@@ -3,6 +3,7 @@ import type { SpectrumBlock } from "../@types";
 const data: SpectrumBlock[] = [
   {
     owner: "Vodafone",
+    ownerLongName: "Vodafone UK",
     startFreq: 925.1,
     endFreq: 930.1,
     type: "fddDown",
@@ -16,6 +17,7 @@ const data: SpectrumBlock[] = [
   },
   {
     owner: "O2",
+    ownerLongName: "O2 UK",
     startFreq: 930.1,
     endFreq: 935.1,
     type: "fddDown",
@@ -30,6 +32,7 @@ const data: SpectrumBlock[] = [
   },
   {
     owner: "VF",
+    ownerLongName: "Vodafone UK",
     startFreq: 935.1,
     endFreq: 937.5,
     type: "fddDown",
@@ -46,6 +49,7 @@ const data: SpectrumBlock[] = [
   },
   {
     owner: "Vodafone",
+    ownerLongName: "Vodafone UK",
     startFreq: 937.5,
     endFreq: 947.5,
     type: "fddDown",
@@ -66,6 +70,7 @@ const data: SpectrumBlock[] = [
   },
   {
     owner: "O2",
+    ownerLongName: "O2 UK",
     startFreq: 947.5,
     endFreq: 957.5,
     type: "fddDown",
@@ -83,6 +88,7 @@ const data: SpectrumBlock[] = [
   },
   {
     owner: "O2",
+    ownerLongName: "O2 UK",
     startFreq: 957.5,
     endFreq: 959.9,
     type: "fddDown",
