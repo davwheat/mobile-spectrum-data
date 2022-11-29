@@ -9,17 +9,10 @@ const B1: SimpleArfcnDataItem[] = [
     description: "Standard B1 deployment",
   },
   {
-    arfcn: 250,
-    bandwidth: 10,
-    operator: "A1 Bulgaria",
-    description:
-      "B1 deployment in Sofia metro lines 1, 2 and 4 (with UMTS B1 10 MHz)",
-  },
-  {
     arfcn: 275,
     bandwidth: 15,
     operator: "A1 Bulgaria",
-    description: "Indoor deployment (with UMTS B1 5 MHz)",
+    description: "Indoor and metro deployment (with UMTS B1 5 MHz)",
   },
   {
     arfcn: 300,

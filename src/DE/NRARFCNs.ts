@@ -13,21 +13,21 @@ const n1: SimpleArfcnDataItem[] = [
 const n78: SimpleArfcnDataItem[] = [
   {
     arfcn: 628800,
-    bandwidth: 90,
+    bandwidth: [60, 80, 90],
     operator: "Vodafone DE",
-    description: "n78 deployment",
+    description: "Ericsson n78 deployment",
   },
   {
     arfcn: 629952,
-    bandwidth: 90,
+    bandwidth: [80, 90],
     operator: "Vodafone DE",
-    description: "n78 deployment",
+    description: "Huawei n78 deployment",
   },
   {
     arfcn: 631968,
-    bandwidth: 90,
+    bandwidth: [80, 90],
     operator: "Vodafone DE",
-    description: "n78 deployment",
+    description: "Huawei n78 deployment",
   },
   {
     arfcn: 633312,
@@ -37,7 +37,7 @@ const n78: SimpleArfcnDataItem[] = [
   },
   {
     arfcn: 638304,
-    bandwidth: 70,
+    bandwidth: [60, 70],
     operator: "O2 DE",
     description: "n78 deployment",
   },
