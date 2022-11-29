@@ -8,6 +8,7 @@ const data: SpectrumBlock[] = [
     endFreq: 3490,
     type: "tdd",
     nrarfcns: [628800, 629952, 631968],
+    details: "3400-3410 MHz only for indoor use",
   },
   {
     owner: "1&1",
