@@ -68,13 +68,13 @@ const B3: SimpleArfcnDataItem[] = [
   {
     arfcn: 1700,
     bandwidth: 20,
-    operator: "Vodafone Urkaine",
+    operator: "Vodafone Ukraine",
     description: "Standard B3 deployment, 2G/4G DSS",
   },
   {
     arfcn: 1700,
     bandwidth: 15,
-    operator: "Vodafone Urkaine",
+    operator: "Vodafone Ukraine",
     description: "B3 15 MHz deployment",
   },
   {
