@@ -5,6 +5,7 @@ export * as DE from "./DE";
 export * as DK from "./DK";
 export * as FI from "./FI";
 export * as GB from "./GB";
+export * as RO from "./RO";
 export * as UA from "./UA";
 
 export * as utils from "./utils";

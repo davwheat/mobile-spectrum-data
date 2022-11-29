@@ -19,8 +19,7 @@ const data: SpectrumBlock[] = [
     ],
   },
   {
-    owner: "Vodafone",
-    ownerLongName: "Vodafone Ukraine",
+    owner: "3Mob",
     startFreq: 2130,
     endFreq: 2135,
     type: "fddDown",
@@ -30,7 +29,7 @@ const data: SpectrumBlock[] = [
       endFreq: 1945,
     },
     uarfcns: [10662],
-    details: ["UMTS B1 5 MHz everywhere outside of Kyiv"],
+    details: ["UMTS B1 5 MHz in Kyiv"],
   },
   {
     owner: "Kyivstar",
@@ -59,7 +58,7 @@ const data: SpectrumBlock[] = [
     earfcns: [374, 399],
     details: [
       "LTE B1 15 MHz on EARFCN 374",
-      "UMTS B1 5 MHz, LTE B1 5 or 10 MHz on EARFCN 399",
+      "UMTS B1 5 MHz, LTE B1 10 MHz on EARFCN 399",
     ],
   },
   {

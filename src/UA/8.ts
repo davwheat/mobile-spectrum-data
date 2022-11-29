@@ -41,7 +41,10 @@ const data: SpectrumBlock[] = [
     },
     arfcns: "ARFCNs 26-49",
     earfcns: [3615, 3625],
-    details: ["LTE B8 3 MHz on 3615, LTE B8 5 MHz on 3625, 2G deployments"],
+    details: [
+      "LTE B8 3 MHz on 3615 with 2G deployments",
+      "LTE B8 5 MHz on 3625",
+    ],
   },
   {
     owner: "Vodafone",

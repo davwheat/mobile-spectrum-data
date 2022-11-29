@@ -18,19 +18,25 @@ const B1: SimpleArfcnDataItem[] = [
     arfcn: 374,
     bandwidth: 5,
     operator: "Vodafone Ukraine",
-    description: "B1 on a single cell",
+    description: "B1 15 MHz",
   },
   {
     arfcn: 399,
     bandwidth: 5,
     operator: "Vodafone Ukraine",
-    description: "Standard B1 5 MHz (3G 10 MHz)",
+    description: "Standard B1 10 MHz (3G 5 MHz)",
+  },
+  {
+    arfcn: 399,
+    bandwidth: 5,
+    operator: "Vodafone Ukraine",
+    description: "Standard B1 5 MHz (3G 5 MHz) (rare)",
   },
   {
     arfcn: 550,
     bandwidth: 10,
     operator: "Kyivstar",
-    description: "B1 10 MHz (3G 5 MHz)",
+    description: "Standard B1 10 MHz (3G 5 MHz)",
   },
 ];
 
@@ -48,16 +54,34 @@ const B3: SimpleArfcnDataItem[] = [
     description: "B3 10 MHz deployment",
   },
   {
+    arfcn: 1374,
+    bandwidth: 5,
+    operator: "Kyivstar",
+    description: "B3 5 MHz deployment",
+  },
+  {
     arfcn: 1500,
     bandwidth: 20,
     operator: "Kyivstar",
     description: "Standard B3 deployment",
   },
   {
-    arfcn: 1800,
+    arfcn: 1700,
     bandwidth: 20,
     operator: "Vodafone Urkaine",
     description: "Standard B3 deployment, 2G/4G DSS",
+  },
+  {
+    arfcn: 1700,
+    bandwidth: 15,
+    operator: "Vodafone Urkaine",
+    description: "B3 15 MHz deployment",
+  },
+  {
+    arfcn: 1850,
+    bandwidth: 10,
+    operator: "Kyivstar",
+    description: "B3 10 MHz deployment",
   },
 ];
 
@@ -67,6 +91,20 @@ const B7: SimpleArfcnDataItem[] = [
     bandwidth: 10,
     operator: "Vodafone Ukraine",
     description: "Standard B7 deployment",
+  },
+  {
+    arfcn: 2950,
+    bandwidth: 20,
+    operator: "Vodafone Ukraine",
+    description:
+      "B7 20 MHz deployment in some areas since the beginning of the war",
+  },
+  {
+    arfcn: 3000,
+    bandwidth: 20,
+    operator: "Kyivstar",
+    description:
+      "B7 20 MHz deployment in some areas since the beginning of the war",
   },
   {
     arfcn: 3025,
@@ -105,19 +143,40 @@ const B8: SimpleArfcnDataItem[] = [
     arfcn: 3625,
     bandwidth: 5,
     operator: "lifecell",
-    description: "Standard 3 MHz B8 deployment",
-  },
-  {
-    arfcn: 3676,
-    bandwidth: 3,
-    operator: "Vodafone Ukraine",
-    description: "Standard 3 MHz B8 deployment",
-  },
-  {
-    arfcn: 3676,
-    bandwidth: 5,
-    operator: "Vodafone Ukraine",
     description: "Standard 5 MHz B8 deployment",
+  },
+  {
+    arfcn: 3676,
+    bandwidth: [3, 5],
+    operator: "Vodafone Ukraine",
+    description: "Standard B8 deployment",
+  },
+];
+
+const B38: SimpleArfcnDataItem[] = [
+  {
+    arfcn: 37902,
+    bandwidth: 20,
+    operator: "Vodafone Ukraine",
+    description: "B38 20 MHz deployment - carrier 1",
+  },
+  {
+    arfcn: 37925,
+    bandwidth: 15,
+    operator: "Vodafone Ukraine",
+    description: "B38 15 MHz deployment - carrier 1",
+  },
+  {
+    arfcn: 38075,
+    bandwidth: 15,
+    operator: "Vodafone Ukraine",
+    description: "B38 15 MHz deployment - carrier 2",
+  },
+  {
+    arfcn: 38100,
+    bandwidth: 20,
+    operator: "Vodafone Ukraine",
+    description: "B38 20 MHz deployment - carrier 2",
   },
 ];
 
@@ -141,6 +200,7 @@ const EARFCNs: ArfcnDataItem[] = [
   ...mapArfcnListToBand(3, B3),
   ...mapArfcnListToBand(7, B7),
   ...mapArfcnListToBand(8, B8),
+  ...mapArfcnListToBand(38, B38),
   ...mapArfcnListToBand(40, B40),
 ];
 
