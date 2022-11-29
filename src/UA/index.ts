@@ -14,9 +14,12 @@ const data: SpectrumData[] = [
     spectrumData: Band1,
   },
   {
-    names: ["B1 in Kyiv"],
-    description:
-      "Allocation in Kyiv differs significantly from other regions of the country, so is displayed separately.",
+    names: ["B1"],
+    extraInfo: {
+      shortAddendum: "in Kyiv",
+      description:
+        "Allocation in Kyiv differs significantly from other regions of the country, so is displayed separately.",
+    },
     spectrumData: Band1_Kyiv,
   },
   {
