@@ -18,12 +18,27 @@ import EarfcnGB from "./src/GB/EARFCNs";
 import NrarfcnGB from "./src/GB/NRARFCNs";
 import BandDataGB from "./src/GB";
 
+import EarfcnFI from "./src/FI/EARFCNs";
+import NrarfcnFI from "./src/FI/NRARFCNs";
+import BandDataFI from "./src/FI";
+
+import EarfcnMK from "./src/MK/EARFCNs";
+import NrarfcnMK from "./src/MK/NRARFCNs";
+import BandDataMK from "./src/MK";
+
+import EarfcnRO from "./src/RO/EARFCNs";
+import NrarfcnRO from "./src/RO/NRARFCNs";
+import BandDataRO from "./src/RO";
+
 const toCheck = [
   { spectrum: BandDataAT, nr: NrarfcnAT, lte: EarfcnAT },
   { spectrum: BandDataBG, nr: NrarfcnBG, lte: EarfcnBG },
   { spectrum: BandDataDE, nr: NrarfcnDE, lte: EarfcnDE },
   { spectrum: BandDataDK, nr: NrarfcnDK, lte: EarfcnDK },
   { spectrum: BandDataGB, nr: NrarfcnGB, lte: EarfcnGB },
+  { spectrum: BandDataFI, nr: NrarfcnFI, lte: EarfcnFI },
+  { spectrum: BandDataMK, nr: NrarfcnMK, lte: EarfcnMK },
+  { spectrum: BandDataRO, nr: NrarfcnRO, lte: EarfcnRO },
 ];
 
 toCheck.forEach(({ spectrum, nr, lte }) => {
