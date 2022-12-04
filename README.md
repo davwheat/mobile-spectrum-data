@@ -81,3 +81,17 @@ import { NRBandData } from "mobile-spectrum-data/BandInfo/NRBandData";
 ## Editing spectrum
 
 Need help editing spectrum? Try [my GUI spectrum editor](https://mastdatabase.co.uk/spectrum-editor).
+
+## Developer documentation
+
+### Testing changes
+
+To test alongside [mastdatabase.co.uk](https://mastdatabase.co.uk/), you should:
+
+1. Clone both repos locally and check out the appropriate branch(es).
+2. Install dependencies in both repos (run `yarn`).
+3. In `mobile-spectrum-data`, run `yarn pub`. When asked for an OTP, hit `Ctrl + C` to cancel.
+4. In `mobile-spectrum-data`, delete the `package.json` and `yarn.lock` temporarily.
+5. In `mastdatabase.co.uk`, run `yarn link path/to/mobile-spectrum-data/publish-tmp`.
+6. Launch `mastdatabase.co.uk` locally with `yarn develop`.
+7. Test your changes!
