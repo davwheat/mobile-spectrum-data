@@ -6,6 +6,7 @@ import Band20 from "./20";
 import Band28 from "./28";
 import Band32 from "./32";
 import Band38 from "./38";
+import Band39 from "./39";
 import Band40 from "./40";
 import Band67 from "./67";
 import Band78 from "./78";
@@ -45,6 +46,10 @@ const data: SpectrumData[] = [
   {
     names: ["B38"],
     spectrumData: Band38,
+  },
+  {
+    names: ["B39"],
+    spectrumData: Band39,
   },
   {
     names: ["B40"],
