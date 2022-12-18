@@ -57,14 +57,27 @@ export function getOperatorColor(country: string, operator: string): string {
 
   if (!data) return backupColour;
 
-  const operatorInfo = data.find((o) => {
-    return (
-      o.name.toLowerCase() === operator.toLowerCase() ||
-      o.aliases.map((s) => s.toLowerCase()).includes(operator.toLowerCase())
-    );
-  });
+  const operatorInfo = getOperatorInfoByNameOrAlias(country, operator);
 
   if (!operatorInfo) return backupColour;
 
   return operatorInfo.color;
+}
+
+export function getOperatorInfoByNameOrAlias(
+  country: string,
+  name: string
+): IOperatorInfo | null {
+  const data = allCountries[country.toUpperCase()];
+
+  if (!data) return null;
+
+  const operatorInfo = data.find((o) => {
+    return (
+      o.name.toLowerCase() === name.toLowerCase() ||
+      o.aliases.map((s) => s.toLowerCase()).includes(name.toLowerCase())
+    );
+  });
+
+  return operatorInfo || null;
 }
