@@ -54,9 +54,13 @@ const data: SpectrumData[] = [
     spectrumData: Band78Cities,
   },
   {
-    names: [
-      "B42, B43 and n78 in Border Midlands and West, South West, East and South East",
-    ],
+    names: ["B42", "B43", "n78"],
+    extraInfo: {
+      shortAddendum: "(rural)",
+      description:
+        "Spectrum allocation visualisation for 3500 MHz within the Border Midlands, West, South West, East and South East regions.",
+      excludeFromSpectrumTotal: true,
+    },
     spectrumData: Band78Rural,
   },
 ];
