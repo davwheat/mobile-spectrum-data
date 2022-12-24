@@ -21,9 +21,9 @@ const data: SpectrumBlock[] = [
     startFreq: 3530,
     endFreq: 3645,
     type: "tdd",
-    nrarfcns: [636096, 639648, 639660],
+    nrarfcns: [636096, 639648],
     details: [
-      "Huawei n78 100MHz on 639660 or 639648",
+      "Huawei n78 100MHz on 639648",
       "Ericsson n78 both 100MHz and 80MHz on 636096",
     ],
   },
