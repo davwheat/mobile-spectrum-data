@@ -45,9 +45,12 @@ const data: SpectrumData[] = [
     spectrumData: Band40,
   },
   {
-    names: [
-      "B42, B43 and n78 in Dublin, Cork, Limerick, Galway, Waterford and their suburbs",
-    ],
+    names: ["B42", "B43", "n78"],
+    extraInfo: {
+      shortAddendum: "(large cities)",
+      description:
+        "Spectrum allocation visualisation for 3500 MHz within Dublin, Cork, Limerick, Galway, Waterford and their suburbs.",
+    },
     spectrumData: Band78Cities,
   },
   {
