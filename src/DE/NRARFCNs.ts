@@ -4,9 +4,24 @@ import { mapArfcnListToBand } from "../utils/mapArfcnListToBand";
 const n1: SimpleArfcnDataItem[] = [
   {
     arfcn: 431070,
-    bandwidth: 10,
-    operator: "Telekom",
-    description: "10 MHz DSS n1 deployment",
+    bandwidth: 20,
+    operator: "Telekom DE",
+    description: "20 MHz DSS n1 deployment",
+  },
+];
+
+const n3: SimpleArfcnDataItem[] = [
+  {
+    arfcn: 372750,
+    bandwidth: 20,
+    operator: "Vodadone DE",
+    description: "20 MHz DSS Ericsson n3 deployment",
+  },
+  {
+    arfcn: 375390,
+    bandwidth: 25,
+    operator: "Vodadone  DE",
+    description: "25 MHz DSS Huawei n3 deployment",
   },
 ];
 

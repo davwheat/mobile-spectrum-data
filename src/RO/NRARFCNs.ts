@@ -9,7 +9,7 @@ const n1: SimpleArfcnDataItem[] = [
     description: "NR + LTE DSS",
   },
   {
-    arfcn: 430000,
+    arfcn: 429424,
     bandwidth: 10,
     operator: "Orange",
     description: "NR only",
@@ -31,12 +31,6 @@ const n78: SimpleArfcnDataItem[] = [
   },
   {
     arfcn: 639648,
-    bandwidth: 100,
-    operator: "Orange",
-    description: "Huawei n78 deployment",
-  },
-  {
-    arfcn: 639660,
     bandwidth: 100,
     operator: "Orange",
     description: "Huawei n78 deployment",
