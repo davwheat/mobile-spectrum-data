@@ -21,6 +21,15 @@ const operators: IOperatorInfo[] = [
     aliases: ["BT"],
     color: "#007b85",
   },
+  {
+    name: "ESN",
+    aliases: [
+      "Emergency Services Network",
+      "Emergency Services Network (EE)",
+      "ESN (EE)",
+    ],
+    color: "#c63847",
+  },
 ];
 
 export default operators;
