@@ -47,7 +47,7 @@ const data: SpectrumData[] = [
   {
     names: ["B42", "B43", "n78"],
     extraInfo: {
-      shortAddendum: "(large cities)",
+      shortAddendum: "large cities",
       description:
         "Spectrum allocation visualisation for 3500 MHz within Dublin, Cork, Limerick, Galway, Waterford and their suburbs.",
     },
@@ -56,7 +56,7 @@ const data: SpectrumData[] = [
   {
     names: ["B42", "B43", "n78"],
     extraInfo: {
-      shortAddendum: "(rural)",
+      shortAddendum: "rural",
       description:
         "Spectrum allocation visualisation for 3500 MHz within the Border Midlands, West, South West, East and South East regions.",
       excludeFromSpectrumTotal: true,
