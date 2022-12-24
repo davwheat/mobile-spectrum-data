@@ -13,7 +13,7 @@ import type { SpectrumData } from "../@types";
 
 const data: SpectrumData[] = [
   {
-    names: ["B1"],
+    names: ["B1", "n1"],
     spectrumData: Band1,
   },
   {
