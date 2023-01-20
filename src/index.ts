@@ -3,6 +3,7 @@ export * as AX from "./AX";
 export * as BG from "./BG";
 export * as DE from "./DE";
 export * as DK from "./DK";
+export * as EE from "./EE";
 export * as FI from "./FI";
 export * as GB from "./GB";
 export * as IE from "./IE";

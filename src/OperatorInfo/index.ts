@@ -3,6 +3,7 @@ import { default as OperatorsAX } from "./FI";
 import { default as OperatorsBG } from "./BG";
 import { default as OperatorsDE } from "./DE";
 import { default as OperatorsDK } from "./DK";
+import { default as OperatorsEE } from "./EE";
 import { default as OperatorsGB } from "./GB";
 import { default as OperatorsIE } from "./IE";
 import { default as OperatorsFI } from "./FI";
@@ -16,6 +17,7 @@ const allCountries: Record<string, IOperatorInfo[]> = {
   BG: OperatorsBG,
   DE: OperatorsDE,
   DK: OperatorsDK,
+  EE: OperatorsEE,
   GB: OperatorsGB,
   IE: OperatorsIE,
   FI: OperatorsFI,
@@ -30,6 +32,7 @@ export {
   OperatorsBG,
   OperatorsDE,
   OperatorsDK,
+  OperatorsEE,
   OperatorsGB,
   OperatorsIE,
   OperatorsFI,
