@@ -11,6 +11,8 @@ This dataset is [licensed under the GNU LGPLv3 license](./LICENSE).
   - [Spectrum allocation and usage](#spectrum-allocation-and-usage)
 - [LTE and NR band data](#lte-and-nr-band-data)
 - [Editing spectrum](#editing-spectrum)
+- [Developer documentation](#developer-documentation)
+  - [Testing changes](#testing-changes)
 
 ## Supported countries
 
@@ -22,10 +24,13 @@ Countries with data in this package are included below. If yours is misisng, why
 | 🇧🇬 Bulgaria            |
 | 🇩🇪 Germany             |
 | 🇩🇰 Denmark             |
+| 🇪🇪 Estonia             |
 | 🇫🇮 Finland (and Åland) |
+| 🇬🇧 United Kingdom      |
+| 🇮🇪 Ireland             |
+| 🇲🇰 North Macedonia     |
 | 🇷🇴 Romania             |
 | 🇺🇦 Ukraine             |
-| 🇬🇧 United Kingdom      |
 
 ## Package structure
 
