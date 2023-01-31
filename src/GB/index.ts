@@ -9,6 +9,7 @@ import Band38 from "./38";
 import Band39 from "./39";
 import Band40 from "./40";
 import Band67 from "./67";
+import Band77 from "./77";
 import Band78 from "./78";
 import Band78_SpectrumSwap from "./78_swap";
 
@@ -58,6 +59,10 @@ const data: SpectrumData[] = [
   {
     names: ["B67"],
     spectrumData: Band67,
+  },
+  {
+    names: ["n77"],
+    spectrumData: Band77,
   },
   {
     names: ["n78"],
