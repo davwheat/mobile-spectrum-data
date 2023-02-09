@@ -2,7 +2,6 @@ import type { SpectrumBlock } from "../@types";
 
 const data: SpectrumBlock[] = [
   {
-    details: [],
     endFreq: 768,
     nrarfcns: [152690],
     owner: "Tele2",

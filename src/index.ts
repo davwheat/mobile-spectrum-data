@@ -7,6 +7,7 @@ export * as EE from "./EE";
 export * as FI from "./FI";
 export * as GB from "./GB";
 export * as IE from "./IE";
+export * as KR from "./KR";
 export * as MK from "./MK";
 export * as RO from "./RO";
 export * as UA from "./UA";
