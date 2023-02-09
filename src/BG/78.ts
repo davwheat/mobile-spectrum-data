@@ -26,6 +26,7 @@ const data: SpectrumBlock[] = [
     startFreq: 3460,
     endFreq: 3480,
     type: "tdd",
+    nrarfcns: [631392],
   },
   {
     owner: "Vivacom",
