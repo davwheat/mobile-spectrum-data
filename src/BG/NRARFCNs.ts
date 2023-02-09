@@ -10,6 +10,15 @@ const n3: SimpleArfcnDataItem[] = [
   },
 ];
 
+const n7: SimpleArfcnDataItem[] = [
+  {
+    arfcn: 534884,
+    bandwidth: 20,
+    operator: "Yettel Bulgaria",
+    description: "DSS n7 in some urban areas",
+  },
+];
+
 const n78: SimpleArfcnDataItem[] = [
   {
     arfcn: 636576,
