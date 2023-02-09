@@ -35,7 +35,6 @@ const data: SpectrumBlock[] = [
     type: "fddDown",
   },
   {
-    details: [],
     endFreq: 2150,
     owner: "SKT",
     ownerLongName: "SK Telecom",

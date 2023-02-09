@@ -2,7 +2,6 @@ import type { SpectrumBlock } from "../@types";
 
 const data: SpectrumBlock[] = [
   {
-    details: [],
     endFreq: 3500,
     owner: "LG U+",
     sourceInfo: {
@@ -13,7 +12,6 @@ const data: SpectrumBlock[] = [
     type: "tdd",
   },
   {
-    details: [],
     endFreq: 3600,
     nrarfcns: [636672],
     owner: "KT",
@@ -25,7 +23,6 @@ const data: SpectrumBlock[] = [
     type: "tdd",
   },
   {
-    details: [],
     endFreq: 3700,
     nrarfcns: [643392],
     owner: "SKT",
