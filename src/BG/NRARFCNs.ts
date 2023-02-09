@@ -21,6 +21,12 @@ const n7: SimpleArfcnDataItem[] = [
 
 const n78: SimpleArfcnDataItem[] = [
   {
+    arfcn: 631392,
+    bandwidth: 20,
+    operator: "A1 Bulgaria",
+    description: "20 MHz n78 deployment on Nokia 3rd gen equipment",
+  },
+  {
     arfcn: 636576,
     bandwidth: 100,
     operator: "Yettel Bulgaria",
@@ -33,7 +39,7 @@ const n78: SimpleArfcnDataItem[] = [
     description: "100 MHz n78 standard deployment",
   },
   {
-    arfcn: 628588,
+    arfcn: 649920,
     bandwidth: 100,
     operator: "Vivacom",
     description: "100 MHz n78 standard deployment",
