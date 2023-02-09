@@ -37,6 +37,8 @@ const data: SpectrumBlock[] = [
       endFreq: 2550,
     },
     earfcns: [3150],
+    nrarfcns: [534884],
+    details: ["LTE B7 20 MHz, n7 DSS in some urban areas"],
   },
   {
     owner: "Vivacom",
