@@ -11,6 +11,10 @@ const data: SpectrumBlock[] = [
     details: [
       "Supplemental downlink (must be aggregated with another carrier)",
     ],
+    sourceInfo: {
+      type: "url",
+      url: "https://www.ofcom.org.uk/__data/assets/pdf_file/0018/85005/SA-1452-1472-LICENCE-Vodafone-1053632.pdf",
+    },
   },
   {
     owner: "Three",
@@ -21,6 +25,10 @@ const data: SpectrumBlock[] = [
     details: [
       "Supplemental downlink (must be aggregated with another carrier)",
     ],
+    sourceInfo: {
+      type: "url",
+      url: "https://www.ofcom.org.uk/__data/assets/pdf_file/0028/84826/SA-1472-1492-LICENCE-H3G-1053624-18-05-18.pdf",
+    },
   },
 ];
 

@@ -14,6 +14,10 @@ const data: SpectrumBlock[] = [
     },
     arfcns: "uncommon - ARFCNs 975, 976, ...",
     uarfcns: [2938],
+    sourceInfo: {
+      type: "url",
+      url: "https://www.ofcom.org.uk/__data/assets/pdf_file/0025/83572/Cellular-LICENCE-Vodafone-0249664.pdf",
+    },
   },
   {
     owner: "O2",
@@ -29,6 +33,10 @@ const data: SpectrumBlock[] = [
     arfcns: "uncommon",
     uarfcns: [2963],
     details: ["Standard 3G 900 MHz band"],
+    sourceInfo: {
+      type: "url",
+      url: "https://www.ofcom.org.uk/__data/assets/pdf_file/0021/84045/Cellular-LICENCE-Telefonica-UK-0249663.pdf",
+    },
   },
   {
     owner: "VF",
@@ -46,6 +54,10 @@ const data: SpectrumBlock[] = [
       "Standard 2G 900 MHz band",
       "Some 4G deployments overlap into this spectrum, such as EARFCN 3610",
     ],
+    sourceInfo: {
+      type: "url",
+      url: "https://www.ofcom.org.uk/__data/assets/pdf_file/0025/83572/Cellular-LICENCE-Vodafone-0249664.pdf",
+    },
   },
   {
     owner: "Vodafone",
@@ -67,6 +79,10 @@ const data: SpectrumBlock[] = [
       "Many different 4G EARFCNs to cover the same spectrum",
       "Also now being used for Vodafone's private 5G SA network",
     ],
+    sourceInfo: {
+      type: "url",
+      url: "https://www.ofcom.org.uk/__data/assets/pdf_file/0025/83572/Cellular-LICENCE-Vodafone-0249664.pdf",
+    },
   },
   {
     owner: "O2",
@@ -85,6 +101,10 @@ const data: SpectrumBlock[] = [
       "3G is being refarmed into 4G, with 3G moving to the lower 5 MHz block",
       "Many different 4G EARFCNs to cover the same spectrum",
     ],
+    sourceInfo: {
+      type: "url",
+      url: "https://www.ofcom.org.uk/__data/assets/pdf_file/0021/84045/Cellular-LICENCE-Telefonica-UK-0249663.pdf",
+    },
   },
   {
     owner: "O2",
@@ -99,6 +119,10 @@ const data: SpectrumBlock[] = [
     },
     arfcns: "ARFCNs 113-124",
     details: ["Standard 2G 900 MHz band"],
+    sourceInfo: {
+      type: "url",
+      url: "https://www.ofcom.org.uk/__data/assets/pdf_file/0021/84045/Cellular-LICENCE-Telefonica-UK-0249663.pdf",
+    },
   },
 ];
 

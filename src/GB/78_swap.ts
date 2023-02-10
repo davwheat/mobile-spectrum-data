@@ -16,6 +16,10 @@ const data: SpectrumBlock[] = [
     type: "tdd",
     nrarfcns: [634080],
     details: ["Swapped spectrum with O2"],
+    sourceInfo: {
+      type: "url",
+      url: "https://www.ofcom.org.uk/manage-your-licence/radiocommunication-licences/mobile-wireless-broadband/below-5ghz",
+    },
   },
   {
     owner: "O2",
@@ -28,6 +32,10 @@ const data: SpectrumBlock[] = [
       "New 80 MHz contiguous spectrum after spectrum swap with Vodafone",
       "For live deployment find, see: https://twitter.com/davwheat_/status/1545377169286860806",
     ],
+    sourceInfo: {
+      type: "url",
+      url: "https://www.ofcom.org.uk/manage-your-licence/radiocommunication-licences/mobile-wireless-broadband/below-5ghz",
+    },
   },
 ];
 

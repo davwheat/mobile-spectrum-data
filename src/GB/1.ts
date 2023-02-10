@@ -12,6 +12,10 @@ const data: SpectrumBlock[] = [
       endFreq: 1924.9,
     },
     uarfcns: [10564],
+    sourceInfo: {
+      type: "url",
+      url: "https://www.ofcom.org.uk/__data/assets/pdf_file/0023/249134/SA-2100-LICENCE-H3G-1268475-18-11-22.pdf",
+    },
   },
   {
     owner: "Three",
@@ -29,6 +33,10 @@ const data: SpectrumBlock[] = [
       "UARFCN 10588 is being refarmed for B1 LTE.",
       "EARFCN 98 is used in areas where low-band priorities have been adjusted",
     ],
+    sourceInfo: {
+      type: "url",
+      url: "https://www.ofcom.org.uk/__data/assets/pdf_file/0023/249134/SA-2100-LICENCE-H3G-1268475-18-11-22.pdf",
+    },
   },
   {
     owner: "O2",
@@ -47,6 +55,10 @@ const data: SpectrumBlock[] = [
     details: [
       "B1 3G UMTS is being removed in favour of B1 LTE. 5G NR operating as DSS n1.",
     ],
+    sourceInfo: {
+      type: "url",
+      url: "https://www.ofcom.org.uk/__data/assets/pdf_file/0026/249137/SA-2100-LICENCE-Telefonica-UK-1268476-11-11-22.pdf",
+    },
   },
   {
     owner: "Vodafone",
@@ -67,6 +79,10 @@ const data: SpectrumBlock[] = [
       "For 3G: -687 means max 10 MHz B1 LTE; -712 means max 5 MHz; -736 means no LTE B1.",
       "15 MHz LTE B1 is in use due to LTE's 0.5 MHz guard on either side of the carrier, meaning that there is only 0.3 MHz of guard spectrum between Vodafone and EE's spectrum.",
     ],
+    sourceInfo: {
+      type: "url",
+      url: "https://www.ofcom.org.uk/__data/assets/pdf_file/0025/249145/SA-2100-LICENCE-Vodafone-1268478-15-11-22.pdf",
+    },
   },
   {
     owner: "EE",
@@ -79,6 +95,10 @@ const data: SpectrumBlock[] = [
       endFreq: 1964.7,
     },
     uarfcns: [10761],
+    sourceInfo: {
+      type: "url",
+      url: "https://www.ofcom.org.uk/__data/assets/pdf_file/0022/249133/SA-2100-LICENCE-EE-1268473-09-11-22.pdf",
+    },
   },
   {
     owner: "EE",
@@ -96,6 +116,10 @@ const data: SpectrumBlock[] = [
       "5G NR operating primarily as DSS n1, with some deployments as pure NR.",
       "Was used for B1 3G UMTS, but this has been refarmed to B1 LTE.",
     ],
+    sourceInfo: {
+      type: "url",
+      url: "https://www.ofcom.org.uk/__data/assets/pdf_file/0022/249133/SA-2100-LICENCE-EE-1268473-09-11-22.pdf",
+    },
   },
 ];
 

@@ -13,6 +13,10 @@ const data: SpectrumBlock[] = [
       endFreq: 1715.9,
     },
     earfcns: [1226, 1228],
+    sourceInfo: {
+      type: "url",
+      url: "https://www.ofcom.org.uk/__data/assets/pdf_file/0021/84045/Cellular-LICENCE-Telefonica-UK-0249663.pdf",
+    },
   },
   {
     owner: "VF",
@@ -27,6 +31,10 @@ const data: SpectrumBlock[] = [
     },
     arfcns: "very uncommon - ARFCNs 541 to 569",
     earfcns: [1288],
+    sourceInfo: {
+      type: "url",
+      url: "https://www.ofcom.org.uk/__data/assets/pdf_file/0025/83572/Cellular-LICENCE-Vodafone-0249664.pdf",
+    },
   },
   {
     owner: "Three",
@@ -39,6 +47,10 @@ const data: SpectrumBlock[] = [
       endFreq: 1736.7,
     },
     earfcns: [1392],
+    sourceInfo: {
+      type: "url",
+      url: "https://www.ofcom.org.uk/__data/assets/pdf_file/0020/83261/Cellular-LICENCE-Hutchison-3G-0931984.pdf",
+    },
   },
   {
     owner: "EE",
@@ -51,6 +63,10 @@ const data: SpectrumBlock[] = [
       endFreq: 1741.7,
     },
     arfcns: "ARFCNs 645-669",
+    sourceInfo: {
+      type: "url",
+      url: "https://www.ofcom.org.uk/__data/assets/pdf_file/0019/249130/Cellular-LICENCE-EE-0249666-09-11-22.pdf",
+    },
   },
   {
     owner: "EE",
@@ -63,6 +79,10 @@ const data: SpectrumBlock[] = [
       endFreq: 1761.7,
     },
     earfcns: [1617],
+    sourceInfo: {
+      type: "url",
+      url: "https://www.ofcom.org.uk/__data/assets/pdf_file/0019/249130/Cellular-LICENCE-EE-0249666-09-11-22.pdf",
+    },
   },
   {
     owner: "EE",
@@ -81,6 +101,10 @@ const data: SpectrumBlock[] = [
       "EARFCN 1815 split across this and next block.",
       "Used in conjuction with the next spectrum block for rural n3 20 MHz deployment.",
     ],
+    sourceInfo: {
+      type: "url",
+      url: "https://www.ofcom.org.uk/__data/assets/pdf_file/0019/249130/Cellular-LICENCE-EE-0249666-09-11-22.pdf",
+    },
   },
   {
     owner: "EE",
@@ -99,6 +123,10 @@ const data: SpectrumBlock[] = [
       "EARFCN 1815 split across this and previous block.",
       "Used on its own for EE's n3 10 MHz deployment, or in conjuction with the previous block for rural n3 20 MHz deployment.",
     ],
+    sourceInfo: {
+      type: "url",
+      url: "https://www.ofcom.org.uk/__data/assets/pdf_file/0019/249130/Cellular-LICENCE-EE-0249666-09-11-22.pdf",
+    },
   },
   {
     owner: "SAL",
@@ -118,6 +146,10 @@ const data: SpectrumBlock[] = [
       "Suitable for private 3 MHz FDD LTE/NR deployments (like my own!).",
       "Used by Telet Research for private LTE and multi-operator neutral host deployments.",
     ],
+    sourceInfo: {
+      type: "url",
+      url: "https://www.ofcom.org.uk/manage-your-licence/radiocommunication-licences/shared-access",
+    },
   },
 ];
 
