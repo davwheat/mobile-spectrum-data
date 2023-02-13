@@ -17,7 +17,7 @@ const data: SpectrumData[] = [
     spectrumData: Band3,
   },
   {
-    names: ["B7"],
+    names: ["B7", "n7"],
     spectrumData: Band7,
   },
   {

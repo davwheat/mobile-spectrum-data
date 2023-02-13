@@ -48,6 +48,7 @@ const n78: SimpleArfcnDataItem[] = [
 
 const NRARFCNs: ArfcnDataItem[] = [
   ...mapArfcnListToBand(3, n3),
+  ...mapArfcnListToBand(7, n7),
   ...mapArfcnListToBand(78, n78),
 ];
 
