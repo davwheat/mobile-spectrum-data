@@ -6,37 +6,37 @@ const n1: SimpleArfcnDataItem[] = [
     arfcn: 431810,
     bandwidth: 15,
     operator: "EE",
-    description: "NR + LTE DSS - trial deployment",
+    description: "NR + LTE DSS deployment",
   },
   {
     arfcn: 432530,
     bandwidth: 15,
     operator: "EE",
-    description: "NR only trial (may also be used for DSS) - trial deployment",
+    description: "NR only deployment (may also be used for DSS)",
   },
   {
     arfcn: 433250,
     bandwidth: 15,
     operator: "EE",
-    description: "NR + LTE DSS - trial deployment",
+    description: "NR + LTE DSS deployment",
   },
   {
     arfcn: 425980,
     bandwidth: 10,
     operator: "O2",
-    description: "E/// - NR + LTE DSS - limited trial deployment",
+    description: "E/// - NR + LTE DSS limited deployment",
   },
   {
     arfcn: 428190,
     bandwidth: 10,
     operator: "Vodafone",
-    description: "Huawei - NR + LTE DSS - limited trial deployment",
+    description: "Huawei - NR + LTE DSS deployment",
   },
   {
     arfcn: 427470,
     bandwidth: 10,
     operator: "Vodafone",
-    description: "E/// - NR + LTE DSS - limited trial deployment",
+    description: "E/// - NR + LTE DSS deployment",
   },
 ];
 
@@ -76,7 +76,7 @@ const n8: SimpleArfcnDataItem[] = [
     bandwidth: 10,
     operator: "Vodafone",
     description:
-      "n8 NR SA trial deployment - not accessible to personal customers",
+      "n8 NR SA deployment",
   },
 ];
 
@@ -149,13 +149,13 @@ const n78: SimpleArfcnDataItem[] = [
     arfcn: 631392,
     bandwidth: 40,
     operator: "Three",
-    description: "E/// NR CA n78 deployment - limited trial areas",
+    description: "E/// NR CA n78 deployment",
   },
   {
     arfcn: 632666,
     bandwidth: [20, 30],
     operator: "Three",
-    description: "Huawei NR CA n78 deployment - limited trial areas",
+    description: "Huawei NR CA n78 deployment",
   },
   {
     arfcn: 633696,
