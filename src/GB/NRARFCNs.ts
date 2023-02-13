@@ -75,8 +75,7 @@ const n8: SimpleArfcnDataItem[] = [
     arfcn: 188450,
     bandwidth: 10,
     operator: "Vodafone",
-    description:
-      "n8 NR SA deployment",
+    description: "n8 NR SA deployment",
   },
 ];
 
