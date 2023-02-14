@@ -13,6 +13,10 @@ const data: SpectrumBlock[] = [
       endFreq: 2520,
     },
     earfcns: [2850],
+    sourceInfo: {
+      type: "url",
+      url: "https://www.ofcom.org.uk/__data/assets/pdf_file/0026/83546/SA-800-2.6-LICENCE-Vodafone-0943538.pdf",
+    },
   },
   {
     owner: "EE",
@@ -31,6 +35,10 @@ const data: SpectrumBlock[] = [
       "3026 used for EE B7 on small cells.",
       "In use for initial EE n7 deployment at 15 MHz, to increase to 30 MHz then 50 MHz in the future.",
     ],
+    sourceInfo: {
+      type: "url",
+      url: "https://www.ofcom.org.uk/__data/assets/pdf_file/0020/249131/SA-2.6-GHz-LICENCE-EE-1191194-09-11-22.pdf",
+    },
   },
   {
     owner: "EE",
@@ -44,6 +52,10 @@ const data: SpectrumBlock[] = [
     },
     earfcns: [3179],
     details: "Secondary B7 carrier",
+    sourceInfo: {
+      type: "url",
+      url: "https://www.ofcom.org.uk/__data/assets/pdf_file/0021/249132/SA-800-2.6-LICENCE-EE-0943533-09-11-22.pdf",
+    },
   },
   {
     owner: "EE",
@@ -57,6 +69,10 @@ const data: SpectrumBlock[] = [
     },
     earfcns: [3350],
     details: "Primary B7 carrier",
+    sourceInfo: {
+      type: "url",
+      url: "https://www.ofcom.org.uk/__data/assets/pdf_file/0021/249132/SA-800-2.6-LICENCE-EE-0943533-09-11-22.pdf",
+    },
   },
 ];
 

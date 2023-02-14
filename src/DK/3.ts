@@ -36,6 +36,7 @@ const data: SpectrumBlock[] = [
       endFreq: 1765,
     },
     arfcns: "ARFCNs 762 - 773",
+    nrarfcns: [371570],
   },
   {
     owner: "TT",

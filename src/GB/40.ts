@@ -7,6 +7,10 @@ const data: SpectrumBlock[] = [
     startFreq: 2300,
     endFreq: 2310,
     type: "generic",
+    sourceInfo: {
+      type: "url",
+      url: "https://static.ofcom.org.uk/static/spectrum/map.html",
+    },
   },
   {
     owner: "MoD",
