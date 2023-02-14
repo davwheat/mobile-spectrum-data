@@ -2,7 +2,7 @@ import type { SpectrumBlock } from "../@types";
 
 const data: SpectrumBlock[] = [
   {
-    owner: "Yettel.",
+    owner: "Yettel",
     ownerLongName: "Yettel Srbija",
     startFreq: 1805,
     endFreq: 1825,

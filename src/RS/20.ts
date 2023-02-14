@@ -16,7 +16,7 @@ const data: SpectrumBlock[] = (
       earfcns: [6200],
     },
     {
-      owner: "Yettel.",
+      owner: "Yettel",
       ownerLongName: "Yettel Srbija",
       startFreq: 801,
       endFreq: 811,

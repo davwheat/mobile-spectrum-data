@@ -90,7 +90,7 @@ const data: SpectrumBlock[] = [
     },
   },
   {
-    owner: "Yettel.",
+    owner: "Yettel",
     ownerLongName: "Yettel Srbija",
     startFreq: 949.3,
     endFreq: 951.3,
@@ -107,7 +107,7 @@ const data: SpectrumBlock[] = [
     },
   },
   {
-    owner: "Yettel.",
+    owner: "Yettel",
     ownerLongName: "Yettel Srbija",
     startFreq: 951.3,
     endFreq: 956.3,
@@ -124,7 +124,7 @@ const data: SpectrumBlock[] = [
     },
   },
   {
-    owner: "Yettel.",
+    owner: "Yettel",
     ownerLongName: "Yettel Srbija",
     startFreq: 956.3,
     endFreq: 958.9,

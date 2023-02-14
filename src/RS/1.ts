@@ -2,7 +2,7 @@ import type { SpectrumBlock } from "../@types";
 
 const data: SpectrumBlock[] = [
   {
-    owner: "Yettel.",
+    owner: "Yettel",
     ownerLongName: "Yettel Srbija",
     startFreq: 2110,
     endFreq: 2125,
@@ -86,7 +86,7 @@ const data: SpectrumBlock[] = [
     },
   },
   {
-    owner: "Yettel.",
+    owner: "Yettel",
     ownerLongName: "Yettel Srbija",
     startFreq: 2155,
     endFreq: 2160,
@@ -97,14 +97,14 @@ const data: SpectrumBlock[] = [
       endFreq: 1970,
     },
     uarfcns: [10788],
-    details: ["Spectrum for temporariry use"],
+    details: ["Spectrum for temporary use"],
     sourceInfo: {
       type: "url",
       url: "https://www.ratel.rs/en/page/public-communications-networks",
     },
   },
   {
-    owner: "Yettel.",
+    owner: "Yettel",
     ownerLongName: "Yettel Srbija",
     startFreq: 2160,
     endFreq: 2170,
@@ -115,7 +115,7 @@ const data: SpectrumBlock[] = [
       endFreq: 1980,
     },
     earfcns: [550],
-    details: ["Spectrum for temporariry use"],
+    details: ["Spectrum for temporary use"],
     sourceInfo: {
       type: "url",
       url: "https://www.ratel.rs/en/page/public-communications-networks",
