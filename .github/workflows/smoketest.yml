@@ -28,6 +28,10 @@ jobs:
         run: |
           yarn format-check
 
+      - name: Validate ARFCN lists
+        run: |
+          yarn test
+
   build_test:
     runs-on: ubuntu-latest
     name: Test build
