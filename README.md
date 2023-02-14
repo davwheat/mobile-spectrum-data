@@ -30,6 +30,7 @@ Countries with data in this package are included below. If yours is misisng, why
 | 🇮🇪 Ireland             |
 | 🇲🇰 North Macedonia     |
 | 🇷🇴 Romania             |
+| 🇷🇸 Serbia              |
 | 🇺🇦 Ukraine             |
 
 ## Package structure
