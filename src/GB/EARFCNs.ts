@@ -276,6 +276,13 @@ const B38: SimpleArfcnDataItem[] = [
 
 const B40: SimpleArfcnDataItem[] = [
   {
+    arfcn: 39100,
+    bandwidth: 10,
+    operator: "ESN",
+    description:
+      "Emergency Services Network Air-to-Ground coverage and vehicle small cells",
+  },
+  {
     arfcn: 39250,
     bandwidth: 20,
     operator: "O2",
