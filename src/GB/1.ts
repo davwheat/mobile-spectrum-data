@@ -29,9 +29,11 @@ const data: SpectrumBlock[] = [
     },
     earfcns: [99, 98],
     uarfcns: [10588],
+    nrarfcns: [424130],
     details: [
       "UARFCN 10588 is being refarmed for B1 LTE.",
       "EARFCN 98 is used in areas where low-band priorities have been adjusted",
+      "NRARFCN 424130 starting to be used for n1 DSS deployments as of early 2023.",
     ],
     sourceInfo: {
       type: "url",
