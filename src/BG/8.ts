@@ -63,6 +63,7 @@ const data: SpectrumBlock[] = [
       endFreq: 889.1,
     },
     earfcns: [3516],
+    details: "Nationwide B8 LTE deployment",
   },
   {
     owner: "Vivacom",
@@ -76,6 +77,7 @@ const data: SpectrumBlock[] = [
       endFreq: 893.7,
     },
     uarfcns: [2981],
+    arfcns: [17],
   },
   {
     owner: "Vivacom",
@@ -89,7 +91,6 @@ const data: SpectrumBlock[] = [
       endFreq: 895.3,
     },
     arfcns: "ARFCNs 19-26",
-    details: "Nationwide B8 LTE deployment",
   },
   {
     owner: "?",
@@ -157,6 +158,7 @@ const data: SpectrumBlock[] = [
       endFreq: 910.5,
     },
     uarfcns: [3065],
+    arfcns: [78],
   },
   {
     owner: "Yettel",

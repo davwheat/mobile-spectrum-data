@@ -3,10 +3,22 @@ import { mapArfcnListToBand } from "../utils/mapArfcnListToBand";
 
 const B1: SimpleArfcnDataItem[] = [
   {
-    arfcn: 75,
-    bandwidth: 15,
+    arfcn: 100,
+    bandwidth: 20,
     operator: "Yettel Bulgaria",
     description: "Standard B1 deployment",
+  },
+  {
+    arfcn: 100,
+    bandwidth: 15,
+    operator: "Yettel Bulgaria",
+    description: "B1 deployment",
+  },
+  {
+    arfcn: 100,
+    bandwidth: 10,
+    operator: "Yettel Bulgaria",
+    description: "Indoor and metro B1 deployment",
   },
   {
     arfcn: 275,
