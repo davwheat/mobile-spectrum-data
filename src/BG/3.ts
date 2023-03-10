@@ -13,6 +13,7 @@ const data: SpectrumBlock[] = [
       endFreq: 1730,
     },
     earfcns: [1300],
+    arfcns: [514, 608],
   },
   {
     owner: "Unallocated",

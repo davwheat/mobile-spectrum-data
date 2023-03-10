@@ -14,7 +14,7 @@ const operators: IOperatorInfo[] = [
   {
     name: "Telekom Srbija",
     aliases: [],
-    color: "#ec1a3b",
+    color: "#f57e21",
   },
 ];
 
