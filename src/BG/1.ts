@@ -12,6 +12,7 @@ const data: SpectrumBlock[] = [
       startFreq: 1920,
       endFreq: 1940,
     },
+    uarfcns: [10638],
     earfcns: [100],
     details: [
       "LTE B1 20 MHz nationwide deployment",
