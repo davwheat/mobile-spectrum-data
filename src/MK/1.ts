@@ -13,6 +13,10 @@ const data: SpectrumBlock[] = [
     },
     earfcns: [150, 200],
     details: ["LTE 20 MHz"],
+    sourceInfo: {
+      type: "url",
+      url: "https://aek.mk/wp-content/uploads/2022/05/2.-20220517-Jane-Jakimovski-5G-Auction-in-Macedonia.pptx",
+    },
   },
   {
     owner: "Telekom",
@@ -30,6 +34,10 @@ const data: SpectrumBlock[] = [
       "10 MHz on EARFCN 356 - LTE",
       "20 MHz on EARFCN 500 - LTE/NR DSS",
     ],
+    sourceInfo: {
+      type: "url",
+      url: "https://aek.mk/wp-content/uploads/2022/05/2.-20220517-Jane-Jakimovski-5G-Auction-in-Macedonia.pptx",
+    },
   },
 ];
 
