@@ -2,13 +2,28 @@ import type { SpectrumBlock } from "../@types";
 
 const data: SpectrumBlock[] = [
   {
-    owner: "A1",
+    owner: "Unallocated",
     startFreq: 2110,
+    endFreq: 2120,
+    type: "fddDown",
+    pairedWith: {
+      type: "fddUp",
+      startFreq: 1910,
+      endFreq: 1920,
+    },
+    sourceInfo: {
+      type: "url",
+      url: "https://aek.mk/wp-content/uploads/2022/05/2.-20220517-Jane-Jakimovski-5G-Auction-in-Macedonia.pptx",
+    },
+  },
+  {
+    owner: "A1",
+    startFreq: 2120,
     endFreq: 2140,
     type: "fddDown",
     pairedWith: {
       type: "fddUp",
-      startFreq: 1920,
+      startFreq: 1930,
       endFreq: 1950,
     },
     earfcns: [150, 200],
