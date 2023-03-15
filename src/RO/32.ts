@@ -9,8 +9,11 @@ const data: SpectrumBlock[] = [
     type: "sdl",
     details: [
       "Supplemental downlink (must be aggregated with another carrier)",
-      "Available from 2023",
     ],
+    sourceInfo: {
+      type: "url",
+      url: "https://www.ancom.ro/uploads/links_files/Pozitionare_blocuri_procedura_selectie_2022_(002).pdf",
+    },
   },
 ];
 

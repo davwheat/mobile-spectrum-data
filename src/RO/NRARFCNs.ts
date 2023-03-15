@@ -16,6 +16,15 @@ const n1: SimpleArfcnDataItem[] = [
   },
 ];
 
+const n41: SimpleArfcnDataItem[] = [
+  {
+    arfcn: 519000,
+    bandwidth: 40,
+    operator: "Digi",
+    description: "n41 deployment without DSS",
+  },
+];
+
 const n78: SimpleArfcnDataItem[] = [
   {
     arfcn: 634000,
@@ -45,6 +54,7 @@ const n78: SimpleArfcnDataItem[] = [
 
 const NRARFCNs: ArfcnDataItem[] = [
   ...mapArfcnListToBand(1, n1),
+  ...mapArfcnListToBand(38, n41),
   ...mapArfcnListToBand(78, n78),
 ];
 

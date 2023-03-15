@@ -12,7 +12,7 @@ const data: SpectrumBlock[] = [
       startFreq: 1920.3,
       endFreq: 1935.3,
     },
-    earfcns: [78],
+    earfcns: [78, 103],
     details: ["B1 3G UMTS was removed in favour of B1 LTE"],
   },
   {
@@ -26,9 +26,9 @@ const data: SpectrumBlock[] = [
       startFreq: 1935.3,
       endFreq: 1950.1,
     },
-    earfcns: [251],
+    earfcns: [228, 251],
     uarfcns: [10639, 10664, 10689],
-    details: ["LTE B1 is 10 MHz where available"],
+    details: ["LTE B1 is 10 MHz (251) or 15 MHz (228)"],
   },
   {
     owner: "Orange",
