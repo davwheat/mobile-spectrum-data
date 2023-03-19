@@ -49,7 +49,12 @@ const data: SpectrumData[] = [
     spectrumData: Band78,
   },
   {
-    names: ["n78 from 2026"],
+    names: ["n78"],
+    extraInfo: {
+      description: "Band 78 will be refarmed from 2026 onwards.",
+      excludeFromSpectrumTotal: true,
+      shortAddendum: "in 2026",
+    },
     spectrumData: Band78_2026,
   },
 ];
