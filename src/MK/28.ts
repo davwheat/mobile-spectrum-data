@@ -11,6 +11,10 @@ const data: SpectrumBlock[] = [
       startFreq: 703,
       endFreq: 713,
     },
+    sourceInfo: {
+      type: "url",
+      url: "https://aek.mk/wp-content/uploads/2022/05/2.-20220517-Jane-Jakimovski-5G-Auction-in-Macedonia.pptx",
+    },
   },
   {
     owner: "Telekom",
@@ -23,6 +27,10 @@ const data: SpectrumBlock[] = [
       endFreq: 723,
     },
     earfcns: [9360],
+    sourceInfo: {
+      type: "url",
+      url: "https://aek.mk/wp-content/uploads/2022/05/2.-20220517-Jane-Jakimovski-5G-Auction-in-Macedonia.pptx",
+    },
   },
   {
     owner: "A1",
@@ -35,6 +43,10 @@ const data: SpectrumBlock[] = [
       endFreq: 733,
     },
     earfcns: [9460],
+    sourceInfo: {
+      type: "url",
+      url: "https://aek.mk/wp-content/uploads/2022/05/2.-20220517-Jane-Jakimovski-5G-Auction-in-Macedonia.pptx",
+    },
   },
 ];
 

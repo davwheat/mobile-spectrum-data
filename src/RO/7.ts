@@ -52,7 +52,8 @@ const data: SpectrumBlock[] = [
       startFreq: 2550,
       endFreq: 2570,
     },
-    details: "Secondary B7 carrier from 2023",
+    earfcns: [3348],
+    details: "Secondary B7 carrier",
   },
 ];
 
