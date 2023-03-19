@@ -1,4 +1,4 @@
-import { IBandInfo } from ".";
+import type { IBandInfo } from ".";
 
 const LTEBandData: Record<string, IBandInfo> = {
   B1: {

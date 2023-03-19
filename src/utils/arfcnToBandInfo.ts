@@ -1,4 +1,4 @@
-import { IBandInfo } from "../BandInfo";
+import type { IBandInfo } from "../BandInfo";
 import { LTEBandData } from "../BandInfo/LTEBandData";
 
 export function arfcnToBandInfo(rat: "lte", arfcn: number): IBandInfo | null {

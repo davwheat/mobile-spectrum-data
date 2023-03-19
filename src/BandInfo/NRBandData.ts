@@ -1,4 +1,4 @@
-import { IBandInfo } from ".";
+import type { IBandInfo } from ".";
 
 const NRBandData: Record<string, IBandInfo> = {
   n1: {

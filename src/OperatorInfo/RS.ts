@@ -1,4 +1,4 @@
-import { IOperatorInfo } from ".";
+import type { IOperatorInfo } from ".";
 
 const operators: IOperatorInfo[] = [
   {
