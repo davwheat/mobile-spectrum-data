@@ -11,6 +11,7 @@ export * as KR from "./KR";
 export * as MK from "./MK";
 export * as RO from "./RO";
 export * as RS from "./RS";
+export * as RU from "./RU";
 export * as UA from "./UA";
 
 export * as utils from "./utils";
