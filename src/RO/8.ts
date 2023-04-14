@@ -45,10 +45,7 @@ const data: SpectrumBlock[] = [
     },
     arfcns: "ARFCNs 25-74",
     earfcns: [3650],
-    details: [
-      "2G 5 MHz",
-      "B8 LTE 5 MHz",
-    ],
+    details: ["2G 5 MHz", "B8 LTE 5 MHz"],
   },
   {
     owner: "Orange",
