@@ -11,7 +11,7 @@ const data: SpectrumBlock[] = [
     nrarfcns: [519000],
     details: [
       "37800 10 MHz and 37950 20 MHz in Huawei areas",
-      "37902 20 MHz and 38100 20 MHz in Nokia and Ericsson areas",
+      "37902 20 MHz and 38100 20 MHz in Nokia and Ericsson areas (contiguous configuration)",
       "n41 40 MHz in some areas",
     ],
   },

@@ -44,12 +44,8 @@ const data: SpectrumBlock[] = [
       endFreq: 905,
     },
     arfcns: "ARFCNs 25-74",
-    uarfcns: [3025],
     earfcns: [3650],
-    details: [
-      "2G 5 MHz",
-      "3G in the process of being decommissioned in favour of B8 LTE 5 MHz",
-    ],
+    details: ["2G 5 MHz", "B8 LTE 5 MHz"],
   },
   {
     owner: "Orange",

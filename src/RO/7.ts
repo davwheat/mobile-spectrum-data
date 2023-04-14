@@ -31,29 +31,15 @@ const data: SpectrumBlock[] = [
     owner: "Digi",
     ownerLongName: "RCS & RDS",
     startFreq: 2650,
-    endFreq: 2670,
-    type: "fddDown",
-    pairedWith: {
-      type: "fddUp",
-      startFreq: 2530,
-      endFreq: 2550,
-    },
-    earfcns: [3150],
-    details: "Primary B7 carrier",
-  },
-  {
-    owner: "Digi",
-    ownerLongName: "RCS & RDS",
-    startFreq: 2670,
     endFreq: 2690,
     type: "fddDown",
     pairedWith: {
       type: "fddUp",
-      startFreq: 2550,
+      startFreq: 2530,
       endFreq: 2570,
     },
-    earfcns: [3348],
-    details: "Secondary B7 carrier",
+    earfcns: [3150, 3348],
+    details: "Two 2x20 MHz B7 carrier in a contiguous configuration",
   },
 ];
 

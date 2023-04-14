@@ -18,13 +18,13 @@ const B1: SimpleArfcnDataItem[] = [
     arfcn: 228,
     bandwidth: 15,
     operator: "Telekom",
-    description: "B1 deployment in areas without 3G",
+    description: "B1 deployment in 5G areas",
   },
   {
     arfcn: 251,
     bandwidth: 10,
     operator: "Telekom",
-    description: "B1 deployment in some areas",
+    description: "Standard B1 deployment",
   },
   {
     arfcn: 400,
@@ -138,6 +138,30 @@ const B20: SimpleArfcnDataItem[] = [
   },
 ];
 
+const B28: SimpleArfcnDataItem[] = [
+  {
+    arfcn: 9410,
+    bandwidth: 10,
+    operator: "Orange",
+    description: "Standard B28 deployment",
+  },
+];
+
+const B32: SimpleArfcnDataItem[] = [
+  {
+    arfcn: 10020,
+    bandwidth: 20,
+    operator: "Orange",
+    description: "Standard B32 deployment - carrier 1",
+  },
+  {
+    arfcn: 10220,
+    bandwidth: 20,
+    operator: "Orange",
+    description: "Standard B32 deployment - carrier 2",
+  },
+];
+
 const B38: SimpleArfcnDataItem[] = [
   {
     arfcn: 37800,
@@ -171,6 +195,8 @@ const EARFCNs: ArfcnDataItem[] = [
   ...mapArfcnListToBand(7, B7),
   ...mapArfcnListToBand(8, B8),
   ...mapArfcnListToBand(20, B20),
+  ...mapArfcnListToBand(28, B28),
+  ...mapArfcnListToBand(32, B32),
   ...mapArfcnListToBand(38, B38),
 ];
 
