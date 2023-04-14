@@ -27,6 +27,7 @@ const data: SpectrumBlock[] = [
       startFreq: 718,
       endFreq: 728,
     },
+    earfcns: [9410],
     sourceInfo: {
       type: "url",
       url: "https://www.ancom.ro/uploads/links_files/Pozitionare_blocuri_procedura_selectie_2022_(002).pdf",

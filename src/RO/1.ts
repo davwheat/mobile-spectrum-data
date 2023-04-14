@@ -28,7 +28,10 @@ const data: SpectrumBlock[] = [
     },
     earfcns: [228, 251],
     uarfcns: [10639, 10664, 10689],
-    details: ["LTE B1 is 10 MHz (251) or 15 MHz (228)"],
+    details: [
+      "LTE B1 is 10 MHz (251) or 15 MHz (228)",
+      "5G DSS in select areas",
+    ],
   },
   {
     owner: "Orange",
@@ -53,29 +56,21 @@ const data: SpectrumBlock[] = [
     owner: "Vodafone",
     ownerLongName: "Vodafone Romania",
     startFreq: 2154.9,
-    endFreq: 2164.9,
-    type: "fddDown",
-    pairedWith: {
-      type: "fddUp",
-      startFreq: 1964.9,
-      endFreq: 1974.9,
-    },
-    earfcns: [498],
-    nrarfcns: [431960],
-    details: ["LTE B1 is always 10 MHz. 5G NR operating as DSS n1"],
-  },
-  {
-    owner: "Vodafone",
-    ownerLongName: "Vodafone Romania",
-    startFreq: 2164.9,
     endFreq: 2169.7,
     type: "fddDown",
     pairedWith: {
       type: "fddUp",
-      startFreq: 1974.9,
+      startFreq: 1964.9,
       endFreq: 1979.7,
     },
+    earfcns: [498],
+    nrarfcns: [431960],
     uarfcns: [10836],
+    details: [
+      "LTE B1 is always 10 MHz",
+      "5G NR operating as DSS n1",
+      "3G is always 5 MHz",
+    ],
   },
 ];
 
