@@ -27,11 +27,10 @@ const data: SpectrumBlock[] = [
       endFreq: 1950.1,
     },
     earfcns: [228, 251],
-    uarfcns: [10639, 10664, 10689],
     nrarfcns: [427010],
     details: [
       "LTE B1 is 10 MHz (251) or 15 MHz (228)",
-      "5G DSS 10 MHz in select areas",
+      "5G DSS in select areas",
     ],
   },
   {

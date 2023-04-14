@@ -4,7 +4,7 @@ import { mapArfcnListToBand } from "../utils/mapArfcnListToBand";
 const n1: SimpleArfcnDataItem[] = [
   {
     arfcn: 427010,
-    bandwidth: 10,
+    bandwidth: 15,
     operator: "Telekom",
     description: "NR + LTE DSS",
   },

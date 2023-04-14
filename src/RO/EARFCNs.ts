@@ -18,13 +18,13 @@ const B1: SimpleArfcnDataItem[] = [
     arfcn: 228,
     bandwidth: 15,
     operator: "Telekom",
-    description: "B1 deployment in areas without 3G on B1",
+    description: "B1 deployment in 5G areas",
   },
   {
     arfcn: 251,
     bandwidth: 10,
     operator: "Telekom",
-    description: "B1 deployment in some areas",
+    description: "Standart B1 deployment",
   },
   {
     arfcn: 400,
@@ -140,7 +140,7 @@ const B20: SimpleArfcnDataItem[] = [
 
 const B28: SimpleArfcnDataItem[] = [
   {
-    arfcn: 6410,
+    arfcn: 9410,
     bandwidth: 10,
     operator: "Orange",
     description: "Standard B28 deployment",
