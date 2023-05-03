@@ -2,7 +2,7 @@ import type { SpectrumBlock } from "../@types";
 
 const data: SpectrumBlock[] = [
   {
-    details: ["20Mhz Nationwide"],
+    details: ["20 MHz Nationwide"],
     earfcns: [1348],
     endFreq: 1830,
     owner: "Telia LT",

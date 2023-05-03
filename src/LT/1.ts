@@ -2,7 +2,7 @@ import type { SpectrumBlock } from "../@types";
 
 const data: SpectrumBlock[] = [
   {
-    details: ["15Mhz Deployed"],
+    details: ["15 MHz Deployed"],
     endFreq: 1940.1,
     owner: "Bite LT",
     ownerLongName: "UAB Bite Lietuva",
@@ -15,7 +15,7 @@ const data: SpectrumBlock[] = [
     type: "fddDown",
   },
   {
-    details: ["20Mhz Nationwide"],
+    details: ["20 MHz Nationwide"],
     earfcns: [300],
     endFreq: 1959.9,
     owner: "Telia LT",

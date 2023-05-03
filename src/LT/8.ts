@@ -14,7 +14,7 @@ const data: SpectrumBlock[] = [
     type: "fddDown",
   },
   {
-    details: ["5Mhz Deployment Nationwide"],
+    details: ["5 MHz Deployment Nationwide"],
     earfcns: [3616],
     endFreq: 948.3,
     owner: "Telia LT",
