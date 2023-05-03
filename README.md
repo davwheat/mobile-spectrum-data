@@ -44,7 +44,7 @@ A country's sepctrum data can be imported by its two-letter ISO country code.
 For example, to import the UK's spectrum data, you would do:
 
 ```ts
-import SpectrumDataGB from 'mobile-spectrum-data/GB`
+import SpectrumDataGB from "mobile-spectrum-data/GB";
 ```
 
 This imported data will be an array of Javascript objects with the keys `names` and `spectrumData`.
