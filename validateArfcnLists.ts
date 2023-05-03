@@ -38,6 +38,11 @@ import EarfcnGB from "./src/GB/EARFCNs";
 import NrarfcnGB from "./src/GB/NRARFCNs";
 import BandDataGB from "./src/GB";
 
+// // HU
+// import EarfcnHU from "./src/HU/EARFCNs";
+// import NrarfcnHU from "./src/HU/NRARFCNs";
+// import BandDataHU from "./src/HU";
+
 // IE
 import EarfcnIE from "./src/IE/EARFCNs";
 import NrarfcnIE from "./src/IE/NRARFCNs";
