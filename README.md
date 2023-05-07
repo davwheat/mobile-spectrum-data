@@ -27,8 +27,10 @@ Countries with data in this package are included below. If yours is misisng, why
 | 🇪🇪 Estonia             |
 | 🇫🇮 Finland (and Åland) |
 | 🇬🇧 United Kingdom      |
+| 🇭🇺 Hungary             |
 | 🇮🇪 Ireland             |
 | 🇰🇷 South Korea         |
+| 🇱🇹 Lithuania           |
 | 🇲🇰 North Macedonia     |
 | 🇵🇹 Portugal            |
 | 🇷🇴 Romania             |
