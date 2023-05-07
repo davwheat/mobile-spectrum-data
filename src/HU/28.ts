@@ -11,7 +11,6 @@ const data: SpectrumBlock[] = [
       startFreq: 703,
       endFreq: 708,
     },
-    details: ["LTE or NR, no DSS"],
   },
   {
     owner: "Telekom",

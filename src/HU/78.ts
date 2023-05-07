@@ -35,7 +35,7 @@ const data: SpectrumBlock[] = [
     startFreq: 3660,
     endFreq: 3800,
     type: "tdd",
-    nrarfcns: [],
+    nrarfcns: [647328],
   },
 ];
 
