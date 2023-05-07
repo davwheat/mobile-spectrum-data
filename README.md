@@ -18,8 +18,8 @@ This dataset is [licensed under the GNU LGPLv3 license](./LICENSE).
 
 Countries with data in this package are included below. If yours is misisng, why not contribute?
 
-| Country               |
-| --------------------- |
+| Country                |
+| ---------------------- |
 | 🇦🇹 Austria             |
 | 🇧🇬 Bulgaria            |
 | 🇩🇪 Germany             |
