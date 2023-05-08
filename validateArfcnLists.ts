@@ -82,6 +82,7 @@ const toCheck = [
   // { spectrum: BandDataEE, nr: NrarfcnEE, lte: EarfcnEE },
   { spectrum: BandDataFI, nr: NrarfcnFI, lte: EarfcnFI },
   { spectrum: BandDataGB, nr: NrarfcnGB, lte: EarfcnGB },
+  { spectrum: BandDataHU, nr: NrarfcnHU, lte: EarfcnHU },
   { spectrum: BandDataIE, nr: NrarfcnIE, lte: EarfcnIE },
   // { spectrum: BandDataKR, nr: NrarfcnKR, lte: EarfcnKR },
   { spectrum: BandDataMK, nr: NrarfcnMK, lte: EarfcnMK },
