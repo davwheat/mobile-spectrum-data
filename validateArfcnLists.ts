@@ -38,6 +38,11 @@ import EarfcnGB from "./src/GB/EARFCNs";
 import NrarfcnGB from "./src/GB/NRARFCNs";
 import BandDataGB from "./src/GB";
 
+// // HU
+import EarfcnHU from "./src/HU/EARFCNs";
+import NrarfcnHU from "./src/HU/NRARFCNs";
+import BandDataHU from "./src/HU";
+
 // IE
 import EarfcnIE from "./src/IE/EARFCNs";
 import NrarfcnIE from "./src/IE/NRARFCNs";
@@ -77,6 +82,7 @@ const toCheck = [
   // { spectrum: BandDataEE, nr: NrarfcnEE, lte: EarfcnEE },
   { spectrum: BandDataFI, nr: NrarfcnFI, lte: EarfcnFI },
   { spectrum: BandDataGB, nr: NrarfcnGB, lte: EarfcnGB },
+  { spectrum: BandDataHU, nr: NrarfcnHU, lte: EarfcnHU },
   { spectrum: BandDataIE, nr: NrarfcnIE, lte: EarfcnIE },
   // { spectrum: BandDataKR, nr: NrarfcnKR, lte: EarfcnKR },
   { spectrum: BandDataMK, nr: NrarfcnMK, lte: EarfcnMK },
