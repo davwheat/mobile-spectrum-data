@@ -35,7 +35,7 @@ const data: SpectrumBlock[] = [
       startFreq: 718,
       endFreq: 733,
     },
-    nrarfcns: [155050],
+    nrarfcns: [155050, 155770],
     details: ["Used for nationwide 5G NR deployment."],
   },
 ];
