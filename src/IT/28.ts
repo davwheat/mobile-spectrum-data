@@ -7,7 +7,7 @@ const data: SpectrumBlock[] = [
     endFreq: 768,
     nrarfcns: [152690],
     owner: "Iliad",
-    ownerLongName: "Iliad",
+    ownerLongName: "Iliad IT",
     pairedWith: {
       endFreq: 713,
       startFreq: 703,
@@ -28,7 +28,7 @@ const data: SpectrumBlock[] = [
     endFreq: 778,
     nrarfcns: ["unknown"],
     owner: "Tim",
-    ownerLongName: "Tim",
+    ownerLongName: "Tim IT",
     pairedWith: {
       endFreq: 723,
       startFreq: 713,
@@ -49,7 +49,7 @@ const data: SpectrumBlock[] = [
     endFreq: 788,
     nrarfcns: [156510],
     owner: "Vodafone",
-    ownerLongName: "Vodafone",
+    ownerLongName: "Vodafone IT",
     pairedWith: {
       endFreq: 733,
       startFreq: 723,

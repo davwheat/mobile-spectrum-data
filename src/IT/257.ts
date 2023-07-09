@@ -15,7 +15,7 @@ const data: SpectrumBlock[] = [
   {
     endFreq: 26900,
     owner: "Iliad",
-    ownerLongName: "Iliad",
+    ownerLongName: "Iliad IT",
     sourceInfo: {
       type: "url",
       url: "https://lteitaly.it/it/spectrum.php",
@@ -26,7 +26,7 @@ const data: SpectrumBlock[] = [
   {
     endFreq: 27100,
     owner: "Tim",
-    ownerLongName: "Tim",
+    ownerLongName: "Tim IT",
     sourceInfo: {
       type: "url",
       url: "https://lteitaly.it/it/spectrum.php",
@@ -37,7 +37,7 @@ const data: SpectrumBlock[] = [
   {
     endFreq: 27300,
     owner: "Fastweb",
-    ownerLongName: "Fastweb",
+    ownerLongName: "Fastweb IT",
     sourceInfo: {
       type: "url",
       url: "https://lteitaly.it/it/spectrum.php",
@@ -48,7 +48,7 @@ const data: SpectrumBlock[] = [
   {
     endFreq: 27500,
     owner: "Vodafone",
-    ownerLongName: "Vodafone",
+    ownerLongName: "Vodafone IT",
     sourceInfo: {
       type: "url",
       url: "https://lteitaly.it/it/spectrum.php",

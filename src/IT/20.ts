@@ -22,7 +22,7 @@ const data: SpectrumBlock[] = [
     earfcns: [6300],
     endFreq: 811,
     owner: "Tim",
-    ownerLongName: "Tim",
+    ownerLongName: "Tim IT",
     pairedWith: {
       endFreq: 852,
       startFreq: 842,
@@ -39,7 +39,7 @@ const data: SpectrumBlock[] = [
     earfcns: [6400],
     endFreq: 821,
     owner: "Vodafone",
-    ownerLongName: "Vodafone",
+    ownerLongName: "Vodafone IT",
     pairedWith: {
       endFreq: 862,
       startFreq: 852,

@@ -5,7 +5,7 @@ const data: SpectrumBlock[] = [
     earfcns: [10020],
     endFreq: 1472,
     owner: "Tim",
-    ownerLongName: "Tim",
+    ownerLongName: "Tim IT",
     sourceInfo: {
       type: "url",
       url: "https://lteitaly.it/it/spectrum.php",
@@ -17,7 +17,7 @@ const data: SpectrumBlock[] = [
     earfcns: [10220],
     endFreq: 1492,
     owner: "Vodafone",
-    ownerLongName: "Vodafone",
+    ownerLongName: "Vodafone IT",
     sourceInfo: {
       type: "url",
       url: "https://lteitaly.it/it/spectrum.php",
