@@ -93,7 +93,7 @@ export function getOperatorColor(country: string, operator: string): string {
 
 export function getOperatorInfoByNameOrAlias(
   country: string,
-  name: string
+  name: string,
 ): IOperatorInfo | null {
   const data = allCountries[country.toUpperCase()];
 
