@@ -12,7 +12,7 @@ import { LTEBandData, NRBandData } from "../BandInfo";
  */
 export function bandNumberToFrequency(
   band: number,
-  rat: "lte" | "nr"
+  rat: "lte" | "nr",
 ): number[] {
   const data = rat === "lte" ? LTEBandData : NRBandData;
   const bandName = rat === "lte" ? `B${band}` : `n${band}`;

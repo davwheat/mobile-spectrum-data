@@ -12,7 +12,7 @@ import { formatFrequency } from "./formatFrequency";
  */
 export function bandNumberToHumanName(
   band: number,
-  rat: "lte" | "nr"
+  rat: "lte" | "nr",
 ): string | null {
   const data = rat === "lte" ? LTEBandData : NRBandData;
   const bandName = rat === "lte" ? `B${band}` : `n${band}`;

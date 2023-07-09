@@ -19,7 +19,7 @@ async function divider(text) {
   console.log(
     chalk.gray(`----`),
     chalk.blue.bold(text.toUpperCase()),
-    chalk.gray(`----`)
+    chalk.gray(`----`),
   );
 }
 
@@ -80,15 +80,15 @@ async function main() {
 
   const copyReadme = fs.copyFile(
     getLocalPath("README.md"),
-    path.join(tempFolder, "README.md")
+    path.join(tempFolder, "README.md"),
   );
   const copyLicense = fs.copyFile(
     getLocalPath("LICENSE"),
-    path.join(tempFolder, "LICENSE")
+    path.join(tempFolder, "LICENSE"),
   );
   const copyPackageJson = fs.copyFile(
     getLocalPath("package.json"),
-    path.join(tempFolder, "package.json")
+    path.join(tempFolder, "package.json"),
   );
   const copyAll = Promise.all([copyReadme, copyLicense, copyPackageJson]);
   ora(copyAll, "Copying README, LICENSE and package.json");
@@ -100,7 +100,7 @@ async function main() {
     {
       recursive: true,
       overwrite: true,
-    }
+    },
   );
   ora(copyTypesDir, "Copying @types folder");
   await copyTypesDir;
@@ -109,7 +109,7 @@ async function main() {
 
   async function modPackageJson() {
     const packageJson = await fs.readJSON(
-      path.join(tempFolder, "package.json")
+      path.join(tempFolder, "package.json"),
     );
 
     if (!process.env.NPM_TOKEN) {

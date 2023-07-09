@@ -113,7 +113,7 @@ toCheck.forEach(({ spectrum, nr, lte }) => {
             .forEach((earfcn) => {
               if (!allEarfcns.includes(earfcn as number)) {
                 console.log(
-                  `${x.owner} has earfcn ${earfcn} which is not in the list of earfcns`
+                  `${x.owner} has earfcn ${earfcn} which is not in the list of earfcns`,
                 );
                 failed = true;
               }
