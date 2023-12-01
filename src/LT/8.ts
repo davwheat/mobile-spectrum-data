@@ -2,6 +2,17 @@ import type { SpectrumBlock } from "../@types";
 
 const data: SpectrumBlock[] = [
   {
+    owner: "Unallocated",
+    pairedWith: {
+      startFreq: 880,
+      endFreq: 880.1,
+      type: "fddUp",
+    },
+    startFreq: 925,
+    endFreq: 925.1,
+    type: "fddDown",
+  },
+  {
     endFreq: 936.7,
     owner: "Bite LT",
     ownerLongName: "UAB Bite Lietuva",
@@ -37,6 +48,17 @@ const data: SpectrumBlock[] = [
       type: "fddUp",
     },
     startFreq: 948.3,
+    type: "fddDown",
+  },
+  {
+    owner: "Unallocated",
+    pairedWith: {
+      startFreq: 914.9,
+      endFreq: 915,
+      type: "fddUp",
+    },
+    startFreq: 959.9,
+    endFreq: 960,
     type: "fddDown",
   },
 ];

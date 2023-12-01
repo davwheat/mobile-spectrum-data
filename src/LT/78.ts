@@ -2,6 +2,12 @@ import type { SpectrumBlock } from "../@types";
 
 const data: SpectrumBlock[] = [
   {
+    owner: "Unallocated",
+    startFreq: 3300,
+    endFreq: 3400,
+    type: "tdd",
+  },
+  {
     endFreq: 3500,
     owner: "Tele2 LT",
     ownerLongName: "UAB Tele2 Lietuva",
