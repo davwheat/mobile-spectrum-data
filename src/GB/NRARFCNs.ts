@@ -120,6 +120,12 @@ const n78: SimpleArfcnDataItem[] = [
     description: "All vendors - generic n78 deployment",
   },
   {
+    arfcn: 628992,
+    bandwidth: [50],
+    operator: "Vodafone",
+    description: "Open RAN - n78 deployment",
+  },
+  {
     arfcn: 629332,
     bandwidth: 40,
     operator: "Vodafone",
@@ -257,6 +263,12 @@ const n78: SimpleArfcnDataItem[] = [
     bandwidth: 100,
     operator: "Three",
     description: "New E/// 100 MHz n78 deployment",
+  },
+  {
+    arfcn: 649344,
+    bandwidth: [40],
+    operator: "Vodafone",
+    description: "Open RAN - n78 40 MHz deployment in pre-swap spectrum",
   },
   {
     arfcn: 650592,
