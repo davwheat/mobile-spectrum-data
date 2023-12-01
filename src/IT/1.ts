@@ -39,9 +39,11 @@ const data: SpectrumBlock[] = [
     details: [
       "EARFCN 275 is used for 10 or 15 MHz of LTE",
       "EARFCN 300 is used for 10 MHz of LTE",
+      "5G NR operating as DSS n1 on some sites",
     ],
     earfcns: [275, 300],
     endFreq: 2145,
+    nrarfcns: [427470],
     owner: "Tim",
     ownerLongName: "Tim IT",
     pairedWith: {

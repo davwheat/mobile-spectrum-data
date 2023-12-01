@@ -21,12 +21,10 @@ const data: SpectrumBlock[] = [
     type: "fddDown",
   },
   {
-    details: [
-      "Still no deploy of 700 MHz (except for some trial sites), unsure if is DSS or NR only, NRARFCN unknown",
-    ],
+    details: ["Usually is NR only, on some sites is operating as DSS n28"],
     earfcns: [9360],
     endFreq: 778,
-    nrarfcns: ["unknown"],
+    nrarfcns: [154570],
     owner: "Tim",
     ownerLongName: "Tim IT",
     pairedWith: {
@@ -43,7 +41,7 @@ const data: SpectrumBlock[] = [
   },
   {
     details: [
-      "Started as LTE only, some sites have enabled 5G NR operating as DSS n28",
+      "Started as LTE only, most sites have enabled 5G NR operating as DSS n28, some sites are NR only",
     ],
     earfcns: [9460],
     endFreq: 788,
