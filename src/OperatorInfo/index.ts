@@ -9,6 +9,7 @@ import { default as OperatorsHU } from "./HU";
 import { default as OperatorsIE } from "./IE";
 import { default as OperatorsIT } from "./IT";
 import { default as OperatorsLT } from "./LT";
+import { default as OperatorsLV } from "./LV";
 import { default as OperatorsFI } from "./FI";
 import { default as OperatorsKR } from "./KR";
 import { default as OperatorsMK } from "./MK";
@@ -31,6 +32,7 @@ const allCountries: Record<string, IOperatorInfo[]> = {
   IE: OperatorsIE,
   IT: OperatorsIT,
   LT: OperatorsLT,
+  LV: OperatorsLV,
   FI: OperatorsFI,
   KR: OperatorsKR,
   MK: OperatorsMK,
@@ -54,6 +56,7 @@ export {
   OperatorsIE,
   OperatorsIT,
   OperatorsLT,
+  OperatorsLV,
   OperatorsFI,
   OperatorsKR,
   OperatorsMK,
@@ -96,7 +99,7 @@ export function getOperatorColor(country: string, operator: string): string {
 
 export function getOperatorInfoByNameOrAlias(
   country: string,
-  name: string,
+  name: string
 ): IOperatorInfo | null {
   const data = allCountries[country.toUpperCase()];
 
