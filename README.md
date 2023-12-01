@@ -29,13 +29,17 @@ Countries with data in this package are included below. If yours is misisng, why
 | 🇬🇧 United Kingdom      |
 | 🇭🇺 Hungary             |
 | 🇮🇪 Ireland             |
+| 🇮🇹 Italy               |
+| 🇯🇲 Jamaica             |
 | 🇰🇷 South Korea         |
 | 🇱🇹 Lithuania           |
+| 🇱🇻 Latvia              |
 | 🇲🇰 North Macedonia     |
 | 🇵🇹 Portugal            |
 | 🇷🇴 Romania             |
 | 🇷🇸 Serbia              |
 | 🇷🇺 Russia              |
+| 🇹🇹 Trinidad and Tobago |
 | 🇺🇦 Ukraine             |
 
 ## Package structure
