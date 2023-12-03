@@ -62,11 +62,8 @@ const data: SpectrumBlock[] = [
       startFreq: 1965,
       endFreq: 1980,
     },
-    earfcns: [525, 550],
-    details: [
-      "LTE B1 15 MHz nationwide deployment",
-      "Sofia metro lines 1, 2 and 4 have LTE B1 10 MHz (EARFCN 550) + UMTS B1 10 MHz",
-    ],
+    earfcns: [525],
+    details: ["LTE B1 15 MHz nationwide deployment"],
   },
 ];
 

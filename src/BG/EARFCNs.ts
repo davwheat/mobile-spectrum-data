@@ -10,12 +10,6 @@ const B1: SimpleArfcnDataItem[] = [
   },
   {
     arfcn: 100,
-    bandwidth: 15,
-    operator: "Yettel Bulgaria",
-    description: "B1 deployment",
-  },
-  {
-    arfcn: 100,
     bandwidth: 10,
     operator: "Yettel Bulgaria",
     description: "Indoor and metro B1 deployment",
@@ -44,13 +38,6 @@ const B1: SimpleArfcnDataItem[] = [
     operator: "Vivacom",
     description: "Standard B1 deployment",
   },
-  {
-    arfcn: 550,
-    bandwidth: 10,
-    operator: "Vivacom",
-    description:
-      "B1 deployment in Sofia metro lines 1, 2 and 4 (with UMTS B1 10 MHz)",
-  },
 ];
 
 const B3: SimpleArfcnDataItem[] = [
@@ -70,8 +57,7 @@ const B3: SimpleArfcnDataItem[] = [
     arfcn: 1800,
     bandwidth: 20,
     operator: "Vivacom",
-    description:
-      "Standard B3 deployment, with n3 DSS in urban areas and on highways",
+    description: "Standard B3 deployment, with n3 DSS",
   },
 ];
 
@@ -124,11 +110,21 @@ const B8: SimpleArfcnDataItem[] = [
   },
 ];
 
+const B20: SimpleArfcnDataItem[] = [
+  {
+    arfcn: 6400,
+    bandwidth: 10,
+    operator: "Yettel Bulgaria",
+    description: "Standard B20 deployment",
+  },
+];
+
 const EARFCNs: ArfcnDataItem[] = [
   ...mapArfcnListToBand(1, B1),
   ...mapArfcnListToBand(3, B3),
   ...mapArfcnListToBand(7, B7),
   ...mapArfcnListToBand(8, B8),
+  ...mapArfcnListToBand(20, B20),
 ];
 
 export default EARFCNs;
