@@ -2,6 +2,8 @@ import Band1 from "./1";
 import Band3 from "./3";
 import Band7 from "./7";
 import Band8 from "./8";
+import Band20 from "./20";
+import Band28 from "./28";
 import Band78 from "./78";
 import Band258 from "./258";
 
@@ -23,6 +25,14 @@ const data: SpectrumData[] = [
   {
     names: ["B8"],
     spectrumData: Band8,
+  },
+  {
+    names: ["B20"],
+    spectrumData: Band20,
+  },
+  {
+    names: ["B28", "n28"],
+    spectrumData: Band28,
   },
   {
     names: ["n78"],

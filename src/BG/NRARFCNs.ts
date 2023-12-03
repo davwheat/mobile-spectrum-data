@@ -19,6 +19,15 @@ const n7: SimpleArfcnDataItem[] = [
   },
 ];
 
+const n28: SimpleArfcnDataItem[] = [
+  {
+    arfcn: 156510,
+    bandwidth: 10,
+    operator: "Yettel Bulgaria",
+    description: "Standard n28 deployment",
+  },
+];
+
 const n78: SimpleArfcnDataItem[] = [
   {
     arfcn: 631392,
@@ -49,6 +58,7 @@ const n78: SimpleArfcnDataItem[] = [
 const NRARFCNs: ArfcnDataItem[] = [
   ...mapArfcnListToBand(3, n3),
   ...mapArfcnListToBand(7, n7),
+  ...mapArfcnListToBand(28, n28),
   ...mapArfcnListToBand(78, n78),
 ];
 
