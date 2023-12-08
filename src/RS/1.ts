@@ -2,8 +2,7 @@ import type { SpectrumBlock } from "../@types";
 
 const data: SpectrumBlock[] = [
   {
-    owner: "Yettel",
-    ownerLongName: "Yettel Srbija",
+    owner: "Unallocated",
     startFreq: 2110,
     endFreq: 2125,
     type: "fddDown",
@@ -89,32 +88,14 @@ const data: SpectrumBlock[] = [
     owner: "Yettel",
     ownerLongName: "Yettel Srbija",
     startFreq: 2155,
-    endFreq: 2160,
-    type: "fddDown",
-    pairedWith: {
-      type: "fddUp",
-      startFreq: 1965,
-      endFreq: 1970,
-    },
-    uarfcns: [10788],
-    details: ["Spectrum for temporary use"],
-    sourceInfo: {
-      type: "url",
-      url: "https://www.ratel.rs/en/page/public-communications-networks",
-    },
-  },
-  {
-    owner: "Yettel",
-    ownerLongName: "Yettel Srbija",
-    startFreq: 2160,
     endFreq: 2170,
     type: "fddDown",
     pairedWith: {
       type: "fddUp",
-      startFreq: 1970,
+      startFreq: 1965,
       endFreq: 1980,
     },
-    earfcns: [550],
+    earfcns: [525],
     details: ["Spectrum for temporary use"],
     sourceInfo: {
       type: "url",
