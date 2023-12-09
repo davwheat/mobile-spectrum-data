@@ -15,8 +15,8 @@ const B1: SimpleArfcnDataItem[] = [
     description: "Standard B1 deployment",
   },
   {
-    arfcn: 550,
-    bandwidth: 10,
+    arfcn: 525,
+    bandwidth: 15,
     operator: "Yettel Srbija",
     description: "Standard B1 deployment",
   },

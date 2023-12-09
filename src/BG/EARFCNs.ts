@@ -112,6 +112,12 @@ const B8: SimpleArfcnDataItem[] = [
 
 const B20: SimpleArfcnDataItem[] = [
   {
+    arfcn: 6200,
+    bandwidth: 10,
+    operator: "A1 Bulgaria",
+    description: "Standard B20 deployment",
+  },
+  {
     arfcn: 6400,
     bandwidth: 10,
     operator: "Yettel Bulgaria",
