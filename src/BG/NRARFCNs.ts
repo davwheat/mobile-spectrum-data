@@ -61,11 +61,39 @@ const n78: SimpleArfcnDataItem[] = [
   },
 ];
 
+const n258: SimpleArfcnDataItem[] = [
+  {
+    arfcn: 2018971,
+    bandwidth: 100,
+    operator: "Yettel Bulgaria",
+    description: "1st mmWave carrier",
+  },
+  {
+    arfcn: 2020699,
+    bandwidth: 100,
+    operator: "Yettel Bulgaria",
+    description: "2nd mmWave carrier",
+  },
+  {
+    arfcn: 2022427,
+    bandwidth: 100,
+    operator: "Yettel Bulgaria",
+    description: "3rd mmWave carrier",
+  },
+  {
+    arfcn: 2023867,
+    bandwidth: 100,
+    operator: "Yettel Bulgaria",
+    description: "4th mmWave carrier",
+  },
+];
+
 const NRARFCNs: ArfcnDataItem[] = [
   ...mapArfcnListToBand(3, n3),
   ...mapArfcnListToBand(7, n7),
   ...mapArfcnListToBand(28, n28),
   ...mapArfcnListToBand(78, n78),
+  ...mapArfcnListToBand(258, n258),
 ];
 
 export default NRARFCNs;
