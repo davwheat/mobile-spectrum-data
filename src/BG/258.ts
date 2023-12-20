@@ -7,6 +7,7 @@ const data: SpectrumBlock[] = [
     startFreq: 24300,
     endFreq: 24700,
     type: "tdd",
+    nrarfcns: [2018971, 2020699, 2022427, 2023867],
   },
   {
     owner: "?",
