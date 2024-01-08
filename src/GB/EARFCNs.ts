@@ -3,6 +3,19 @@ import { mapArfcnListToBand } from "../utils/mapArfcnListToBand";
 
 const B1: SimpleArfcnDataItem[] = [
   {
+    arfcn: 76,
+    bandwidth: 15,
+    operator: "Three",
+    description:
+      "New trial B1 15 MHz carrier. Seemingly growing in use on small cell and DAS solutions, and some urban macros. No 3G on sites with this carrier.",
+  },
+  {
+    arfcn: 76,
+    bandwidth: 10,
+    operator: "Three",
+    description: "Old B1 10 MHz carrier. Almost entirely unused.",
+  },
+  {
     arfcn: 98,
     bandwidth: 10,
     operator: "Three",
