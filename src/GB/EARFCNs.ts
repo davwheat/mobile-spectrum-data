@@ -19,8 +19,7 @@ const B1: SimpleArfcnDataItem[] = [
     arfcn: 97,
     bandwidth: 10,
     operator: "Three",
-    description:
-      "Another B1 configuration not commonly seen",
+    description: "Another B1 configuration not commonly seen",
   },
   {
     arfcn: 98,
