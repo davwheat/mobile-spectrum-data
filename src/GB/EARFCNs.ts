@@ -16,6 +16,13 @@ const B1: SimpleArfcnDataItem[] = [
     description: "Old B1 10 MHz carrier. Almost entirely unused.",
   },
   {
+    arfcn: 97,
+    bandwidth: 10,
+    operator: "Three",
+    description:
+      "Another B1 configuration not commonly seen",
+  },
+  {
     arfcn: 98,
     bandwidth: 10,
     operator: "Three",
