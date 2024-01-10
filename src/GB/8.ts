@@ -97,6 +97,7 @@ const data: SpectrumBlock[] = [
     },
     uarfcns: [3050],
     earfcns: [3725],
+    nrarfcns: [190590],
     details: [
       "3G is being refarmed into 4G, with 3G moving to the lower 5 MHz block",
       "Many different 4G EARFCNs to cover the same spectrum",
