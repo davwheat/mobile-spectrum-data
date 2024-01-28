@@ -1,20 +1,21 @@
+import Bands2and25 from "./2-25";
+import Bands4and66 from "./4-66";
 import Band8 from "./8";
-import Band25 from "./25";
-import Band26 from "./26";
-import Band66 from "./66";
 import Bands12and17 from "./12-17";
 import Bands13and14 from "./13-14";
+import Band26 from "./26";
+import Band41 from "./41";
 
 import type { SpectrumData } from "../@types";
 
 const data: SpectrumData[] = [
   {
     names: ["B2", "B25"],
-    spectrumData: Band25,
+    spectrumData: Bands2and25,
   },
   {
     names: ["B4", "B66"],
-    spectrumData: Band66,
+    spectrumData: Bands4and66,
   },
   {
     names: ["B5", "B26"],
@@ -31,6 +32,10 @@ const data: SpectrumData[] = [
   {
     names: ["B13", "B14"],
     spectrumData: Bands13and14,
+  },
+  {
+    names: ["B41"],
+    spectrumData: Band41,
   },
 ];
 

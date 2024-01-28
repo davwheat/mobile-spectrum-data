@@ -11,6 +11,10 @@ const data: SpectrumBlock[] = [
     },
     startFreq: 728,
     type: "fddDown",
+    sourceInfo: {
+      type: "url",
+      url: "https://www.sma.gov.jm/wp-content/uploads/2023/03/Mobile-and-Fixed-Wireless-Band-Plans_March-2023.pdf",
+    },
   },
   {
     earfcns: [5035],
@@ -24,6 +28,10 @@ const data: SpectrumBlock[] = [
     },
     startFreq: 729,
     type: "fddDown",
+    sourceInfo: {
+      type: "url",
+      url: "https://www.sma.gov.jm/wp-content/uploads/2023/03/Mobile-and-Fixed-Wireless-Band-Plans_March-2023.pdf",
+    },
   },
   {
     earfcns: [5120, 5790],
@@ -37,6 +45,10 @@ const data: SpectrumBlock[] = [
     },
     startFreq: 734,
     type: "fddDown",
+    sourceInfo: {
+      type: "url",
+      url: "https://www.sma.gov.jm/wp-content/uploads/2023/03/Mobile-and-Fixed-Wireless-Band-Plans_March-2023.pdf",
+    },
   },
   {
     endFreq: 746,
@@ -48,6 +60,10 @@ const data: SpectrumBlock[] = [
     },
     startFreq: 744,
     type: "fddDown",
+    sourceInfo: {
+      type: "url",
+      url: "https://www.sma.gov.jm/wp-content/uploads/2023/03/Mobile-and-Fixed-Wireless-Band-Plans_March-2023.pdf",
+    },
   },
 ];
 

@@ -12,6 +12,10 @@ const data: SpectrumBlock[] = [
     },
     startFreq: 746,
     type: "fddDown",
+    sourceInfo: {
+      type: "url",
+      url: "https://www.sma.gov.jm/wp-content/uploads/2023/03/Mobile-and-Fixed-Wireless-Band-Plans_March-2023.pdf",
+    },
   },
   {
     endFreq: 758,
@@ -23,6 +27,10 @@ const data: SpectrumBlock[] = [
     },
     startFreq: 756,
     type: "fddDown",
+    sourceInfo: {
+      type: "url",
+      url: "https://www.sma.gov.jm/wp-content/uploads/2023/03/Mobile-and-Fixed-Wireless-Band-Plans_March-2023.pdf",
+    },
   },
   {
     details: ["Spectrum earmarked for a Public Safety Network."],
@@ -36,6 +44,10 @@ const data: SpectrumBlock[] = [
     },
     startFreq: 758,
     type: "fddDown",
+    sourceInfo: {
+      type: "url",
+      url: "https://www.sma.gov.jm/wp-content/uploads/2023/03/Mobile-and-Fixed-Wireless-Band-Plans_March-2023.pdf",
+    },
   },
   {
     endFreq: 776,
@@ -47,6 +59,10 @@ const data: SpectrumBlock[] = [
     },
     startFreq: 768,
     type: "fddDown",
+    sourceInfo: {
+      type: "url",
+      url: "https://www.sma.gov.jm/wp-content/uploads/2023/03/Mobile-and-Fixed-Wireless-Band-Plans_March-2023.pdf",
+    },
   },
 ];
 

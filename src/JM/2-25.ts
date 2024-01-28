@@ -11,9 +11,13 @@ const data: SpectrumBlock[] = [
     },
     startFreq: 1930,
     type: "fddDown",
+    sourceInfo: {
+      type: "url",
+      url: "https://www.sma.gov.jm/wp-content/uploads/2023/03/Mobile-and-Fixed-Wireless-Band-Plans_March-2023.pdf",
+    },
   },
   {
-    earfcns: [900],
+    earfcns: [900, 925],
     endFreq: 1970,
     owner: "FLOW",
     ownerLongName: "Cable and Wireless Jamaica Ltd.",
@@ -25,9 +29,13 @@ const data: SpectrumBlock[] = [
     startFreq: 1945,
     type: "fddDown",
     uarfcns: [487],
+    sourceInfo: {
+      type: "url",
+      url: "https://www.sma.gov.jm/wp-content/uploads/2023/03/Mobile-and-Fixed-Wireless-Band-Plans_March-2023.pdf",
+    },
   },
   {
-    earfcns: [1100],
+    earfcns: [1070, 1100],
     endFreq: 1990,
     owner: "Digicel",
     ownerLongName: "Digicel Jamaica Ltd.",
@@ -37,8 +45,8 @@ const data: SpectrumBlock[] = [
       type: "fddUp",
     },
     sourceInfo: {
-      details: "",
-      type: "other",
+      type: "url",
+      url: "https://www.sma.gov.jm/wp-content/uploads/2023/03/Mobile-and-Fixed-Wireless-Band-Plans_March-2023.pdf",
     },
     startFreq: 1970,
     type: "fddDown",
@@ -53,6 +61,10 @@ const data: SpectrumBlock[] = [
     },
     startFreq: 1990,
     type: "fddDown",
+    sourceInfo: {
+      type: "url",
+      url: "https://www.sma.gov.jm/wp-content/uploads/2023/03/Mobile-and-Fixed-Wireless-Band-Plans_March-2023.pdf",
+    },
   },
 ];
 
