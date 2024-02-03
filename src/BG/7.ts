@@ -26,8 +26,8 @@ const data: SpectrumBlock[] = [
     earfcns: [2950],
   },
   {
-    owner: "Yettel",
-    ownerLongName: "Yettel Bulgaria",
+    owner: "Vivacom",
+    ownerLongName: "Vivacom Bulgaria",
     startFreq: 2650,
     endFreq: 2670,
     type: "fddDown",
@@ -37,12 +37,10 @@ const data: SpectrumBlock[] = [
       endFreq: 2550,
     },
     earfcns: [3150],
-    nrarfcns: [534884],
-    details: ["LTE B7 20 MHz, n7 DSS in some urban areas"],
   },
   {
-    owner: "Vivacom",
-    ownerLongName: "Vivacom Bulgaria",
+    owner: "Yettel",
+    ownerLongName: "Yettel Bulgaria",
     startFreq: 2670,
     endFreq: 2690,
     type: "fddDown",
@@ -52,6 +50,8 @@ const data: SpectrumBlock[] = [
       endFreq: 2570,
     },
     earfcns: [3350],
+    nrarfcns: [534884],
+    details: ["LTE B7 20 MHz, n7 DSS in some urban areas"],
   },
 ];
 

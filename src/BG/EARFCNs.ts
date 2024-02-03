@@ -71,13 +71,13 @@ const B7: SimpleArfcnDataItem[] = [
   {
     arfcn: 3150,
     bandwidth: 20,
-    operator: "Yettel Bulgaria",
+    operator: "Vivacom",
     description: "Standard B7 deployment",
   },
   {
     arfcn: 3350,
     bandwidth: 20,
-    operator: "Vivacom",
+    operator: "Yettel Bulgaria",
     description: "Standard B7 deployment",
   },
 ];
