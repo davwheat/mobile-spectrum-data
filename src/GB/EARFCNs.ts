@@ -59,6 +59,12 @@ const B1: SimpleArfcnDataItem[] = [
     description: "Partial 3G refarm (UARFCNs 10736 and 10712)",
   },
   {
+    arfcn: 497,
+    bandwidth: 20,
+    operator: "EE",
+    description: "Widened B1 deployment",
+  },
+  {
     arfcn: 522,
     bandwidth: 15,
     operator: "EE",

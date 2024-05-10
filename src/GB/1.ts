@@ -99,7 +99,9 @@ const data: SpectrumBlock[] = [
       startFreq: 1959.7,
       endFreq: 1964.7,
     },
+    earfcns: [497],
     uarfcns: [10761],
+    details: ["Some LTE/NR deployments utilise a 20 MHz carrier"],
     sourceInfo: {
       type: "url",
       url: "https://www.ofcom.org.uk/__data/assets/pdf_file/0022/249133/SA-2100-LICENCE-EE-1268473-09-11-22.pdf",
@@ -115,9 +117,10 @@ const data: SpectrumBlock[] = [
       startFreq: 1964.7,
       endFreq: 1979.7,
     },
-    earfcns: [522],
+    earfcns: [497, 522],
     nrarfcns: [431810, 433250, 432530],
     details: [
+      "Some LTE/NR deployments utilise a 20 MHz carrier",
       "5G NR operating primarily as DSS n1, with some deployments as pure NR.",
       "Was used for B1 3G UMTS, but this has been refarmed to B1 LTE.",
     ],
