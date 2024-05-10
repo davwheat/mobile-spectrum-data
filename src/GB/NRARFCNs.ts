@@ -131,6 +131,15 @@ const n28: SimpleArfcnDataItem[] = [
   },
 ];
 
+const n38: SimpleArfcnDataItem[] = [
+  {
+    arfcn: 521090,
+    bandwidth: 20,
+    operator: "O2",
+    description: "Standard n38 deployment",
+  },
+];
+
 const n78: SimpleArfcnDataItem[] = [
   {
     arfcn: 628032,
@@ -304,6 +313,7 @@ const NRARFCNs: ArfcnDataItem[] = [
   ...mapArfcnListToBand(7, n7),
   ...mapArfcnListToBand(8, n8),
   ...mapArfcnListToBand(28, n28),
+  ...mapArfcnListToBand(38, n38),
   ...mapArfcnListToBand(78, n78),
 ];
 
