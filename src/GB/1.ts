@@ -14,7 +14,7 @@ const data: SpectrumBlock[] = [
     uarfcns: [10564],
     earfcns: [76],
     nrarfcns: [423610],
-    details: ["EARFCN 76 for 15 MHz carrier in conjunction with upper block"],
+    details: ["EARFCN 76 and NRARFCN 423610 for 15 MHz carrier in conjunction with upper block"],
     sourceInfo: {
       type: "url",
       url: "https://www.ofcom.org.uk/__data/assets/pdf_file/0023/249134/SA-2100-LICENCE-H3G-1268475-18-11-22.pdf",
