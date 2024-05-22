@@ -13,6 +13,7 @@ const data: SpectrumBlock[] = [
     },
     uarfcns: [10564],
     earfcns: [76],
+    nrarfcns: [423610],
     details: ["EARFCN 76 for 15 MHz carrier in conjunction with upper block"],
     sourceInfo: {
       type: "url",
@@ -31,7 +32,7 @@ const data: SpectrumBlock[] = [
     },
     earfcns: [99, 98, 97, 76],
     uarfcns: [10588],
-    nrarfcns: [424130],
+    nrarfcns: [424130, 423610],
     details: [
       "UARFCN 10588 is being refarmed for B1 LTE.",
       "EARFCN 98 is used in areas where low-band priorities have been adjusted",
