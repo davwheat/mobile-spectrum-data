@@ -36,7 +36,7 @@ const data: SpectrumBlock[] = [
     details: [
       "UARFCN 10588 is being refarmed for B1 LTE.",
       "EARFCN 98 is used in areas where low-band priorities have been adjusted",
-      "EARFCN 76 for 15 MHz carrier in conjunction with lower block",
+      "EARFCN 76 and NRARFCN 423610 for 15 MHz carrier in conjunction with lower block",
       "NRARFCN 424130 starting to be used for n1 DSS deployments as of early 2023.",
     ],
     sourceInfo: {
