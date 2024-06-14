@@ -9,6 +9,12 @@ const n1: SimpleArfcnDataItem[] = [
     description: "NR + LTE DSS deployment",
   },
   {
+    arfcn: 431070,
+    bandwidth: 20,
+    operator: "EE",
+    description: "n1 widened (20 MHz) DSS deployment",
+  },
+  {
     arfcn: 431810,
     bandwidth: 15,
     operator: "EE",
@@ -65,6 +71,13 @@ const n3: SimpleArfcnDataItem[] = [
     operator: "EE",
     description: "non-DSS n3 trial",
   },
+  {
+    arfcn: 372490,
+    bandwidth: 20,
+    operator: "EE",
+    description:
+      "20 MHz n3 DSS (Belfast, Glasgow, Edinburgh, Liverpool, Manchester, Leeds, Sheffield, Birmingham, Cardiff, Bristol and London)",
+  },
 ];
 
 const n7: SimpleArfcnDataItem[] = [
@@ -115,6 +128,15 @@ const n28: SimpleArfcnDataItem[] = [
     bandwidth: 10,
     operator: "Three",
     description: "Standard n28 deployment",
+  },
+];
+
+const n38: SimpleArfcnDataItem[] = [
+  {
+    arfcn: 521090,
+    bandwidth: 20,
+    operator: "O2",
+    description: "Standard n38 deployment",
   },
 ];
 
@@ -291,6 +313,7 @@ const NRARFCNs: ArfcnDataItem[] = [
   ...mapArfcnListToBand(7, n7),
   ...mapArfcnListToBand(8, n8),
   ...mapArfcnListToBand(28, n28),
+  ...mapArfcnListToBand(38, n38),
   ...mapArfcnListToBand(78, n78),
 ];
 

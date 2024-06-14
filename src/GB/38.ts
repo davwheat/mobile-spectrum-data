@@ -32,8 +32,9 @@ const data: SpectrumBlock[] = [
     endFreq: 2615,
     type: "tdd",
     earfcns: [38100, 38125],
+    nrarfcns: [521090],
     details: [
-      "38100 uses full 20 MHz spectrum and is used for very new B38 small cells in London",
+      "LTE on 38100/NR on 521090 uses full 20 MHz spectrum and is used for B38 small cells",
       "38125 is 15 MHz, skipping the first 5 MHz of this block, primarily used for initial deployments in Northern Ireland",
     ],
     sourceInfo: {
