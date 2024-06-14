@@ -118,10 +118,25 @@ const B20: SimpleArfcnDataItem[] = [
     description: "Standard B20 deployment",
   },
   {
+    arfcn: 6300,
+    bandwidth: 10,
+    operator: "Vivacom",
+    description: "Standard B20 deployment",
+  },
+  {
     arfcn: 6400,
     bandwidth: 10,
     operator: "Yettel Bulgaria",
     description: "Standard B20 deployment",
+  },
+];
+
+const B28: SimpleArfcnDataItem[] = [
+  {
+    arfcn: 9360,
+    bandwidth: 10,
+    operator: "Vivacom",
+    description: "Standard B28 deployment",
   },
 ];
 
@@ -131,6 +146,7 @@ const EARFCNs: ArfcnDataItem[] = [
   ...mapArfcnListToBand(7, B7),
   ...mapArfcnListToBand(8, B8),
   ...mapArfcnListToBand(20, B20),
+  ...mapArfcnListToBand(28, B28),
 ];
 
 export default EARFCNs;

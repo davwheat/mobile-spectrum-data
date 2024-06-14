@@ -41,29 +41,19 @@ const data: SpectrumBlock[] = [
     owner: "Vivacom",
     ownerLongName: "Vivacom Bulgaria",
     startFreq: 2150,
-    endFreq: 2155,
-    type: "fddDown",
-    pairedWith: {
-      type: "fddUp",
-      startFreq: 1960,
-      endFreq: 1965,
-    },
-    uarfcns: [10762],
-    details: ["UMTS B1 5 MHz nationwide deployment"],
-  },
-  {
-    owner: "Vivacom",
-    ownerLongName: "Vivacom Bulgaria",
-    startFreq: 2155,
     endFreq: 2170,
     type: "fddDown",
     pairedWith: {
       type: "fddUp",
-      startFreq: 1965,
-      endFreq: 1980,
+      startFreq: 1960,
+      endFreq: 1970,
     },
-    earfcns: [525],
-    details: ["LTE B1 15 MHz nationwide deployment"],
+    uarfcns: [10762],
+    earfcns: [500, 525],
+    details: [
+      "UMTS B1 5 MHz nationwide deployment",
+      "LTE B1 15 MHz nationwide deployment",
+    ],
   },
 ];
 
