@@ -319,9 +319,9 @@ const n78: SimpleArfcnDataItem[] = [
   },
   {
     arfcn: 651360,
-    bandwidth: 80,
+    bandwidth: 40,
     operator: "O2",
-    description: "80 MHz n78 deployment - post spectrum swap with Vodafone",
+    description: "40 MHz n78 deployment - upper block/post-swap",
   },
 ];
 
