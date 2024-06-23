@@ -16,7 +16,7 @@ const data: SpectrumBlock[] = [
     uarfcns: [2938],
     sourceInfo: {
       type: "url",
-      url: "https://www.ofcom.org.uk/__data/assets/pdf_file/0025/83572/Cellular-LICENCE-Vodafone-0249664.pdf",
+      url: "https://www.ofcom.org.uk/siteassets/resources/documents/manage-your-licence/mobile-wireless-and-broadband/cellular/licences/cellular-licence-vodafone-0249664.pdf",
     },
   },
   {
@@ -35,7 +35,7 @@ const data: SpectrumBlock[] = [
     details: ["Standard 3G 900 MHz band"],
     sourceInfo: {
       type: "url",
-      url: "https://www.ofcom.org.uk/__data/assets/pdf_file/0021/84045/Cellular-LICENCE-Telefonica-UK-0249663.pdf",
+      url: "https://www.ofcom.org.uk/siteassets/resources/documents/manage-your-licence/mobile-wireless-and-broadband/cellular/licences/cellular-licence-vodafone-0249664.pdf",
     },
   },
   {
@@ -56,7 +56,7 @@ const data: SpectrumBlock[] = [
     ],
     sourceInfo: {
       type: "url",
-      url: "https://www.ofcom.org.uk/__data/assets/pdf_file/0025/83572/Cellular-LICENCE-Vodafone-0249664.pdf",
+      url: "https://www.ofcom.org.uk/siteassets/resources/documents/manage-your-licence/mobile-wireless-and-broadband/cellular/licences/cellular-licence-vodafone-0249664.pdf",
     },
   },
   {
@@ -81,7 +81,7 @@ const data: SpectrumBlock[] = [
     ],
     sourceInfo: {
       type: "url",
-      url: "https://www.ofcom.org.uk/__data/assets/pdf_file/0025/83572/Cellular-LICENCE-Vodafone-0249664.pdf",
+      url: "https://www.ofcom.org.uk/siteassets/resources/documents/manage-your-licence/mobile-wireless-and-broadband/cellular/licences/cellular-licence-vodafone-0249664.pdf",
     },
   },
   {
@@ -104,7 +104,7 @@ const data: SpectrumBlock[] = [
     ],
     sourceInfo: {
       type: "url",
-      url: "https://www.ofcom.org.uk/__data/assets/pdf_file/0021/84045/Cellular-LICENCE-Telefonica-UK-0249663.pdf",
+      url: "https://www.ofcom.org.uk/siteassets/resources/documents/manage-your-licence/mobile-wireless-and-broadband/cellular/licences/cellular-licence--telefonica-uk-0249663.pdf",
     },
   },
   {
@@ -122,7 +122,7 @@ const data: SpectrumBlock[] = [
     details: ["Standard 2G 900 MHz band"],
     sourceInfo: {
       type: "url",
-      url: "https://www.ofcom.org.uk/__data/assets/pdf_file/0021/84045/Cellular-LICENCE-Telefonica-UK-0249663.pdf",
+      url: "https://www.ofcom.org.uk/siteassets/resources/documents/manage-your-licence/mobile-wireless-and-broadband/cellular/licences/cellular-licence--telefonica-uk-0249663.pdf",
     },
   },
 ];
