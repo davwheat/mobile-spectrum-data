@@ -3,6 +3,12 @@ import { mapArfcnListToBand } from "../utils/mapArfcnListToBand";
 
 const n1: SimpleArfcnDataItem[] = [
   {
+    arfcn: 423610,
+    bandwidth: 15,
+    operator: "Three",
+    description: "3G switch-off widened n1 deployment",
+  },
+  {
     arfcn: 424130,
     bandwidth: 10,
     operator: "Three",

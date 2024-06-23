@@ -13,7 +13,10 @@ const data: SpectrumBlock[] = [
     },
     uarfcns: [10564],
     earfcns: [76],
-    details: ["EARFCN 76 for 15 MHz carrier in conjunction with upper block"],
+    nrarfcns: [423610],
+    details: [
+      "EARFCN 76 and NRARFCN 423610 for 15 MHz carrier in conjunction with upper block",
+    ],
     sourceInfo: {
       type: "url",
       url: "https://www.ofcom.org.uk/__data/assets/pdf_file/0023/249134/SA-2100-LICENCE-H3G-1268475-18-11-22.pdf",
@@ -31,11 +34,11 @@ const data: SpectrumBlock[] = [
     },
     earfcns: [99, 98, 97, 76],
     uarfcns: [10588],
-    nrarfcns: [424130],
+    nrarfcns: [424130, 423610],
     details: [
       "UARFCN 10588 is being refarmed for B1 LTE.",
       "EARFCN 98 is used in areas where low-band priorities have been adjusted",
-      "EARFCN 76 for 15 MHz carrier in conjunction with lower block",
+      "EARFCN 76 and NRARFCN 423610 for 15 MHz carrier in conjunction with lower block",
       "NRARFCN 424130 starting to be used for n1 DSS deployments as of early 2023.",
     ],
     sourceInfo: {
