@@ -54,6 +54,12 @@ const data: SpectrumBlock[] = [
     owner: "MoD",
     ownerLongName: "Ministry of Defence of Bulgaria",
     startFreq: 25389,
+    endFreq: 25445,
+    type: "tdd",
+  },
+  {
+    owner: "?",
+    startFreq: 25445,
     endFreq: 25500,
     type: "tdd",
   },
@@ -107,8 +113,15 @@ const data: SpectrumBlock[] = [
     owner: "MoD",
     ownerLongName: "Ministry of Defence of Bulgaria",
     startFreq: 26397,
+    endFreq: 26453,
+    type: "tdd",
+  },
+  {
+    owner: "?",
+    startFreq: 26453,
     endFreq: 26500,
     type: "tdd",
+    details: ["Requested acquisition by A1"],
   },
   {
     owner: "A1",
@@ -129,6 +142,7 @@ const data: SpectrumBlock[] = [
     startFreq: 27300,
     endFreq: 27500,
     type: "tdd",
+    details: ["Requested acquisition by Vivacom"],
   },
 ];
 

@@ -30,6 +30,7 @@ const data: SpectrumBlock[] = [
       startFreq: 713,
       endFreq: 723,
     },
+    earfcns: [9360],
     details: ["Restricted in some areas until the end of 2025"],
     sourceInfo: {
       type: "url",
