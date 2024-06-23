@@ -2,6 +2,7 @@ import Band1 from "./1";
 import Band3 from "./3";
 import Band7 from "./7";
 import Band8 from "./8";
+import Band8_SpectrumSwap from "./8_swap";
 import Band20 from "./20";
 import Band28 from "./28";
 import Band32 from "./32";
@@ -31,6 +32,16 @@ const data: SpectrumData[] = [
   {
     names: ["B8", "n8"],
     spectrumData: Band8,
+  },
+  {
+    names: ["B8", "n8"],
+    extraInfo: {
+      shortAddendum: "defragmented",
+      description:
+        "Spectrum allocation visualisation for after completion of Vodafone and O2's 900 MHz spectrum swap to defragment allocations.",
+      excludeFromSpectrumTotal: true,
+    },
+    spectrumData: Band8_SpectrumSwap,
   },
   {
     names: ["B20"],
