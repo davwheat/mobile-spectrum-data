@@ -27,7 +27,7 @@ const data: SpectrumBlock[] = [
     startFreq: 3720,
     endFreq: 3800,
     type: "tdd",
-    nrarfcns: [650592],
+    nrarfcns: [650592, 650976, 651360],
     details: [
       "New 80 MHz contiguous spectrum after spectrum swap with Vodafone",
       "For live deployment find, see: https://twitter.com/davwheat_/status/1545377169286860806",

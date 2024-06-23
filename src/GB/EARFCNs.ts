@@ -255,6 +255,12 @@ const B28: SimpleArfcnDataItem[] = [
     operator: "Three",
     description: "Standard B28 deployment",
   },
+  {
+    arfcn: 9460,
+    bandwidth: 10,
+    operator: "EE",
+    description: "Limited rural B28 LTE deployment",
+  },
 ];
 
 const B32: SimpleArfcnDataItem[] = [
