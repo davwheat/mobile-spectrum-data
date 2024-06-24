@@ -1,4 +1,5 @@
 import { default as OperatorsAT } from "./AT";
+import { default as OperatorsAU } from "./AU";
 import { default as OperatorsAX } from "./FI";
 import { default as OperatorsBG } from "./BG";
 import { default as OperatorsDE } from "./DE";
@@ -23,6 +24,7 @@ import { default as OperatorsUA } from "./UA";
 
 const allCountries: Record<string, IOperatorInfo[]> = {
   AT: OperatorsAT,
+  AU: OperatorsAU,
   AX: OperatorsAX,
   BG: OperatorsBG,
   DE: OperatorsDE,
@@ -48,6 +50,7 @@ const allCountries: Record<string, IOperatorInfo[]> = {
 
 export {
   OperatorsAT,
+  OperatorsAU,
   OperatorsAX,
   OperatorsBG,
   OperatorsDE,
