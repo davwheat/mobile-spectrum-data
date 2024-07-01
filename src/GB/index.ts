@@ -38,7 +38,7 @@ const data: SpectrumData[] = [
     extraInfo: {
       shortAddendum: "defragmented",
       description:
-        "Spectrum allocation visualisation for after completion of Vodafone and O2's 900 MHz spectrum swap to defragment allocations.",
+        "Spectrum allocation visualisation for post 900 MHz spectrum swap to defragment allocations. This took effect across large swathes of the UK on 1 July 2024.",
       excludeFromSpectrumTotal: true,
     },
     spectrumData: Band8_SpectrumSwap,

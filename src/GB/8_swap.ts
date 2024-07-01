@@ -13,8 +13,7 @@ const data: SpectrumBlock[] = [
       endFreq: 897.5,
     },
     earfcns: [3500],
-    arfcns: [],
-    uarfcns: [],
+    arfcns: "ARFCNs 1-12",
     details: ["Post-900 MHz defragmentation spectrum"],
     sourceInfo: {
       type: "url",
@@ -32,8 +31,9 @@ const data: SpectrumBlock[] = [
       startFreq: 897.5,
       endFreq: 914.9,
     },
-    arfcns: [],
-    uarfcns: [],
+    arfcns: "ARFCNs 113-124",
+    uarfcns: [3025],
+    earfcns: [3725],
     details: ["Post-900 MHz defragmentation spectrum"],
     sourceInfo: {
       type: "url",
