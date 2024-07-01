@@ -17,7 +17,7 @@ const data: SpectrumBlock[] = [
     details: ["Post-900 MHz defragmentation spectrum"],
     sourceInfo: {
       type: "url",
-      url: "https://www.ofcom.org.uk/siteassets/resources/documents/manage-your-licence/mobile-wireless-and-broadband/cellular/licences/cellular-licence---telefonica---vodafone-1351815.pdf",
+      url: "https://www.ofcom.org.uk/siteassets/resources/documents/manage-your-licence/mobile-wireless-and-broadband/cellular/licences/cellular-licence-telefonica-vodafone-1351815.pdf",
     },
   },
   {
@@ -37,7 +37,7 @@ const data: SpectrumBlock[] = [
     details: ["Post-900 MHz defragmentation spectrum"],
     sourceInfo: {
       type: "url",
-      url: "https://www.ofcom.org.uk/siteassets/resources/documents/manage-your-licence/mobile-wireless-and-broadband/cellular/licences/cellular-licence---telefonica---vodafone-1351815.pdf",
+      url: "https://www.ofcom.org.uk/siteassets/resources/documents/manage-your-licence/mobile-wireless-and-broadband/cellular/licences/cellular-licence-telefonica-vodafone-1351815.pdf",
     },
   },
 ];
