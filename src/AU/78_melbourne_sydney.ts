@@ -39,8 +39,8 @@ const data: SpectrumBlock[] = [
   },
   {
     details: [
-      "Not deployed yet.",
-      "Only sightings at Taylor Swift concert for extra capacity ",
+      "Deployed in some spots now, AAUs will need a refresh to take full advantage of it across the network.",
+      "First used at the Taylor Swift concert in Sydney for extra capacity.",
     ],
     endFreq: 3780,
     nrarfcns: [649334],
@@ -54,7 +54,6 @@ const data: SpectrumBlock[] = [
     type: "tdd",
   },
   {
-    details: ["Not deployed yet."],
     endFreq: 3800,
     owner: "TPG",
     ownerLongName: "Vodafone Hutchison Australia + TPG Telecom Merger",

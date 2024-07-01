@@ -55,8 +55,8 @@ const data: SpectrumBlock[] = [
   },
   {
     details: [
-      "Used for Melbourne and Sydney's train cellular network.",
-      "Melbourne uses proprietary 3G. Sydney uses 2G GSM.",
+      "Used for Melbournes and Sydneys train cellular network.",
+      "Melbourne and Sydney both use GSM-R technology for their trains.",
     ],
     endFreq: 1880,
     owner: "Train Network",

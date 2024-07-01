@@ -2,9 +2,7 @@ import type { SpectrumBlock } from "../@types";
 
 const data: SpectrumBlock[] = [
   {
-    details: [
-      "Used for either B26 10 LTE or n26 10 NR, it's unconfirmed. Most likely n26.",
-    ],
+    details: ["n26 10 5G in metro areas, B26 10 LTE in rural areas."],
     endFreq: 869,
     owner: "Telstra",
     ownerLongName: "Telstra",
@@ -59,7 +57,10 @@ const data: SpectrumBlock[] = [
     type: "fddDown",
   },
   {
-    details: ["At the moment 5 MHz is used for 3G. 5 MHz is used for n5."],
+    details: [
+      "At the moment 5 MHz is used for 3G. 5 MHz is used for n5.",
+      "Refarmed to n5 10 in metro areas post 3G shutdown",
+    ],
     endFreq: 890,
     nrarfcns: [176410],
     owner: "Telstra",

@@ -3,8 +3,8 @@ import type { SpectrumBlock } from "../@types";
 const data: SpectrumBlock[] = [
   {
     details: [
-      "10 MHz unused at the moment, planned for n7 50 for upload carrier aggregation in Standalone 5G.",
-      "The 2950 and 3148 carriers are also used for DSS in Standalone 5G trial.",
+      "2950 carrier currently in the process of being refarmed from LTE to pure n7 20/30 with same 527070 NRARFCN depending on RRU model.",
+      "532590 was the 3148 DSS carrier, should rarely see it nowadays it was converted back to pure LTE.",
     ],
     earfcns: [3148, 2950],
     endFreq: 2670,
