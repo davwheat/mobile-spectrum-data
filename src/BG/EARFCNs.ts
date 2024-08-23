@@ -30,13 +30,13 @@ const B1: SimpleArfcnDataItem[] = [
     arfcn: 500,
     bandwidth: 20,
     operator: "Vivacom",
-    description: "Test B1 20 MHz deployment",
+    description: "Standard B1 deployment",
   },
   {
     arfcn: 525,
     bandwidth: 15,
     operator: "Vivacom",
-    description: "Standard B1 deployment",
+    description: "Indoor and metro deployment B1 deployment",
   },
 ];
 
@@ -136,6 +136,12 @@ const B28: SimpleArfcnDataItem[] = [
     arfcn: 9360,
     bandwidth: 10,
     operator: "Vivacom",
+    description: "Standard B28 deployment",
+  },
+  {
+    arfcn: 9460,
+    bandwidth: 10,
+    operator: "Yettel Bulgaria",
     description: "Standard B28 deployment",
   },
 ];
