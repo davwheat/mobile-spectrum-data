@@ -2,11 +2,12 @@ import type { SpectrumBlock } from "../@types";
 
 const data: SpectrumBlock[] = [
   {
-    endFreq: 2115,
+    earfcns: [100],
+    endFreq: 2130,
     owner: "WindTre",
     ownerLongName: "WindTre",
     pairedWith: {
-      endFreq: 1925,
+      endFreq: 1940,
       startFreq: 1920,
       type: "fddUp",
     },
@@ -15,24 +16,6 @@ const data: SpectrumBlock[] = [
       url: "https://lteitaly.it/it/spectrum.php",
     },
     startFreq: 2110,
-    type: "fddDown",
-    uarfcns: [10563],
-  },
-  {
-    earfcns: [125],
-    endFreq: 2130,
-    owner: "WindTre",
-    ownerLongName: "WindTre",
-    pairedWith: {
-      endFreq: 1940,
-      startFreq: 1925,
-      type: "fddUp",
-    },
-    sourceInfo: {
-      type: "url",
-      url: "https://lteitaly.it/it/spectrum.php",
-    },
-    startFreq: 2115,
     type: "fddDown",
   },
   {
