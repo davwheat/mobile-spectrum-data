@@ -32,9 +32,12 @@ const data: SpectrumBlock[] = [
       endFreq: 914.9,
     },
     arfcns: "ARFCNs 113-124",
-    uarfcns: [3025],
+    uarfcns: [3025, 3050],
     earfcns: [3725],
-    details: ["Post-900 MHz defragmentation spectrum"],
+    details: [
+      "Post-900 MHz defragmentation spectrum",
+      "UARFCN 3025 is a 5MHz block, 3050 is a 10MHz block",
+    ],
     sourceInfo: {
       type: "url",
       url: "https://www.ofcom.org.uk/siteassets/resources/documents/manage-your-licence/mobile-wireless-and-broadband/cellular/licences/cellular-licence-telefonica-vodafone-1351815.pdf",
