@@ -1,56 +1,72 @@
 import type { SpectrumBlock } from "../@types";
 
-const data: SpectrumBlock[] = (
-  [
-    {
-      owner: "Magenta",
-      startFreq: 925,
-      endFreq: 940,
-      type: "fddDown",
-      pairedWith: {
-        type: "fddUp",
-        startFreq: 880,
-        endFreq: 905,
-      },
-      arfcns: [],
-      uarfcns: [],
-      earfcns: [],
+const data: SpectrumBlock[] = [
+  {
+    arfcns: [],
+    details: [
+      "4G 925-935 MHz",
+      "2G 935-940 MHz",
+      "4G carrier can be used by Drei customers as part of regional roaming",
+      "3G refarmed in July 2024",
+    ],
+    earfcns: [3500],
+    endFreq: 940,
+    owner: "Magenta",
+    pairedWith: {
+      endFreq: 895,
+      startFreq: 880,
+      type: "fddUp",
     },
-    {
-      owner: "3 AT",
-      startFreq: 940,
-      endFreq: 945,
-      type: "fddDown",
-      pairedWith: {
-        type: "fddUp",
-        startFreq: 905,
-        endFreq: 910,
-      },
-      arfcns: [],
-      uarfcns: [],
-      earfcns: [],
+    sourceInfo: {
+      type: "url",
+      url: "https://www.rtr.at/TKP/was_wir_tun/telekommunikation/spectrum/bands/900MHz/Spectrum900MHz.en.html",
     },
-    {
-      owner: "A1 AT",
-      startFreq: 945,
-      endFreq: 960,
-      type: "fddDown",
-      pairedWith: {
-        type: "fddUp",
-        startFreq: 910,
-        endFreq: 925,
-      },
-      arfcns: [],
-      uarfcns: [],
-      earfcns: [],
+    startFreq: 925,
+    type: "fddDown",
+    uarfcns: [],
+  },
+  {
+    arfcns: [],
+    details: [
+      "4G: 941.7-944.7 MHz",
+      "On new sites, G900 was deployed until around 2021. Since then, new deployments only have G1800. 4G still isn't widened to 5MHz on new sites without G900",
+    ],
+    earfcns: [3632],
+    endFreq: 945,
+    owner: "3 AT",
+    ownerLongName: "Hutchison Drei Austria GmbH",
+    pairedWith: {
+      endFreq: 900,
+      startFreq: 895,
+      type: "fddUp",
     },
-  ] as SpectrumBlock[]
-).map((x) => {
-  x.sourceInfo = {
-    type: "url",
-    url: "https://www.rtr.at/TKP/was_wir_tun/telekommunikation/spectrum/bands/900MHz/Spectrum900MHz.en.html",
-  };
-  return x;
-});
+    sourceInfo: {
+      type: "url",
+      url: "https://www.rtr.at/TKP/was_wir_tun/telekommunikation/spectrum/bands/900MHz/Spectrum900MHz.en.html",
+    },
+    startFreq: 940,
+    type: "fddDown",
+    uarfcns: [],
+  },
+  {
+    arfcns: [],
+    earfcns: [],
+    endFreq: 960,
+    owner: "A1 AT",
+    ownerLongName: "A1 Telekom Austria AG",
+    pairedWith: {
+      endFreq: 915,
+      startFreq: 900,
+      type: "fddUp",
+    },
+    sourceInfo: {
+      type: "url",
+      url: "https://www.rtr.at/TKP/was_wir_tun/telekommunikation/spectrum/bands/900MHz/Spectrum900MHz.en.html",
+    },
+    startFreq: 945,
+    type: "fddDown",
+    uarfcns: [],
+  },
+];
 
 export default data;
