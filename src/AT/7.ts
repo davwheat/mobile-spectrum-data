@@ -55,7 +55,7 @@ const data: SpectrumBlock[] = [
     details: [
       "4G 2650-2670 MHz",
       "4G 2645-2650 MHz",
-      "the 20MHz 4G carrier is used for ULCA with B3",
+      "20MHz 4G carrier is used for ULCA with B3",
     ],
     earfcns: [3225, 3350],
     endFreq: 2690,
