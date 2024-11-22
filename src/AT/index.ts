@@ -8,6 +8,7 @@ import Band31 from "./31";
 import Band32_75_76 from "./32_75_76";
 import Band38 from "./38";
 import Band78 from "./78";
+import Band258 from "./258";
 
 import type { SpectrumData } from "../@types";
 
@@ -51,6 +52,10 @@ const data: SpectrumData[] = [
   {
     names: ["n78"],
     spectrumData: Band78,
+  },
+  {
+    names: ["n258"],
+    spectrumData: Band258,
   },
 ];
 
