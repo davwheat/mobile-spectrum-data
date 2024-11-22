@@ -12,13 +12,13 @@ const B1: SimpleArfcnDataItem[] = [
     arfcn: 100,
     bandwidth: 10,
     operator: "Yettel Bulgaria",
-    description: "Indoor and metro B1 deployment",
+    description: "Indoor and metro B1 deployment (with UMTS B1 5 MHz)",
   },
   {
     arfcn: 275,
     bandwidth: 15,
     operator: "A1 Bulgaria",
-    description: "Indoor and metro deployment (with UMTS B1 5 MHz)",
+    description: "Indoor and metro B1 deployment (with UMTS B1 5 MHz)",
   },
   {
     arfcn: 300,
@@ -33,10 +33,10 @@ const B1: SimpleArfcnDataItem[] = [
     description: "Standard B1 deployment",
   },
   {
-    arfcn: 525,
-    bandwidth: 15,
+    arfcn: 500,
+    bandwidth: 10,
     operator: "Vivacom",
-    description: "Indoor and metro deployment B1 deployment",
+    description: "Indoor and metro B1 deployment (with UMTS B1 5 MHz)",
   },
 ];
 
@@ -78,7 +78,7 @@ const B7: SimpleArfcnDataItem[] = [
     arfcn: 3350,
     bandwidth: 20,
     operator: "Yettel Bulgaria",
-    description: "Standard B7 deployment",
+    description: "Standard B7 deployment, sometimes with n7 DSS",
   },
 ];
 
@@ -95,6 +95,13 @@ const B8: SimpleArfcnDataItem[] = [
     operator: "A1 Bulgaria",
     description:
       "Standard B8 deployment - signalled as 5 MHz, operating on 4.6 MHz of spectrum due to LTE's 0.5 MHz guard band for 5 MHz bandwidth.",
+  },
+  {
+    arfcn: 3654,
+    bandwidth: 9.4,
+    operator: "A1 Bulgaria",
+    description:
+      "B8 deployment - signalled as 10 MHz, operating on 9.4 MHz of spectrum due having only 9.4 MHz of available bandwidth. Deployed only in areas without 3G.",
   },
   {
     arfcn: 3774,

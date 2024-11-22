@@ -55,7 +55,7 @@ const data: SpectrumBlock[] = [
       endFreq: 1965,
     },
     uarfcns: [10712, 10737, 10762],
-    earfcns: [374, 399],
+    earfcns: [374, 399, 400],
     details: [
       "LTE B1 15 MHz on EARFCN 374",
       "UMTS B1 5 MHz, LTE B1 10 MHz on EARFCN 399",
@@ -72,7 +72,7 @@ const data: SpectrumBlock[] = [
       endFreq: 1980,
     },
     uarfcns: [10787, 10812, 10836],
-    earfcns: [550],
+    earfcns: [524, 550],
     details: ["UMTS B1 5 MHz, LTE B1 10 MHz on EARFCN 550"],
   },
 ];
