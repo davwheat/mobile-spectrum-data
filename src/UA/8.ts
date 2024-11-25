@@ -13,7 +13,8 @@ const data: SpectrumBlock[] = [
       endFreq: 888.1,
     },
     arfcns: "ARFCNs 975-1014",
-    details: ["Regional licences owned only by Kyivstar"],
+    uarfcns: [2987],
+    details: ["Regional licences owned only by Kyivstar", "3G 5 MHz (rare)"],
   },
   {
     owner: "Kyivstar",
@@ -40,10 +41,12 @@ const data: SpectrumBlock[] = [
       endFreq: 900,
     },
     arfcns: "ARFCNs 26-49",
+    uarfcns: [3012],
     earfcns: [3615, 3625],
     details: [
-      "LTE B8 3 MHz on 3615 with 2G deployments",
-      "LTE B8 5 MHz on 3625",
+      "LTE B8 3 MHz on 3615, 2G deployments",
+      "LTE B8 5 MHz on 3625, 2G deployments",
+      "3G in areas with B1 LTE 20 MHz (rare)",
     ],
   },
   {
@@ -73,9 +76,7 @@ const data: SpectrumBlock[] = [
       endFreq: 915,
     },
     arfcns: "ARFCNs 82-124",
-    details: [
-      "Regional licences owned only by Vodafone, lifecell and Kyivstar",
-    ],
+    details: ["Regional licences owned by Vodafone, lifecell and Kyivstar"],
   },
 ];
 

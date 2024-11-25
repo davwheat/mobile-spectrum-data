@@ -12,10 +12,12 @@ const data: SpectrumBlock[] = [
       endFreq: 1940,
     },
     uarfcns: [10564, 10588, 10612, 10637],
-    earfcns: [150, 175],
+    earfcns: [100, 125, 150],
     details: [
+      "LTE B1 20 MHz on EARFCN 100",
+      "UMTS B1 5 MHz, LTE B1 15 MHz on EARFCN 125",
       "UMTS B1 10 MHz, LTE B1 10 MHz on EARFCN 150",
-      "UMTS B1 15 MHz, LTE B1 5 MHz on EARFCN 175",
+      "UMTS B1 20 MHz",
     ],
   },
   {
@@ -29,7 +31,10 @@ const data: SpectrumBlock[] = [
       endFreq: 1945,
     },
     uarfcns: [10662],
-    details: ["UMTS B1 5 MHz in Kyiv"],
+    details: [
+      "UMTS B1 5 MHz in Kyiv",
+      "Spectrum licence expires on 13.12.2025",
+    ],
   },
   {
     owner: "Kyivstar",
@@ -42,6 +47,9 @@ const data: SpectrumBlock[] = [
       endFreq: 1950,
     },
     uarfcns: [10687],
+    details: [
+      "This 5 MHz lot was purchased by Vodafone on the spectrum auction on 19.11.2024 but is still operated by Kyivstar",
+    ],
   },
   {
     owner: "Vodafone",
@@ -55,11 +63,8 @@ const data: SpectrumBlock[] = [
       endFreq: 1965,
     },
     uarfcns: [10712, 10737, 10762],
-    earfcns: [374, 399, 400],
-    details: [
-      "LTE B1 15 MHz on EARFCN 374",
-      "UMTS B1 5 MHz, LTE B1 10 MHz on EARFCN 399",
-    ],
+    earfcns: [400],
+    details: ["UMTS B1 5 MHz, LTE B1 10 MHz on EARFCN 400", "UMTS B1 15 MHz"],
   },
   {
     owner: "Kyivstar",
@@ -73,7 +78,10 @@ const data: SpectrumBlock[] = [
     },
     uarfcns: [10787, 10812, 10836],
     earfcns: [524, 550],
-    details: ["UMTS B1 5 MHz, LTE B1 10 MHz on EARFCN 550"],
+    details: [
+      "LTE 15 MHz on EARFCN 524",
+      "UMTS B1 5 MHz, LTE B1 10 MHz on EARFCN 550",
+    ],
   },
 ];
 

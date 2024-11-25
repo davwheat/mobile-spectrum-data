@@ -11,9 +11,14 @@ const data: SpectrumBlock[] = [
     owner: "Vodafone",
     ownerLongName: "Vodafone Ukraine",
     startFreq: 2575,
-    endFreq: 2610,
+    endFreq: 2615,
     type: "tdd",
-    earfcns: [37900, 37902, 38098, 38100],
+    earfcns: [37900, 38098],
+    details: [
+      "2575-2610 MHz owned by Vodafone Ukraine",
+      "2610-2615 MHz operated without a license",
+      "Operated as 20+20 MHz contiguous carriers in all of Ukriane",
+    ],
   },
   {
     owner: "Unallocated",
