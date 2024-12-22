@@ -56,6 +56,7 @@ const data: SpectrumBlock[] = [
       endFreq: 2545,
     },
     earfcns: [3150],
+    details: ["Standard B7 10 MHz - carrier 1"],
   },
   {
     owner: "Unallocated",
@@ -79,6 +80,7 @@ const data: SpectrumBlock[] = [
       endFreq: 2570,
     },
     earfcns: [3425],
+    details: ["Standard B7 5 MHz - carrier 2"],
   },
 ];
 

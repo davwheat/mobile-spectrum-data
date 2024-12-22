@@ -13,10 +13,11 @@ const data: SpectrumBlock[] = [
     startFreq: 2575,
     endFreq: 2615,
     type: "tdd",
-    earfcns: [37902, 37925, 38075, 38100],
+    earfcns: [37900, 38098],
     details: [
-      "Spectrum owned by Vega Telecommunications Ukraine",
-      "Deployed as two 15 MHz carriers or two 20 MHz carriers on Vodafone",
+      "2575-2610 MHz owned by Vodafone Ukraine",
+      "2610-2615 MHz operated without a license",
+      "Operated as 20+20 MHz contiguous carriers in all of Ukriane",
     ],
   },
   {

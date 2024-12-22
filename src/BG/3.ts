@@ -13,7 +13,7 @@ const data: SpectrumBlock[] = [
       endFreq: 1735,
     },
     earfcns: [1300],
-    arfcns: [514, 608],
+    arfcns: [514, 608, 623, 625],
   },
   {
     owner: "Yettel",
