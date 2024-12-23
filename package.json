@@ -15,7 +15,7 @@
     "dev": "tsc --watch",
     "clean": "cross-env rimraf lib publish-tmp",
     "pub": "yarn format-check && node ./publish.js",
-    "test": "yarn ts-node --project ts-node.tsconfig.json validateArfcnLists.ts"
+    "test": "yarn tsx ./validateArfcnLists.ts"
   },
   "devDependencies": {
     "@expo/spawn-async": "^1.7.2",
@@ -28,7 +28,7 @@
     "prettier": "^3.4.2",
     "prompt-sync": "^4.2.0",
     "rimraf": "^5.0.10",
-    "ts-node": "^10.9.2",
+    "tsx": "^4.19.2",
     "typescript": "5.7.2"
   },
   "packageManager": "yarn@4.5.3"
