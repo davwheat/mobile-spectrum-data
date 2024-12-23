@@ -9,7 +9,7 @@ const operators: IOperatorInfo[] = [
   {
     name: "3 AT",
     aliases: ["Three AT", "H3A"],
-    color: "#000000",
+    color: "#00a0d2",
   },
   {
     name: "A1 AT",
@@ -18,7 +18,7 @@ const operators: IOperatorInfo[] = [
   },
   {
     name: "Magenta",
-    aliases: ["Magenta Telekom"],
+    aliases: ["Magenta Telekom", "T-Mobile Austria GmbH"],
     color: "#e20074",
   },
 ];
