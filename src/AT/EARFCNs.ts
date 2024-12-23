@@ -23,6 +23,27 @@ const EARFCNs: ArfcnDataItem[] = [
     description: "Standard deployment",
   },
   {
+    arfcn: 1700,
+    band: 3,
+    operator: "A1 AT",
+    bandwidth: 15,
+    description: "Standard deployment",
+  },
+  {
+    arfcn: 1871,
+    band: 3,
+    operator: "A1 AT",
+    bandwidth: 15,
+    description: "Standard deployment",
+  },
+  {
+    arfcn: 2850,
+    band: 7,
+    operator: "A1 AT",
+    bandwidth: 20,
+    description: "Standard deployment",
+  },
+  {
     arfcn: 3225,
     band: 7,
     operator: "3 AT",
@@ -66,10 +87,17 @@ const EARFCNs: ArfcnDataItem[] = [
   },
   {
     arfcn: 37900,
-    band: 20,
+    band: 38,
     operator: "3 AT",
     bandwidth: 20,
     description: "Standard deployment",
+  },
+  {
+    arfcn: 40540,
+    band: 41,
+    operator: "3 AT",
+    bandwidth: 20,
+    description: "Standard deployment (B38 MFBI)",
   },
 ];
 
