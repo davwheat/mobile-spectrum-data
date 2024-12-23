@@ -11,6 +11,7 @@ const data: SpectrumBlock[] = [
     earfcns: [1300],
     endFreq: 1825,
     owner: "Magenta",
+    ownerLongName: "T-Mobile Austria GmbH",
     pairedWith: {
       endFreq: 1730,
       startFreq: 1710,
@@ -28,7 +29,7 @@ const data: SpectrumBlock[] = [
     details: [
       "4G 1830-1845 MHz",
       "2G 1825-1830 MHz",
-      "4G Band 3+7 are used in ULCA",
+      "4G Band 3+7 and 3+1 are used in ULCA",
     ],
     earfcns: [1525],
     endFreq: 1845,
@@ -49,7 +50,7 @@ const data: SpectrumBlock[] = [
   {
     arfcns: [],
     details: ["4G 1845-1880 MHz"],
-    earfcns: [],
+    earfcns: [1700, 1871],
     endFreq: 1880,
     owner: "A1 AT",
     ownerLongName: "A1 Telekom Austria AG",

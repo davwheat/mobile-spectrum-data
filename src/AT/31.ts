@@ -1,26 +1,22 @@
 import type { SpectrumBlock } from "../@types";
 
-const data: SpectrumBlock[] = (
-  [
-    {
-      owner: "ArgoNET",
-      startFreq: 461.3,
-      endFreq: 465.74,
-      type: "fddDown",
-      pairedWith: {
-        type: "fddUp",
-        startFreq: 451.3,
-        endFreq: 455.74,
-      },
-      details: ["Used for IoT communications"],
+const data: SpectrumBlock[] = [
+  {
+    details: ["Used for IoT communications"],
+    endFreq: 465.74,
+    owner: "ArgoNET",
+    pairedWith: {
+      endFreq: 455.74,
+      startFreq: 451.3,
+      type: "fddUp",
     },
-  ] as SpectrumBlock[]
-).map((x) => {
-  x.sourceInfo = {
-    type: "url",
-    url: "https://www.rtr.at/TKP/was_wir_tun/telekommunikation/spectrum/bands/700MHz/Spectrum700MHz.en.html",
-  };
-  return x;
-});
+    sourceInfo: {
+      type: "url",
+      url: "https://www.rtr.at/TKP/was_wir_tun/telekommunikation/spectrum/bands/700MHz/Spectrum700MHz.en.html",
+    },
+    startFreq: 461.3,
+    type: "fddDown",
+  },
+] as SpectrumBlock[];
 
 export default data;

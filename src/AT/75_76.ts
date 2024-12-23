@@ -7,6 +7,7 @@ const data: SpectrumBlock[] = [
     ],
     endFreq: 1457,
     owner: "Magenta",
+    ownerLongName: "T-Mobile Austria GmbH",
     sourceInfo: {
       type: "url",
       url: "https://www.rtr.at/TKP/was_wir_tun/telekommunikation/spectrum/bands/1500MHz/Spectrum1500MHz.en.html",
@@ -17,6 +18,7 @@ const data: SpectrumBlock[] = [
   {
     details: ["5G standalone only", "CA enabled with n28, but not with n78"],
     endFreq: 1487,
+    nrarfcns: ["SSB-ARFCN 292330"],
     owner: "3 AT",
     ownerLongName: "Hutchison Drei Austria GmbH",
     sourceInfo: {

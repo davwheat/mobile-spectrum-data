@@ -2,9 +2,13 @@ import type { SpectrumBlock } from "../@types";
 
 const data: SpectrumBlock[] = [
   {
-    details: ["5G standalone only", "CA enabled with n75, but not with n78"],
+    details: [
+      "5G standalone only",
+      "CA enabled with n75 and n78",
+      "Every n28 RRU in the Drei network supports 1500MHz, so all n28 sites will automatically broadcast n75 as well.",
+    ],
     endFreq: 768,
-    nrarfcns: [],
+    nrarfcns: [152600],
     owner: "3 AT",
     ownerLongName: "Hutchison Drei Austria GmbH",
     pairedWith: {
@@ -24,6 +28,7 @@ const data: SpectrumBlock[] = [
     endFreq: 788,
     nrarfcns: [],
     owner: "Magenta",
+    ownerLongName: "T-Mobile Austria GmbH",
     pairedWith: {
       endFreq: 733,
       startFreq: 713,

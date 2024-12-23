@@ -36,6 +36,7 @@ const data: SpectrumBlock[] = [
   {
     endFreq: 27500,
     owner: "Magenta",
+    ownerLongName: "T-Mobile Austria GmbH",
     sourceInfo: {
       type: "url",
       url: "https://www.rtr.at/TKP/was_wir_tun/telekommunikation/spectrum/bands/26GHz/26GHz-band.en.html",

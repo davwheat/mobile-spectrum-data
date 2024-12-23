@@ -2,7 +2,10 @@ import type { SpectrumBlock } from "../@types";
 
 const data: SpectrumBlock[] = [
   {
-    earfcns: [],
+    details: [
+      "whole carrier used for pure 4G. often deployed alongside B20 or B3C",
+    ],
+    earfcns: [2850],
     endFreq: 2640,
     owner: "A1 AT",
     ownerLongName: "A1 Telekom Austria AG",
@@ -19,9 +22,11 @@ const data: SpectrumBlock[] = [
     type: "fddDown",
   },
   {
+    details: ["whole spectrum used for pure 4G"],
     earfcns: [],
     endFreq: 2660,
     owner: "Magenta",
+    ownerLongName: "T-Mobile Austria GmbH",
     pairedWith: {
       endFreq: 2540,
       startFreq: 2520,
@@ -35,6 +40,9 @@ const data: SpectrumBlock[] = [
     type: "fddDown",
   },
   {
+    details: [
+      "Not deployed. Purchased in 2014 (or 2015) after the merger between Drei and Orange. ",
+    ],
     earfcns: [],
     endFreq: 2665,
     owner: "A1 AT",
@@ -55,7 +63,7 @@ const data: SpectrumBlock[] = [
     details: [
       "4G 2650-2670 MHz",
       "4G 2645-2650 MHz",
-      "20MHz 4G carrier is used for ULCA with B3",
+      "20MHz 4G carrier is used for ULCA with B3 or B1",
     ],
     earfcns: [3225, 3350],
     endFreq: 2690,

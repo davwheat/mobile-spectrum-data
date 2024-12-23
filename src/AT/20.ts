@@ -2,6 +2,7 @@ import type { SpectrumBlock } from "../@types";
 
 const data: SpectrumBlock[] = [
   {
+    details: ["Used for pure 4G with a 20MHz carrier"],
     earfcns: [],
     endFreq: 811,
     owner: "A1 AT",
@@ -26,6 +27,7 @@ const data: SpectrumBlock[] = [
     earfcns: [6400],
     endFreq: 821,
     owner: "Magenta",
+    ownerLongName: "T-Mobile Austria GmbH",
     pairedWith: {
       endFreq: 862,
       startFreq: 852,

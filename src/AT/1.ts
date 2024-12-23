@@ -2,6 +2,7 @@ import type { SpectrumBlock } from "../@types";
 
 const data: SpectrumBlock[] = [
   {
+    details: ["Pure n1/20MHz, which is actively being widened to 25MHz. "],
     earfcns: [],
     endFreq: 2135,
     nrarfcns: [],
@@ -21,10 +22,12 @@ const data: SpectrumBlock[] = [
     uarfcns: [],
   },
   {
+    details: ["Mainly 4G. Very few 5G DSS sites"],
     earfcns: [],
     endFreq: 2150,
     nrarfcns: [],
     owner: "Magenta",
+    ownerLongName: "T-Mobile Austria GmbH",
     pairedWith: {
       endFreq: 1960,
       startFreq: 1945,
@@ -40,9 +43,10 @@ const data: SpectrumBlock[] = [
   },
   {
     details: [
-      "4G 2150-2175 MHz",
-      "3G HSPA+ 2175-2180 MHz",
-      'According to Drei, the 3G network will be "gradually shut down and replaced by 4G and 5G starting Q1 2024" but as of late July 2024, no 3G shutdowns were made yet',
+      "4G 2155-2170 MHz",
+      "3G HSPA+ 2150-2155 MHz",
+      'According to Drei, the 3G network will be "gradually shut down and replaced by 4G and 5G starting Q1 2024". As of late November 2024, only very few 3G sites were disabled and the spectrum wasn\'t refarmed yet',
+      "11.2024: 5G n1 is already configured in the SIB4 signal block on NR ARFCN 432050, which falls into this spectrum block. It is unknown how wide the config is or when it will go online.",
     ],
     earfcns: [525],
     endFreq: 2170,

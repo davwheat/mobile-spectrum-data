@@ -5,8 +5,8 @@ import Band8 from "./8";
 import Band20 from "./20";
 import Band28 from "./28";
 import Band31 from "./31";
-import Band32_75_76 from "./32_75_76";
-import Band38 from "./38";
+import Band75_76 from "./75_76";
+import Band38_41 from "./38_41";
 import Band78 from "./78";
 import Band258 from "./258";
 
@@ -23,6 +23,10 @@ const data: SpectrumData[] = [
   },
   {
     names: ["B7"],
+    extraInfo: {
+      description:
+        "Spectrum licences will run in 2026. A new auction is being planned for 2025, it is also expected that 60MHz of band 40 will be auctioned",
+    },
     spectrumData: Band7,
   },
   {
@@ -35,6 +39,10 @@ const data: SpectrumData[] = [
   },
   {
     names: ["B28", "n28"],
+    extraInfo: {
+      description:
+        'On 400 base stations, Drei and Magenta have a spectrum sharing agreement named "active sharing" on these stations, they broadcast n28/30MHz, n75/50MHz, B20/10Mhz and B3/20MHz. This setup is available to customers of both networks, including MVNO users. Read more here in German: https://www.lteforum.at/mobilfunktarife/active-sharing-drei-magenta',
+    },
     spectrumData: Band28,
   },
   {
@@ -42,15 +50,24 @@ const data: SpectrumData[] = [
     spectrumData: Band31,
   },
   {
-    names: ["B32", "B75", "n75", "B76"],
-    spectrumData: Band32_75_76,
+    names: ["B38", "B41"],
+    spectrumData: Band38_41,
+    extraInfo: {
+      description:
+        "Spectrum licences will run in 2026. A new auction is being planned for 2025, it is also expected that 60MHz of band 40 will be auctioned",
+    },
   },
   {
-    names: ["B38"],
-    spectrumData: Band38,
+    names: ["n75", "n76"],
+    spectrumData: Band75_76,
   },
   {
     names: ["n78"],
+    extraInfo: {
+      description:
+        'The allocation you see here is the nationwide allocation. A1, Magenta and regional operators own regionally more spectrum. Please refer to the "Data source" link for a map and a regional spectrum chart to see the whole allocation.',
+      shortAddendum: "nationwide",
+    },
     spectrumData: Band78,
   },
   {
