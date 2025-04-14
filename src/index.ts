@@ -13,6 +13,7 @@ export * as IT from "./IT";
 export * as LT from "./LT";
 export * as KR from "./KR";
 export * as MK from "./MK";
+export * as PL from "./PL";
 export * as PT from "./PT";
 export * as RO from "./RO";
 export * as RS from "./RS";
