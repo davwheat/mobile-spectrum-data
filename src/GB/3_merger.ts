@@ -34,12 +34,12 @@ const data: SpectrumBlock[] = [
   {
     owner: "VF-3",
     ownerLongName: "Vodafone/Three UK",
-    startFreq: 1810.9,
+    startFreq: 1811.3,
     endFreq: 1831.3,
     type: "fddDown",
     pairedWith: {
       type: "fddUp",
-      startFreq: 1715.9,
+      startFreq: 1716.3,
       endFreq: 1736.3,
     },
     earfcns: [1363],
