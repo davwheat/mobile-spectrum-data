@@ -106,6 +106,12 @@ const B3: SimpleArfcnDataItem[] = [
       "Standard B3 deployment - used as part of typical 30 MHz B3 deployment (1617 + 1761)",
   },
   {
+    arfcn: 1363,
+    bandwidth: 20,
+    operator: "Vodafone/Three UK",
+    description: "Trial post-merger spectrum deployment for 3 UK (234-20)",
+  },
+  {
     arfcn: 1392,
     bandwidth: 15,
     operator: "Three",
