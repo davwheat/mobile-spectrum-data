@@ -4,7 +4,8 @@ const data: SpectrumBlock[] = [
   {
     earfcns: [1300],
     endFreq: 1825,
-    owner: "Vodafone",
+    owner: "VDF",
+    ownerLongName: "Vodafone",
     pairedWith: {
       endFreq: 1730,
       startFreq: 1710,
@@ -21,6 +22,7 @@ const data: SpectrumBlock[] = [
     earfcns: [1500],
     endFreq: 1845,
     owner: "NOS",
+    ownerLongName: "NOS",
     pairedWith: {
       endFreq: 1750,
       startFreq: 1730,
@@ -39,6 +41,7 @@ const data: SpectrumBlock[] = [
     endFreq: 1865,
     nrarfcns: [371000],
     owner: "MEO",
+    ownerLongName: "MEO",
     pairedWith: {
       endFreq: 1770,
       startFreq: 1750,
@@ -52,33 +55,20 @@ const data: SpectrumBlock[] = [
     type: "fddDown",
   },
   {
-    endFreq: 1875,
-    owner: "NOWO",
+    earfcns: [1875],
+    endFreq: 1880,
+    owner: "DIGI",
+    ownerLongName: "DIGI",
     pairedWith: {
-      endFreq: 1780,
+      endFreq: 1785,
       startFreq: 1770,
       type: "fddUp",
     },
     sourceInfo: {
       type: "url",
-      url: "https://www.anacom.pt/render.jsp?contentId=1712329&languageId=1",
+      url: "https://www.anacom.pt/render.jsp?contentId=1802215&languageId=1",
     },
     startFreq: 1865,
-    type: "fddDown",
-  },
-  {
-    endFreq: 1880,
-    owner: "DIGI",
-    pairedWith: {
-      endFreq: 1785,
-      startFreq: 1780,
-      type: "fddUp",
-    },
-    sourceInfo: {
-      type: "url",
-      url: "https://www.anacom.pt/render.jsp?contentId=1712329&languageId=1",
-    },
-    startFreq: 1875,
     type: "fddDown",
   },
 ];

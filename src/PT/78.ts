@@ -4,29 +4,32 @@ const data: SpectrumBlock[] = [
   {
     endFreq: 3440,
     owner: "DIGI",
+    ownerLongName: "DIGI",
     sourceInfo: {
       type: "url",
-      url: "https://www.anacom.pt/render.jsp?contentId=1712329&languageId=1",
+      url: "https://www.anacom.pt/render.jsp?contentId=1802215&languageId=1",
     },
     startFreq: 3400,
     type: "tdd",
   },
   {
     endFreq: 3480,
-    owner: "DenseAir",
+    owner: "-",
+    ownerLongName: "Unallocated",
     sourceInfo: {
       type: "url",
-      url: "https://www.anacom.pt/render.jsp?contentId=1712329&languageId=1",
+      url: "",
     },
     startFreq: 3440,
     type: "tdd",
   },
   {
     endFreq: 3520,
-    owner: "NOWO",
+    owner: "DIGI",
+    ownerLongName: "DIGI",
     sourceInfo: {
       type: "url",
-      url: "https://www.anacom.pt/render.jsp?contentId=1712329&languageId=1",
+      url: "https://www.anacom.pt/render.jsp?contentId=1802215&languageId=1",
     },
     startFreq: 3480,
     type: "tdd",
@@ -34,7 +37,8 @@ const data: SpectrumBlock[] = [
   {
     endFreq: 3610,
     nrarfcns: [637667],
-    owner: "Vodafone",
+    owner: "VDF",
+    ownerLongName: "Vodafone",
     sourceInfo: {
       type: "url",
       url: "https://www.anacom.pt/render.jsp?contentId=1712329&languageId=1",
@@ -46,6 +50,7 @@ const data: SpectrumBlock[] = [
     endFreq: 3710,
     nrarfcns: [644000],
     owner: "NOS",
+    ownerLongName: "NOS",
     sourceInfo: {
       type: "url",
       url: "https://www.anacom.pt/render.jsp?contentId=1712329&languageId=1",
@@ -57,6 +62,7 @@ const data: SpectrumBlock[] = [
     endFreq: 3800,
     nrarfcns: [650333],
     owner: "MEO",
+    ownerLongName: "MEO",
     sourceInfo: {
       type: "url",
       url: "https://www.anacom.pt/render.jsp?contentId=1712329&languageId=1",
