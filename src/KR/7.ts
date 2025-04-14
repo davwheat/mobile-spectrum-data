@@ -13,7 +13,7 @@ const data: SpectrumBlock[] = [
     },
     sourceInfo: {
       type: "url",
-      url: "https://spectrummap.kr/radioInfo/radioUseConditionDiagramView.do?menuNo=20601",
+      url: "https://spectrummap.kr/radioInfo/radioDivideUsingCondition.do?menuNo=300640",
     },
     startFreq: 2620,
     type: "fddDown",
@@ -29,7 +29,7 @@ const data: SpectrumBlock[] = [
     },
     sourceInfo: {
       type: "url",
-      url: "https://spectrummap.kr/radioInfo/radioUseConditionDiagramView.do?menuNo=20601",
+      url: "https://spectrummap.kr/radioInfo/radioDivideUsingCondition.do?menuNo=300640",
     },
     startFreq: 2640,
     type: "fddDown",
@@ -46,9 +46,24 @@ const data: SpectrumBlock[] = [
     },
     sourceInfo: {
       type: "url",
-      url: "https://spectrummap.kr/radioInfo/radioUseConditionDiagramView.do?menuNo=20601",
+      url: "https://spectrummap.kr/radioInfo/radioDivideUsingCondition.do?menuNo=300640",
     },
     startFreq: 2660,
+    type: "fddDown",
+  },
+  {
+    endFreq: 2690,
+    owner: "Unallocated",
+    pairedWith: {
+      endFreq: 2570,
+      startFreq: 2550,
+      type: "fddUp",
+    },
+    sourceInfo: {
+      type: "url",
+      url: "https://spectrummap.kr/radioInfo/radioDivideUsingCondition.do?menuNo=300640",
+    },
+    startFreq: 2670,
     type: "fddDown",
   },
 ];

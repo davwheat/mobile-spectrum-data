@@ -2,7 +2,22 @@ import type { SpectrumBlock } from "../@types";
 
 const data: SpectrumBlock[] = [
   {
-    details: ["1725–1730 MHz reserved"],
+    endFreq: 1810,
+    owner: "Unallocated",
+    pairedWith: {
+      endFreq: 1715,
+      startFreq: 1710,
+      type: "fddUp",
+    },
+    sourceInfo: {
+      type: "url",
+      url: "https://spectrummap.kr/radioInfo/radioDivideUsingCondition.do?menuNo=300640",
+    },
+    startFreq: 1805,
+    type: "fddDown",
+  },
+  {
+    details: ["1725 – 1730 MHz reserved"],
     earfcns: [1350],
     endFreq: 1830,
     owner: "SKT",
@@ -14,13 +29,13 @@ const data: SpectrumBlock[] = [
     },
     sourceInfo: {
       type: "url",
-      url: "https://spectrummap.kr/radioInfo/radioUseConditionDiagramView.do?menuNo=20601",
+      url: "https://spectrummap.kr/radioInfo/radioDivideUsingCondition.do?menuNo=300640",
     },
     startFreq: 1810,
     type: "fddDown",
   },
   {
-    details: ["1740–1745 MHz reserved"],
+    details: ["1740 – 1745 MHz reserved"],
     earfcns: [1550, 1650, 1694],
     endFreq: 1860,
     owner: "KT",
@@ -32,9 +47,24 @@ const data: SpectrumBlock[] = [
     },
     sourceInfo: {
       type: "url",
-      url: "https://spectrummap.kr/radioInfo/radioUseConditionDiagramView.do?menuNo=20601",
+      url: "https://spectrummap.kr/radioInfo/radioDivideUsingCondition.do?menuNo=300640",
     },
     startFreq: 1830,
+    type: "fddDown",
+  },
+  {
+    endFreq: 1880,
+    owner: "Unallocated",
+    pairedWith: {
+      endFreq: 1785,
+      startFreq: 1765,
+      type: "fddUp",
+    },
+    sourceInfo: {
+      type: "url",
+      url: "https://spectrummap.kr/radioInfo/radioDivideUsingCondition.do?menuNo=300640",
+    },
+    startFreq: 1860,
     type: "fddDown",
   },
 ];

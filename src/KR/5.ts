@@ -2,6 +2,21 @@ import type { SpectrumBlock } from "../@types";
 
 const data: SpectrumBlock[] = [
   {
+    endFreq: 874,
+    owner: "Unallocated",
+    pairedWith: {
+      endFreq: 829,
+      startFreq: 824,
+      type: "fddUp",
+    },
+    sourceInfo: {
+      type: "url",
+      url: "https://spectrummap.kr/radioInfo/radioDivideUsingCondition.do?menuNo=300640",
+    },
+    startFreq: 869,
+    type: "fddDown",
+  },
+  {
     earfcns: [2500],
     endFreq: 884,
     owner: "SKT",
@@ -13,7 +28,7 @@ const data: SpectrumBlock[] = [
     },
     sourceInfo: {
       type: "url",
-      url: "https://spectrummap.kr/radioInfo/radioUseConditionDiagramView.do?menuNo=20601",
+      url: "https://spectrummap.kr/radioInfo/radioDivideUsingCondition.do?menuNo=300640",
     },
     startFreq: 874,
     type: "fddDown",
@@ -29,7 +44,7 @@ const data: SpectrumBlock[] = [
     },
     sourceInfo: {
       type: "url",
-      url: "https://spectrummap.kr/radioInfo/radioUseConditionDiagramView.do?menuNo=20601",
+      url: "https://spectrummap.kr/radioInfo/radioDivideUsingCondition.do?menuNo=300640",
     },
     startFreq: 884,
     type: "fddDown",

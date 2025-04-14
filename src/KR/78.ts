@@ -6,9 +6,9 @@ const data: SpectrumBlock[] = [
     owner: "LG U+",
     sourceInfo: {
       type: "url",
-      url: "https://spectrummap.kr/radioInfo/radioUseConditionDiagramView.do?menuNo=20601",
+      url: "https://spectrummap.kr/radioInfo/radioDivideUsingCondition.do?menuNo=300640",
     },
-    startFreq: 3420,
+    startFreq: 3400,
     type: "tdd",
   },
   {
@@ -17,7 +17,7 @@ const data: SpectrumBlock[] = [
     owner: "KT",
     sourceInfo: {
       type: "url",
-      url: "https://spectrummap.kr/radioInfo/radioUseConditionDiagramView.do?menuNo=20601",
+      url: "https://spectrummap.kr/radioInfo/radioDivideUsingCondition.do?menuNo=300640",
     },
     startFreq: 3500,
     type: "tdd",
@@ -29,7 +29,7 @@ const data: SpectrumBlock[] = [
     ownerLongName: "SK Telecom",
     sourceInfo: {
       type: "url",
-      url: "https://spectrummap.kr/radioInfo/radioUseConditionDiagramView.do?menuNo=20601",
+      url: "https://spectrummap.kr/radioInfo/radioDivideUsingCondition.do?menuNo=300640",
     },
     startFreq: 3600,
     type: "tdd",
