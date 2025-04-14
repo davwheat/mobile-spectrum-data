@@ -35,6 +35,7 @@ Countries with data in this package are included below. If yours is misisng, why
 | 🇱🇹 Lithuania           |
 | 🇱🇻 Latvia              |
 | 🇲🇰 North Macedonia     |
+| 🇵🇱 Poland              |
 | 🇵🇹 Portugal            |
 | 🇷🇴 Romania             |
 | 🇷🇸 Serbia              |
