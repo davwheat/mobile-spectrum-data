@@ -91,18 +91,18 @@ const B7: SimpleArfcnDataItem[] = [
 
 const B8: SimpleArfcnDataItem[] = [
   {
-    arfcn: 3516,
-    bandwidth: 4.6,
-    operator: "Vivacom",
-    description:
-      "Standard B8 deployment - signalled as 5 MHz, operating on 4.6 MHz of spectrum",
-  },
-  {
-    arfcn: 3678,
+    arfcn: 3536,
     bandwidth: 4.6,
     operator: "A1 Bulgaria",
     description:
       "Standard B8 deployment - signalled as 5 MHz, operating on 4.6 MHz of spectrum due to LTE's 0.5 MHz guard band for 5 MHz bandwidth.",
+  },
+  {
+    arfcn: 3636,
+    bandwidth: 4.6,
+    operator: "Vivacom",
+    description:
+      "Standard B8 deployment - signalled as 5 MHz, operating on 4.6 MHz of spectrum",
   },
   {
     arfcn: 3774,
