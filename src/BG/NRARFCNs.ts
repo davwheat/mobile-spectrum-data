@@ -36,6 +36,12 @@ const n28: SimpleArfcnDataItem[] = [
 
 const n78: SimpleArfcnDataItem[] = [
   {
+    arfcn: 629988,
+    bandwidth: 20,
+    operator: "Yettel Bulgaria",
+    description: "20 MHz n78 deployment on some new equipment",
+  },
+  {
     arfcn: 631392,
     bandwidth: 20,
     operator: "A1 Bulgaria",
