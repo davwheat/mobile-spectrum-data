@@ -12,10 +12,13 @@ const data: SpectrumBlock[] = [
       startFreq: 880.1,
       endFreq: 891.7,
     },
-    earfcns: [3536],
+    earfcns: [3515, 3536],
     uarfcns: [2945],
     arfcns: [6, 7, 975, 976, 977, 978, 979, 980, 981, 982, 983],
-    details: "Nationwide B8 LTE 4.6 MHz, B8 3G and B8 2G deployment",
+    details: [
+      "Nationwide B8 LTE 4.6 MHz (EARFCN 3536), B8 3G and B8 2G deployment",
+      "B8 LTE up to 10 MHz (EARFCN 3515) in areas without 3G, B8 2G deployment",
+    ],
   },
   {
     owner: "Vivacom",

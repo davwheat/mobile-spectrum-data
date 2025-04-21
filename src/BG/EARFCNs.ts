@@ -91,6 +91,13 @@ const B7: SimpleArfcnDataItem[] = [
 
 const B8: SimpleArfcnDataItem[] = [
   {
+    arfcn: 3515,
+    bandwidth: 10,
+    operator: "A1 Bulgaria",
+    description:
+      "B8 deployment in areas without 3G, which may be up to 10 MHz wide with some channels blocked for use by 2G.",
+  },
+  {
     arfcn: 3536,
     bandwidth: 4.6,
     operator: "A1 Bulgaria",
