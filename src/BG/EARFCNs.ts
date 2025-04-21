@@ -10,9 +10,10 @@ const B1: SimpleArfcnDataItem[] = [
   },
   {
     arfcn: 100,
-    bandwidth: 10,
+    bandwidth: 15,
     operator: "Yettel Bulgaria",
-    description: "Indoor and metro B1 deployment (with UMTS B1 5 MHz)",
+    description:
+      "Indoor and metro B1 deployment, presents as 20 MHz with 25 RBs blocked for UMTS B1",
   },
   {
     arfcn: 275,
@@ -54,6 +55,12 @@ const B3: SimpleArfcnDataItem[] = [
     description: "Standard B3 deployment",
   },
   {
+    arfcn: 1675,
+    bandwidth: 5,
+    operator: "Yettel Bulgaria",
+    description: "Secondary B3 carrier - test deployment",
+  },
+  {
     arfcn: 1800,
     bandwidth: 20,
     operator: "Vivacom",
@@ -78,42 +85,38 @@ const B7: SimpleArfcnDataItem[] = [
     arfcn: 3350,
     bandwidth: 20,
     operator: "Yettel Bulgaria",
-    description: "Standard B7 deployment, sometimes with n7 DSS",
+    description: "Standard B7 deployment, rarely with n7 DSS",
   },
 ];
 
 const B8: SimpleArfcnDataItem[] = [
   {
-    arfcn: 3516,
-    bandwidth: 5,
-    operator: "Vivacom",
-    description: "Standard 5 MHz B8 deployment",
+    arfcn: 3515,
+    bandwidth: 10,
+    operator: "A1 Bulgaria",
+    description:
+      "B8 deployment in areas without 3G, which may be up to 10 MHz wide with some channels blocked for use by 2G.",
   },
   {
-    arfcn: 3678,
+    arfcn: 3536,
     bandwidth: 4.6,
     operator: "A1 Bulgaria",
     description:
       "Standard B8 deployment - signalled as 5 MHz, operating on 4.6 MHz of spectrum due to LTE's 0.5 MHz guard band for 5 MHz bandwidth.",
   },
   {
-    arfcn: 3654,
-    bandwidth: 9.4,
-    operator: "A1 Bulgaria",
+    arfcn: 3636,
+    bandwidth: 4.6,
+    operator: "Vivacom",
     description:
-      "B8 deployment - signalled as 10 MHz, operating on 9.4 MHz of spectrum due having only 9.4 MHz of available bandwidth. Deployed only in areas without 3G.",
+      "Standard B8 deployment - signalled as 5 MHz, operating on 4.6 MHz of spectrum",
   },
   {
     arfcn: 3774,
-    bandwidth: [3, 5],
+    bandwidth: 4.6,
     operator: "Yettel Bulgaria",
-    description: "B8 deployment, usually with 5 MHz bandwidth",
-  },
-  {
-    arfcn: 3780,
-    bandwidth: 3,
-    operator: "Yettel Bulgaria",
-    description: "B8 3 MHz deployment",
+    description:
+      "Standard B8 deployment - signalled as 5 MHz, operating on 4.6 MHz of spectrum",
   },
 ];
 
@@ -149,7 +152,7 @@ const B28: SimpleArfcnDataItem[] = [
     arfcn: 9460,
     bandwidth: 10,
     operator: "Yettel Bulgaria",
-    description: "Standard B28 deployment",
+    description: "B28 deployment",
   },
 ];
 

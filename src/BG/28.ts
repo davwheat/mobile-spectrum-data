@@ -50,7 +50,10 @@ const data: SpectrumBlock[] = [
     },
     earfcns: [9460],
     nrarfcns: [156510],
-    details: ["LTE or NR", "Restricted in some areas until the end of 2025"],
+    details: [
+      "almost always deployed as NR only",
+      "Restricted in some areas until the end of 2025",
+    ],
     sourceInfo: {
       type: "url",
       url: "https://crc.bg/files/ВОП/01-3_ЙЕТТЕЛ%20%20ИЗДАВАНЕ%20НА%20РАЗРЕШЕНИЕ%20В%20ОБХВАТИ%20700%20И%20800-ноември%202023%20(1).pdf",
