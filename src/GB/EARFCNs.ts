@@ -275,7 +275,7 @@ const B28: SimpleArfcnDataItem[] = [
   },
 ];
 
-const B32: SimpleArfcnDataItem[] = [ 
+const B32: SimpleArfcnDataItem[] = [
   {
     arfcn: 10170,
     bandwidth: 10,
