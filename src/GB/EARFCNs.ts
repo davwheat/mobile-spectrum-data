@@ -108,8 +108,9 @@ const B3: SimpleArfcnDataItem[] = [
   {
     arfcn: 1363,
     bandwidth: 20,
-    operator: "Vodafone/Three UK",
-    description: "Trial post-merger spectrum deployment for 3 UK (234-20)",
+    operator: "Vodafone-Three",
+    description:
+      "Post-merger spectrum deployment for 3 UK (234-20). Also used on some MOCN trial sites broadcasting Vodafone (234-15).",
   },
   {
     arfcn: 1392,

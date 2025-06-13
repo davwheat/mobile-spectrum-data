@@ -1,6 +1,5 @@
 import Band1 from "./1";
 import Band3 from "./3";
-import Band3_Merger from "./3_merger";
 import Band7 from "./7";
 import Band8 from "./8";
 import Band8_SpectrumSwap from "./8_swap";
@@ -25,16 +24,6 @@ const data: SpectrumData[] = [
   {
     names: ["B3", "n3"],
     spectrumData: Band3,
-  },
-  {
-    names: ["B3", "n3"],
-    extraInfo: {
-      shortAddendum: "Vodafone-Three merger",
-      description:
-        "Spectrum allocation visualisation for new trial deployment, post Vodafone and Three UK merger.",
-      excludeFromSpectrumTotal: true,
-    },
-    spectrumData: Band3_Merger,
   },
   {
     names: ["B7", "n7"],
