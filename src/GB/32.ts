@@ -21,7 +21,7 @@ const data: SpectrumBlock[] = [
     startFreq: 1472,
     endFreq: 1492,
     type: "sdl",
-    earfcns: [10195, 10220],
+    earfcns: [10170, 10195, 10220],
     details: [
       "Supplemental downlink (must be aggregated with another carrier)",
     ],
