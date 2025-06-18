@@ -98,10 +98,10 @@ const data: SpectrumData[] = [
   {
     names: ["B32"],
     extraInfo: {
-      shortAddendum: "from 2026-09-30",
+      shortAddendum: "from 2027-09-30",
       excludeFromSpectrumTotal: true,
     },
-    spectrumData: Band32_20260930,
+    spectrumData: Band32_20270930,
   },
   {
     names: ["B38"],
