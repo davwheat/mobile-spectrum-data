@@ -55,8 +55,7 @@ const data: SpectrumBlock[] = [
     endFreq: 3540,
     type: "tdd",
     nrarfcns: [],
-    details: [
-    ],
+    details: [],
     sourceInfo: {
       type: "url",
       url: "https://www.ofcom.org.uk/spectrum/frequencies/trades",
