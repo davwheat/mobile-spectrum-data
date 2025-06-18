@@ -11,8 +11,8 @@ const data: SpectrumBlock[] = [
   {
     endFreq: 3460,
     nrarfcns: [627648, 627932, 628032, 628320, 628588, 629332],
-    owner: "VF",
-    ownerLongName: "Vodafone UK",
+    owner: "VF-3",
+    ownerLongName: "Vodafone/Three UK",
     sourceInfo: {
       type: "url",
       url: "https://www.ofcom.org.uk/__data/assets/pdf_file/0016/114271/SA-3.4-GHz-LICENCE-Vodafone-1151573-16-11-22.pdf",
@@ -27,7 +27,8 @@ const data: SpectrumBlock[] = [
     ],
     endFreq: 3500,
     nrarfcns: [631392, 632666],
-    owner: "Three",
+    owner: "VF-3",
+    ownerLongName: "Vodafone/Three UK",
     sourceInfo: {
       type: "url",
       url: "https://www.ofcom.org.uk/manage-your-licence/radiocommunication-licences/mobile-wireless-broadband/below-5ghz",
@@ -36,8 +37,8 @@ const data: SpectrumBlock[] = [
     type: "tdd",
   },
   {
-    owner: "VF",
-    ownerLongName: "Vodafone UK",
+    owner: "VF-3",
+    ownerLongName: "Vodafone/Three UK",
     startFreq: 3500,
     endFreq: 3520,
     type: "tdd",
@@ -71,8 +72,8 @@ const data: SpectrumBlock[] = [
   {
     endFreq: 3680,
     nrarfcns: [640548, 641376],
-    owner: "Three",
-    ownerLongName: "Three (license inherited from UK Broadband)",
+    owner: "VF-3",
+    ownerLongName: "Vodafone/Three UK",
     sourceInfo: {
       type: "url",
       url: "https://www.ofcom.org.uk/manage-your-licence/radiocommunication-licences/mobile-wireless-broadband/below-5ghz#table62973",

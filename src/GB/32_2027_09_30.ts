@@ -17,7 +17,8 @@ const data: SpectrumBlock[] = [
     },
   },
   {
-    owner: "Three",
+    owner: "VF-3",
+    ownerLongName: "Vodafone/Three UK",
     startFreq: 1472,
     endFreq: 1492,
     type: "sdl",
