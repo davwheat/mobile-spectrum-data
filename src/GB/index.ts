@@ -10,7 +10,7 @@ import Band20 from "./20";
 import Band28 from "./28";
 import Band32 from "./32";
 import Band32_20250801 from "./32_2025_08_01";
-import Band32_20260930 from "./38_2026_09_30";
+import Band32_20270930 from "./32_2027_09_30";
 import Band38 from "./38";
 import Band38_20250801 from "./38_2025_08_01";
 import Band38_20260930 from "./38_2026_09_30";
