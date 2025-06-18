@@ -87,7 +87,7 @@ const data: SpectrumBlock[] = [
     },
   },
   {
-    owner: "O2/VF3",
+    owner: "O2/VF-3",
     ownerLongName: "O2 UK / VodafoneThree",
     startFreq: 2134.9,
     endFreq: 2139.7,
