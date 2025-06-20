@@ -12,7 +12,7 @@ const data: SpectrumBlock[] = [
       startFreq: 880.1,
       endFreq: 897.5,
     },
-    earfcns: [3500],
+    earfcns: [3501, 3500],
     arfcns: "ARFCNs 1-12",
     details: ["Post-900 MHz defragmentation spectrum"],
     sourceInfo: {

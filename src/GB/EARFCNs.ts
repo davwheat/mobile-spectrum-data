@@ -210,9 +210,15 @@ const B8: SimpleArfcnDataItem[] = [
   },
   {
     arfcn: 3500,
-    bandwidth: 14.7,
+    bandwidth: 10,
     operator: "Vodafone",
     description: "Post-defragmentation B8 deployment",
+  },
+  {
+    arfcn: 3501,
+    bandwidth: 10,
+    operator: "Vodafone",
+    description: "Post-defragmentation B8 deployment (first seen June 2025)",
   },
   {
     arfcn: 3700,
