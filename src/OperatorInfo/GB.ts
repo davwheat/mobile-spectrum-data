@@ -17,9 +17,9 @@ const operators: IOperatorInfo[] = [
     color: "#ff7c69",
   },
   {
-    name: "Vodafone/Three UK",
+    name: "Vodafone-Three",
     aliases: ["VF-3"],
-    color: "#999999",
+    color: "#e0006c",
   },
   {
     name: "EE",

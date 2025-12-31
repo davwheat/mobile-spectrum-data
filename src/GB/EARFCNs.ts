@@ -108,8 +108,9 @@ const B3: SimpleArfcnDataItem[] = [
   {
     arfcn: 1363,
     bandwidth: 20,
-    operator: "Vodafone/Three UK",
-    description: "Trial post-merger spectrum deployment for 3 UK (234-20)",
+    operator: "Vodafone-Three",
+    description:
+      "Post-merger spectrum deployment for 3 UK (234-20). Also used on some MOCN trial sites broadcasting Vodafone (234-15).",
   },
   {
     arfcn: 1392,
@@ -209,9 +210,15 @@ const B8: SimpleArfcnDataItem[] = [
   },
   {
     arfcn: 3500,
-    bandwidth: 14.7,
+    bandwidth: 10,
     operator: "Vodafone",
     description: "Post-defragmentation B8 deployment",
+  },
+  {
+    arfcn: 3501,
+    bandwidth: 10,
+    operator: "Vodafone",
+    description: "Post-defragmentation B8 deployment (first seen June 2025)",
   },
   {
     arfcn: 3700,
@@ -277,10 +284,16 @@ const B28: SimpleArfcnDataItem[] = [
 
 const B32: SimpleArfcnDataItem[] = [
   {
-    arfcn: 10195,
+    arfcn: 10170,
     bandwidth: 10,
     operator: "Three",
     description: "Rare 10 MHz B32 deployment - downlink only (SDL)",
+  },
+  {
+    arfcn: 10195,
+    bandwidth: 15,
+    operator: "Three",
+    description: "Rare 15 MHz B32 deployment - downlink only (SDL)",
   },
   {
     arfcn: 10220,

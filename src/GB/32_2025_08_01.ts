@@ -2,22 +2,23 @@ import type { SpectrumBlock } from "../@types";
 
 const data: SpectrumBlock[] = [
   {
-    owner: "Vodafone",
-    ownerLongName: "Vodafone UK",
+    owner: "VF/O2",
+    ownerLongName: "Vodafone UK / O2 UK",
     startFreq: 1452,
     endFreq: 1472,
     type: "sdl",
-    earfcns: [10020],
+    earfcns: [],
     details: [
       "Supplemental downlink (must be aggregated with another carrier)",
     ],
     sourceInfo: {
       type: "url",
-      url: "https://www.ofcom.org.uk/__data/assets/pdf_file/0018/85005/SA-1452-1472-LICENCE-Vodafone-1053632.pdf",
+      url: "https://www.ofcom.org.uk/spectrum/frequencies/trades",
     },
   },
   {
-    owner: "Three",
+    owner: "VF-3",
+    ownerLongName: "Vodafone/Three UK",
     startFreq: 1472,
     endFreq: 1492,
     type: "sdl",
