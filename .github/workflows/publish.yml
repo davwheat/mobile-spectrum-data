@@ -4,6 +4,10 @@ on:
     tags:
       - "*"
 
+permissions:
+  id-token: write
+  contents: read
+
 jobs:
   format_check:
     runs-on: ubuntu-latest
@@ -11,13 +15,14 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Set up node
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 24
           cache: "yarn"
+          registry-url: 'https://registry.npmjs.org'
 
       - name: Install dependencies
         run: |
@@ -42,8 +47,9 @@ jobs:
       - name: Set up node
         uses: actions/setup-node@v3
         with:
-          node-version: 20
+          node-version: 24
           cache: "yarn"
+          registry-url: 'https://registry.npmjs.org'
 
       - name: Install dependencies
         run: |
@@ -65,15 +71,14 @@ jobs:
       - name: Set up node
         uses: actions/setup-node@v3
         with:
-          node-version: 20
+          node-version: 24
           cache: "yarn"
+          registry-url: 'https://registry.npmjs.org'
 
       - name: Install dependencies
         run: |
           yarn install --immutable
 
       - name: Build and publish library to npm
-        env:
-          NPM_TOKEN: ${{ secrets.NPM_PUBLISH_TOKEN }}
         run: |
           yarn pub
