@@ -112,7 +112,7 @@ async function main() {
       path.join(tempFolder, "package.json"),
     );
 
-    if (!process.env.NPM_TOKEN) {
+    if (!process.env.CI) {
       const currentVer = packageJson.version;
       console.log(`\nCurrent version: ${currentVer}`);
       newVer = prompt(`New version: `, currentVer);
@@ -155,7 +155,7 @@ async function main() {
 
   process.chdir(tempFolder);
 
-  if (!process.env.NPM_TOKEN) {
+  if (!process.env.NPM_TOKEN && !process.env.CI) {
     const OTP = prompt("Enter OTP (leave blank if none): ");
 
     const publish = spawnAsync(IS_WINDOWS ? "npm.cmd" : "npm", [
