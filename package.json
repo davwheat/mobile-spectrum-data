@@ -1,6 +1,6 @@
 {
   "name": "mobile-spectrum-data",
-  "version": "1.29.3",
+  "version": "1.30.0",
   "description": "Data related to mobile networking spectrum around the world, including ARFCNs, descriptions, and more.",
   "main": "index.js",
   "types": "index.d.ts",
