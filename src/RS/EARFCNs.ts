@@ -22,33 +22,6 @@ const B1: SimpleArfcnDataItem[] = [
   },
 ];
 
-const B3: SimpleArfcnDataItem[] = [
-  {
-    arfcn: 1300,
-    bandwidth: 20,
-    operator: "Yettel Srbija",
-    description: "Standard B3 deployment",
-  },
-  {
-    arfcn: 1500,
-    bandwidth: 20,
-    operator: "Telekom Srbija",
-    description: "Standard B3 deployment",
-  },
-  {
-    arfcn: 1651,
-    bandwidth: 10,
-    operator: "A1 Srbija",
-    description: "Standard B3 deployment - secondary carrier",
-  },
-  {
-    arfcn: 1795,
-    bandwidth: 20,
-    operator: "A1 Srbija",
-    description: "Standard B3 deployment - primary carrier",
-  },
-];
-
 const B20: SimpleArfcnDataItem[] = [
   {
     arfcn: 6200,
@@ -72,7 +45,6 @@ const B20: SimpleArfcnDataItem[] = [
 
 const EARFCNs: ArfcnDataItem[] = [
   ...mapArfcnListToBand(1, B1),
-  ...mapArfcnListToBand(3, B3),
   ...mapArfcnListToBand(20, B20),
 ];
 
